@@ -44,6 +44,9 @@
         "level": 0,
         "fusionSpell": true
       }
+    ],
+    "cannotInherit": [
+      "elec"
     ]
   },
   {
@@ -150,6 +153,10 @@
       }
     ],
     "dlc": "P5R Persona Set 1",
+    "cannotInherit": [
+      "light",
+      "recovery"
+    ],
     "specialRecipe": [
       "Tam Lin",
       "Jack-o'-Lantern",
@@ -389,7 +396,10 @@
         "level": 52
       }
     ],
-    "dlc": "P4G Persona Set"
+    "dlc": "P4G Persona Set",
+    "cannotInherit": [
+      "wind"
+    ]
   },
   {
     "name": "Decarabia",
@@ -577,6 +587,12 @@
       "level": 84
     },
     "unlock": "Max the Fool Social Link",
+    "cannotInherit": [
+      "light",
+      "dark",
+      "ailment",
+      "recovery"
+    ],
     "specialRecipe": [
       "Take-Minakata",
       "Take-Mikazuchi",
@@ -735,6 +751,9 @@
         "name": "Maragi",
         "level": 8
       }
+    ],
+    "cannotInherit": [
+      "elec"
     ]
   },
   {
@@ -794,7 +813,10 @@
     "heartItem": {
       "name": "Jacktite",
       "level": 11
-    }
+    },
+    "cannotInherit": [
+      "fire"
+    ]
   },
   {
     "name": "Jack-o'-Lantern",
@@ -853,7 +875,10 @@
     "heartItem": {
       "name": "Jacktite",
       "level": 17
-    }
+    },
+    "cannotInherit": [
+      "ice"
+    ]
   },
   {
     "name": "Hua Po",
@@ -908,7 +933,10 @@
       "name": "Soul Sea Driblet",
       "level": 22
     },
-    "unlock": "Clear Elizabeth's Request #77"
+    "unlock": "Clear Elizabeth's Request #77",
+    "cannotInherit": [
+      "ice"
+    ]
   },
   {
     "name": "Zorro",
@@ -963,7 +991,10 @@
         "level": 27
       }
     ],
-    "dlc": "P5R Persona Set 1"
+    "dlc": "P5R Persona Set 1",
+    "cannotInherit": [
+      "elec"
+    ]
   },
   {
     "name": "Sati",
@@ -1021,7 +1052,10 @@
     "heartItem": {
       "name": "Soul Sea Driblet",
       "level": 32
-    }
+    },
+    "cannotInherit": [
+      "ice"
+    ]
   },
   {
     "name": "Orobas",
@@ -1075,6 +1109,9 @@
         "name": "Survival Trick",
         "level": 45
       }
+    ],
+    "cannotInherit": [
+      "ice"
     ]
   },
   {
@@ -1130,7 +1167,10 @@
         "level": 49
       }
     ],
-    "dlc": "P5R Persona Set 2"
+    "dlc": "P5R Persona Set 2",
+    "cannotInherit": [
+      "elec"
+    ]
   },
   {
     "name": "Rangda",
@@ -1188,7 +1228,12 @@
     "heartItem": {
       "name": "Soul Sea Droplet",
       "level": 54
-    }
+    },
+    "cannotInherit": [
+      "ice",
+      "light",
+      "recovery"
+    ]
   },
   {
     "name": "Surt",
@@ -1247,7 +1292,10 @@
       "name": "Muspell Rock",
       "level": 66
     },
-    "unlock": "Max Junpei's Link"
+    "unlock": "Max Junpei's Link",
+    "cannotInherit": [
+      "ice"
+    ]
   },
   {
     "name": "Futsunushi",
@@ -1306,7 +1354,17 @@
       "name": "Sword God Steel",
       "level": 80
     },
-    "unlock": "Max the Magician Social Link"
+    "unlock": "Max the Magician Social Link",
+    "cannotInherit": [
+      "fire",
+      "ice",
+      "elec",
+      "wind",
+      "light",
+      "dark",
+      "ailment",
+      "recovery"
+    ]
   },
   {
     "name": "Apsaras",
@@ -1357,6 +1415,14 @@
         "level": 0,
         "fusionSpell": true
       }
+    ],
+    "cannotInherit": [
+      "fire",
+      "elec",
+      "wind",
+      "light",
+      "dark",
+      "ailment"
     ]
   },
   {
@@ -1411,7 +1477,14 @@
     "heartItem": {
       "name": "Soul Sea Driblet",
       "level": 13
-    }
+    },
+    "cannotInherit": [
+      "slash",
+      "strike",
+      "pierce",
+      "dark",
+      "ailment"
+    ]
   },
   {
     "name": "High Pixie",
@@ -1461,6 +1534,9 @@
         "name": "Dodge Wind",
         "level": 25
       }
+    ],
+    "cannotInherit": [
+      "wind"
     ]
   },
   {
@@ -1516,7 +1592,10 @@
         "level": 33
       }
     ],
-    "dlc": "P5R Persona Set 1"
+    "dlc": "P5R Persona Set 1",
+    "cannotInherit": [
+      "elec"
+    ]
   },
   {
     "name": "Sarasvati",
@@ -1574,7 +1653,14 @@
     "heartItem": {
       "name": "Soul Sea Driblet",
       "level": 34
-    }
+    },
+    "cannotInherit": [
+      "slash",
+      "strike",
+      "pierce",
+      "dark",
+      "ailment"
+    ]
   },
   {
     "name": "Ganga",
@@ -1628,6 +1714,9 @@
         "name": "Endure Dark",
         "level": 46
       }
+    ],
+    "cannotInherit": [
+      "fire"
     ]
   },
   {
@@ -1687,6 +1776,11 @@
       "name": "Soul Sea Droplet",
       "level": 51
     },
+    "cannotInherit": [
+      "slash",
+      "strike",
+      "pierce"
+    ],
     "specialRecipe": [
       "Sati",
       "Sarasvati",
@@ -1746,7 +1840,10 @@
         "level": 59
       }
     ],
-    "dlc": "P5R Persona Set 2"
+    "dlc": "P5R Persona Set 2",
+    "cannotInherit": [
+      "elec"
+    ]
   },
   {
     "name": "Kikuri-Hime",
@@ -1804,7 +1901,12 @@
     "heartItem": {
       "name": "Soul Sea Drop",
       "level": 66
-    }
+    },
+    "cannotInherit": [
+      "slash",
+      "strike",
+      "pierce"
+    ]
   },
   {
     "name": "Scathach",
@@ -1863,7 +1965,10 @@
       "name": "Preceptress Silk",
       "level": 81
     },
-    "unlock": "Max the Priestess Social Link"
+    "unlock": "Max the Priestess Social Link",
+    "cannotInherit": [
+      "fire"
+    ]
   },
   {
     "name": "Leanan Sidhe",
@@ -1917,6 +2022,13 @@
         "name": "Null Charm",
         "level": 26
       }
+    ],
+    "cannotInherit": [
+      "slash",
+      "strike",
+      "pierce",
+      "dark",
+      "ailment"
     ]
   },
   {
@@ -1967,6 +2079,9 @@
         "name": "Deathbound",
         "level": 37
       }
+    ],
+    "cannotInherit": [
+      "fire"
     ]
   },
   {
@@ -2022,7 +2137,10 @@
         "level": 41
       }
     ],
-    "dlc": "P5R Persona Set 1"
+    "dlc": "P5R Persona Set 1",
+    "cannotInherit": [
+      "fire"
+    ]
   },
   {
     "name": "Hariti",
@@ -2072,6 +2190,13 @@
         "name": "Invigorate 3",
         "level": 54
       }
+    ],
+    "cannotInherit": [
+      "slash",
+      "strike",
+      "pierce",
+      "dark",
+      "ailment"
     ]
   },
   {
@@ -2127,7 +2252,10 @@
         "level": 60
       }
     ],
-    "dlc": "P5R Persona Set 2"
+    "dlc": "P5R Persona Set 2",
+    "cannotInherit": [
+      "fire"
+    ]
   },
   {
     "name": "Gabriel",
@@ -2185,7 +2313,12 @@
     "heartItem": {
       "name": "Soul Sea Drop",
       "level": 67
-    }
+    },
+    "cannotInherit": [
+      "wind",
+      "dark",
+      "ailment"
+    ]
   },
   {
     "name": "Skadi",
@@ -2243,7 +2376,10 @@
     "heartItem": {
       "name": "Shadow Lipstick",
       "level": 74
-    }
+    },
+    "cannotInherit": [
+      "fire"
+    ]
   },
   {
     "name": "Mother Harlot",
@@ -2301,7 +2437,10 @@
     "heartItem": {
       "name": "Soul Sea Drop",
       "level": 82
-    }
+    },
+    "cannotInherit": [
+      "fire"
+    ]
   },
   {
     "name": "Alilat",
@@ -2360,7 +2499,14 @@
       "name": "Black Pillar Shard",
       "level": 91
     },
-    "unlock": "Max the Empress Social Link"
+    "unlock": "Max the Empress Social Link",
+    "cannotInherit": [
+      "slash",
+      "strike",
+      "pierce",
+      "dark",
+      "ailment"
+    ]
   },
   {
     "name": "Forneus",
@@ -2415,6 +2561,9 @@
         "level": 0,
         "fusionSpell": true
       }
+    ],
+    "cannotInherit": [
+      "elec"
     ]
   },
   {
@@ -2469,7 +2618,10 @@
     "heartItem": {
       "name": "Soul Sea Driblet",
       "level": 18
-    }
+    },
+    "cannotInherit": [
+      "ice"
+    ]
   },
   {
     "name": "Take-Mikazuchi",
@@ -2523,6 +2675,14 @@
         "name": "Mazionga",
         "level": 28
       }
+    ],
+    "cannotInherit": [
+      "fire",
+      "ice",
+      "wind",
+      "light",
+      "dark",
+      "ailment"
     ]
   },
   {
@@ -2578,7 +2738,10 @@
         "level": 32
       }
     ],
-    "dlc": "P5R Persona Set 1"
+    "dlc": "P5R Persona Set 1",
+    "cannotInherit": [
+      "fire"
+    ]
   },
   {
     "name": "King Frost",
@@ -2638,7 +2801,10 @@
         "fusionSpell": true
       }
     ],
-    "unlock": "Clear Elizabeth's Request #24"
+    "unlock": "Clear Elizabeth's Request #24",
+    "cannotInherit": [
+      "fire"
+    ]
   },
   {
     "name": "Naga Raja",
@@ -2692,6 +2858,9 @@
         "name": "Null Pierce",
         "level": 48
       }
+    ],
+    "cannotInherit": [
+      "fire"
     ]
   },
   {
@@ -2747,7 +2916,10 @@
         "level": 53
       }
     ],
-    "dlc": "P5R Persona Set 2"
+    "dlc": "P5R Persona Set 2",
+    "cannotInherit": [
+      "fire"
+    ]
   },
   {
     "name": "Belphegor",
@@ -2801,6 +2973,11 @@
         "name": "Maeigaon",
         "level": 59
       }
+    ],
+    "cannotInherit": [
+      "fire",
+      "light",
+      "recovery"
     ]
   },
   {
@@ -2855,6 +3032,9 @@
         "name": "Drain Elec",
         "level": 69
       }
+    ],
+    "cannotInherit": [
+      "wind"
     ]
   },
   {
@@ -2914,7 +3094,10 @@
       "name": "Eyepatch of Wisdom",
       "level": 81
     },
-    "unlock": "Max the Emperor Social Link"
+    "unlock": "Max the Emperor Social Link",
+    "cannotInherit": [
+      "wind"
+    ]
   },
   {
     "name": "Omoikane",
@@ -2960,6 +3143,11 @@
         "name": "Auto Rakukaja",
         "level": 12
       }
+    ],
+    "cannotInherit": [
+      "wind",
+      "dark",
+      "ailment"
     ]
   },
   {
@@ -3010,6 +3198,9 @@
         "name": "Assault Dive",
         "level": 18
       }
+    ],
+    "cannotInherit": [
+      "elec"
     ]
   },
   {
@@ -3060,6 +3251,11 @@
         "name": "Herculean Strike",
         "level": 29
       }
+    ],
+    "cannotInherit": [
+      "fire",
+      "dark",
+      "ailment"
     ]
   },
   {
@@ -3119,6 +3315,9 @@
       "name": "Soul Sea Droplet",
       "level": 37
     },
+    "cannotInherit": [
+      "ice"
+    ],
     "specialRecipe": [
       "Forneus",
       "Berith",
@@ -3178,7 +3377,12 @@
         "level": 45
       }
     ],
-    "unlock": "Clear Elizabeth's Request #78"
+    "unlock": "Clear Elizabeth's Request #78",
+    "cannotInherit": [
+      "slash",
+      "strike",
+      "pierce"
+    ]
   },
   {
     "name": "Mishaguji",
@@ -3232,6 +3436,9 @@
         "name": "Null Strike",
         "level": 54
       }
+    ],
+    "cannotInherit": [
+      "ice"
     ]
   },
   {
@@ -3346,6 +3553,10 @@
       "level": 78
     },
     "unlock": "Max the Hierophant Social Link",
+    "cannotInherit": [
+      "dark",
+      "ailment"
+    ],
     "specialRecipe": [
       "Genbu",
       "Seiryu",
@@ -3397,6 +3608,13 @@
         "name": "Resist Confuse",
         "level": 6
       }
+    ],
+    "cannotInherit": [
+      "slash",
+      "strike",
+      "pierce",
+      "dark",
+      "ailment"
     ]
   },
   {
@@ -3443,6 +3661,9 @@
         "name": "Sharp Student",
         "level": 9
       }
+    ],
+    "cannotInherit": [
+      "fire"
     ]
   },
   {
@@ -3493,6 +3714,10 @@
         "name": "Survive Dark",
         "level": 18
       }
+    ],
+    "cannotInherit": [
+      "dark",
+      "ailment"
     ]
   },
   {
@@ -3548,7 +3773,10 @@
         "level": 24
       }
     ],
-    "dlc": "P5R Persona Set 1"
+    "dlc": "P5R Persona Set 1",
+    "cannotInherit": [
+      "ice"
+    ]
   },
   {
     "name": "Narcissus",
@@ -3606,7 +3834,14 @@
     "heartItem": {
       "name": "Soul Sea Driblet",
       "level": 25
-    }
+    },
+    "cannotInherit": [
+      "slash",
+      "strike",
+      "pierce",
+      "light",
+      "recovery"
+    ]
   },
   {
     "name": "Queen Medb",
@@ -3660,6 +3895,11 @@
         "name": "Matarunda",
         "level": 33
       }
+    ],
+    "cannotInherit": [
+      "slash",
+      "strike",
+      "pierce"
     ]
   },
   {
@@ -3714,6 +3954,13 @@
         "name": "Divine Grace",
         "level": 41
       }
+    ],
+    "cannotInherit": [
+      "slash",
+      "strike",
+      "pierce",
+      "dark",
+      "ailment"
     ]
   },
   {
@@ -3769,7 +4016,10 @@
         "level": 48
       }
     ],
-    "dlc": "P5R Persona Set 2"
+    "dlc": "P5R Persona Set 2",
+    "cannotInherit": [
+      "ice"
+    ]
   },
   {
     "name": "Titania",
@@ -3823,7 +4073,12 @@
     "heartItem": {
       "name": "Soul Sea Droplet",
       "level": 52
-    }
+    },
+    "cannotInherit": [
+      "slash",
+      "strike",
+      "pierce"
+    ]
   },
   {
     "name": "Raphael",
@@ -3877,6 +4132,11 @@
         "name": "Heat Riser",
         "level": 66
       }
+    ],
+    "cannotInherit": [
+      "elec",
+      "dark",
+      "ailment"
     ]
   },
   {
@@ -3936,7 +4196,10 @@
       "name": "Earth Goddess Ring",
       "level": 74
     },
-    "unlock": "Max the Lovers Social Link"
+    "unlock": "Max the Lovers Social Link",
+    "cannotInherit": [
+      "elec"
+    ]
   },
   {
     "name": "Ara Mitama",
@@ -3986,6 +4249,9 @@
         "name": "Rage Boost",
         "level": 10
       }
+    ],
+    "cannotInherit": [
+      "wind"
     ]
   },
   {
@@ -4036,6 +4302,14 @@
         "name": "Auto Tarukaja",
         "level": 14
       }
+    ],
+    "cannotInherit": [
+      "ice",
+      "elec",
+      "wind",
+      "light",
+      "dark",
+      "ailment"
     ]
   },
   {
@@ -4090,6 +4364,14 @@
         "name": "Swift Strike",
         "level": 19
       }
+    ],
+    "cannotInherit": [
+      "fire",
+      "ice",
+      "wind",
+      "light",
+      "dark",
+      "ailment"
     ]
   },
   {
@@ -4145,7 +4427,10 @@
         "level": 23
       }
     ],
-    "dlc": "P5R Persona Set 1"
+    "dlc": "P5R Persona Set 1",
+    "cannotInherit": [
+      "wind"
+    ]
   },
   {
     "name": "Mithras",
@@ -4204,6 +4489,9 @@
         "level": 0,
         "fusionSpell": true
       }
+    ],
+    "cannotInherit": [
+      "elec"
     ]
   },
   {
@@ -4262,7 +4550,17 @@
     "heartItem": {
       "name": "Soul Sea Driblet",
       "level": 34
-    }
+    },
+    "cannotInherit": [
+      "fire",
+      "ice",
+      "elec",
+      "wind",
+      "light",
+      "dark",
+      "ailment",
+      "recovery"
+    ]
   },
   {
     "name": "Seiten Taisei",
@@ -4317,7 +4615,10 @@
         "level": 46
       }
     ],
-    "dlc": "P5R Persona Set 2"
+    "dlc": "P5R Persona Set 2",
+    "cannotInherit": [
+      "wind"
+    ]
   },
   {
     "name": "Shiki-Ouji",
@@ -4371,6 +4672,9 @@
         "name": "Null Fire",
         "level": 51
       }
+    ],
+    "cannotInherit": [
+      "fire"
     ]
   },
   {
@@ -4425,6 +4729,14 @@
         "name": "Enduring Soul",
         "level": 57
       }
+    ],
+    "cannotInherit": [
+      "fire",
+      "ice",
+      "elec",
+      "light",
+      "dark",
+      "ailment"
     ]
   },
   {
@@ -4480,7 +4792,10 @@
       "name": "Thunder Whetstone",
       "level": 70
     },
-    "unlock": "Max the Chariot Social Link"
+    "unlock": "Max the Chariot Social Link",
+    "cannotInherit": [
+      "wind"
+    ]
   },
   {
     "name": "Angel",
@@ -4526,6 +4841,10 @@
         "name": "Resist Charm",
         "level": 8
       }
+    ],
+    "cannotInherit": [
+      "dark",
+      "ailment"
     ]
   },
   {
@@ -4576,6 +4895,10 @@
         "name": "Apt Pupil",
         "level": 15
       }
+    ],
+    "cannotInherit": [
+      "dark",
+      "ailment"
     ]
   },
   {
@@ -4626,6 +4949,10 @@
         "name": "Mahama",
         "level": 21
       }
+    ],
+    "cannotInherit": [
+      "dark",
+      "ailment"
     ]
   },
   {
@@ -4680,6 +5007,10 @@
         "name": "Revolution",
         "level": 30
       }
+    ],
+    "cannotInherit": [
+      "dark",
+      "ailment"
     ]
   },
   {
@@ -4730,6 +5061,10 @@
         "name": "Makouga",
         "level": 37
       }
+    ],
+    "cannotInherit": [
+      "dark",
+      "ailment"
     ]
   },
   {
@@ -4785,7 +5120,11 @@
         "level": 42
       }
     ],
-    "dlc": "P5R Persona Set 1"
+    "dlc": "P5R Persona Set 1",
+    "cannotInherit": [
+      "dark",
+      "ailment"
+    ]
   },
   {
     "name": "Dominion",
@@ -4843,7 +5182,12 @@
     "heartItem": {
       "name": "Soul Sea Droplet",
       "level": 46
-    }
+    },
+    "cannotInherit": [
+      "elec",
+      "dark",
+      "ailment"
+    ]
   },
   {
     "name": "Throne",
@@ -4897,6 +5241,10 @@
         "name": "Mahamaon",
         "level": 57
       }
+    ],
+    "cannotInherit": [
+      "dark",
+      "ailment"
     ]
   },
   {
@@ -4952,7 +5300,11 @@
         "level": 66
       }
     ],
-    "dlc": "P5R Persona Set 2"
+    "dlc": "P5R Persona Set 2",
+    "cannotInherit": [
+      "light",
+      "recovery"
+    ]
   },
   {
     "name": "Melchizedek",
@@ -5011,7 +5363,10 @@
       "name": "Immortal Angel Core",
       "level": 72
     },
-    "unlock": "Max the Justice Social Link"
+    "unlock": "Max the Justice Social Link",
+    "cannotInherit": [
+      "wind"
+    ]
   },
   {
     "name": "Onmoraki",
@@ -5061,6 +5416,10 @@
         "name": "Magaru",
         "level": 13
       }
+    ],
+    "cannotInherit": [
+      "light",
+      "recovery"
     ]
   },
   {
@@ -5111,6 +5470,10 @@
         "name": "Invigorate 1",
         "level": 22
       }
+    ],
+    "cannotInherit": [
+      "light",
+      "recovery"
     ]
   },
   {
@@ -5165,7 +5528,10 @@
     "heartItem": {
       "name": "Soul Sea Driblet",
       "level": 28
-    }
+    },
+    "cannotInherit": [
+      "strike"
+    ]
   },
   {
     "name": "Mothman",
@@ -5216,7 +5582,14 @@
         "level": 36
       }
     ],
-    "unlock": "Reach Tartarus floor 82 (Yabbashah I)"
+    "unlock": "Reach Tartarus floor 82 (Yabbashah I)",
+    "cannotInherit": [
+      "slash",
+      "strike",
+      "pierce",
+      "light",
+      "recovery"
+    ]
   },
   {
     "name": "Dakini",
@@ -5266,6 +5639,16 @@
         "name": "High Counter",
         "level": 43
       }
+    ],
+    "cannotInherit": [
+      "fire",
+      "ice",
+      "elec",
+      "wind",
+      "light",
+      "dark",
+      "ailment",
+      "recovery"
     ]
   },
   {
@@ -5316,6 +5699,9 @@
         "name": "Null Dizzy",
         "level": 51
       }
+    ],
+    "cannotInherit": [
+      "elec"
     ]
   },
   {
@@ -5375,7 +5761,14 @@
       "name": "Unholy Wooden Doll",
       "level": 56
     },
-    "unlock": "Clear Elizabeth's Request #49"
+    "unlock": "Clear Elizabeth's Request #49",
+    "cannotInherit": [
+      "slash",
+      "strike",
+      "pierce",
+      "light",
+      "recovery"
+    ]
   },
   {
     "name": "Kumbhanda",
@@ -5429,6 +5822,10 @@
         "name": "Insta-Heal",
         "level": 67
       }
+    ],
+    "cannotInherit": [
+      "light",
+      "recovery"
     ]
   },
   {
@@ -5488,7 +5885,13 @@
       "name": "Clay God Fragment",
       "level": 74
     },
-    "unlock": "Max the Hermit Social Link"
+    "unlock": "Max the Hermit Social Link",
+    "cannotInherit": [
+      "fire",
+      "ice",
+      "elec",
+      "wind"
+    ]
   },
   {
     "name": "Fortuna",
@@ -5547,6 +5950,11 @@
       "name": "Soul Sea Driblet",
       "level": 17
     },
+    "cannotInherit": [
+      "slash",
+      "strike",
+      "pierce"
+    ],
     "specialRecipe": [
       "Angel",
       "Silky",
@@ -5655,6 +6063,9 @@
         "name": "Marakunda",
         "level": 33
       }
+    ],
+    "cannotInherit": [
+      "fire"
     ]
   },
   {
@@ -5713,7 +6124,10 @@
     "heartItem": {
       "name": "Soul Sea Droplet",
       "level": 41
-    }
+    },
+    "cannotInherit": [
+      "fire"
+    ]
   },
   {
     "name": "Lachesis",
@@ -5771,7 +6185,10 @@
     "heartItem": {
       "name": "Soul Sea Droplet",
       "level": 48
-    }
+    },
+    "cannotInherit": [
+      "elec"
+    ]
   },
   {
     "name": "Atropos",
@@ -5829,7 +6246,10 @@
     "heartItem": {
       "name": "Soul Sea Drop",
       "level": 61
-    }
+    },
+    "cannotInherit": [
+      "fire"
+    ]
   },
   {
     "name": "Norn",
@@ -5888,6 +6308,9 @@
       "name": "Second Hand of Fate",
       "level": 71
     },
+    "cannotInherit": [
+      "elec"
+    ],
     "specialRecipe": [
       "Clotho",
       "Lachesis",
@@ -5951,7 +6374,10 @@
       "name": "Goddess Water Lily",
       "level": 79
     },
-    "unlock": "Max the Fortune Social Link"
+    "unlock": "Max the Fortune Social Link",
+    "cannotInherit": [
+      "fire"
+    ]
   },
   {
     "name": "Valkyrie",
@@ -6001,6 +6427,11 @@
         "name": "Fatal End",
         "level": 15
       }
+    ],
+    "cannotInherit": [
+      "fire",
+      "dark",
+      "ailment"
     ]
   },
   {
@@ -6051,6 +6482,14 @@
         "name": "Getsu-ei",
         "level": 20
       }
+    ],
+    "cannotInherit": [
+      "fire",
+      "ice",
+      "wind",
+      "light",
+      "dark",
+      "ailment"
     ]
   },
   {
@@ -6105,6 +6544,11 @@
         "name": "Blade of Fury",
         "level": 28
       }
+    ],
+    "cannotInherit": [
+      "fire",
+      "light",
+      "recovery"
     ]
   },
   {
@@ -6159,6 +6603,14 @@
         "name": "Endure Dark",
         "level": 35
       }
+    ],
+    "cannotInherit": [
+      "fire",
+      "ice",
+      "elec",
+      "wind",
+      "dark",
+      "ailment"
     ]
   },
   {
@@ -6213,6 +6665,9 @@
         "name": "Endure",
         "level": 41
       }
+    ],
+    "cannotInherit": [
+      "wind"
     ]
   },
   {
@@ -6267,6 +6722,9 @@
         "name": "Evade Dark",
         "level": 51
       }
+    ],
+    "cannotInherit": [
+      "ice"
     ]
   },
   {
@@ -6330,7 +6788,11 @@
     "heartItem": {
       "name": "Nibelung Ore",
       "level": 59
-    }
+    },
+    "cannotInherit": [
+      "dark",
+      "ailment"
+    ]
   },
   {
     "name": "Kali",
@@ -6388,7 +6850,17 @@
     "heartItem": {
       "name": "Soul Sea Drop",
       "level": 68
-    }
+    },
+    "cannotInherit": [
+      "fire",
+      "ice",
+      "elec",
+      "wind",
+      "light",
+      "dark",
+      "ailment",
+      "recovery"
+    ]
   },
   {
     "name": "Atavaka",
@@ -6447,7 +6919,12 @@
       "name": "Wisdom King's Locks",
       "level": 79
     },
-    "unlock": "Max the Strength Social Link"
+    "unlock": "Max the Strength Social Link",
+    "cannotInherit": [
+      "ice",
+      "dark",
+      "ailment"
+    ]
   },
   {
     "name": "Inugami",
@@ -6493,6 +6970,13 @@
         "name": "Media",
         "level": 14
       }
+    ],
+    "cannotInherit": [
+      "slash",
+      "strike",
+      "pierce",
+      "light",
+      "recovery"
     ]
   },
   {
@@ -6551,7 +7035,13 @@
     "heartItem": {
       "name": "Soul Sea Driblet",
       "level": 23
-    }
+    },
+    "cannotInherit": [
+      "light",
+      "dark",
+      "ailment",
+      "recovery"
+    ]
   },
   {
     "name": "Orthrus",
@@ -6605,6 +7095,14 @@
         "name": "Matarukaja",
         "level": 32
       }
+    ],
+    "cannotInherit": [
+      "ice",
+      "elec",
+      "wind",
+      "light",
+      "dark",
+      "ailment"
     ]
   },
   {
@@ -6659,6 +7157,9 @@
         "name": "Mahamaon",
         "level": 44
       }
+    ],
+    "cannotInherit": [
+      "wind"
     ]
   },
   {
@@ -6713,6 +7214,10 @@
         "name": "Auto Maraku",
         "level": 53
       }
+    ],
+    "cannotInherit": [
+      "light",
+      "recovery"
     ]
   },
   {
@@ -6771,6 +7276,9 @@
         "name": "Strike Amp",
         "level": 64
       }
+    ],
+    "cannotInherit": [
+      "ice"
     ],
     "specialRecipe": [
       "Hanuman",
@@ -6836,7 +7344,11 @@
       "name": "Hell's Muffler",
       "level": 70
     },
-    "unlock": "Max Shinjiro's Link"
+    "unlock": "Max Shinjiro's Link",
+    "cannotInherit": [
+      "light",
+      "recovery"
+    ]
   },
   {
     "name": "Attis",
@@ -6895,7 +7407,14 @@
       "name": "Sacrifice God Wrap",
       "level": 79
     },
-    "unlock": "Max the Hanged Man Social Link"
+    "unlock": "Max the Hanged Man Social Link",
+    "cannotInherit": [
+      "slash",
+      "strike",
+      "pierce",
+      "dark",
+      "ailment"
+    ]
   },
   {
     "name": "Pisaca",
@@ -6945,6 +7464,11 @@
         "name": "Mamudo",
         "level": 19
       }
+    ],
+    "cannotInherit": [
+      "fire",
+      "light",
+      "recovery"
     ]
   },
   {
@@ -6999,6 +7523,10 @@
         "name": "Null Fear",
         "level": 28
       }
+    ],
+    "cannotInherit": [
+      "light",
+      "recovery"
     ],
     "specialRecipe": [
       "Berith",
@@ -7062,7 +7590,11 @@
     "heartItem": {
       "name": "Soul Sea Droplet",
       "level": 36
-    }
+    },
+    "cannotInherit": [
+      "light",
+      "recovery"
+    ]
   },
   {
     "name": "Samael",
@@ -7116,6 +7648,11 @@
         "name": "Ghastly Wail",
         "level": 46
       }
+    ],
+    "cannotInherit": [
+      "wind",
+      "light",
+      "recovery"
     ]
   },
   {
@@ -7170,6 +7707,11 @@
         "name": "Megidola",
         "level": 63
       }
+    ],
+    "cannotInherit": [
+      "wind",
+      "light",
+      "recovery"
     ]
   },
   {
@@ -7229,6 +7771,10 @@
       "name": "Soul Sea Drop",
       "level": 73
     },
+    "cannotInherit": [
+      "light",
+      "recovery"
+    ],
     "specialRecipe": [
       "Pixie",
       "Lilim",
@@ -7294,6 +7840,10 @@
       "level": 85
     },
     "unlock": "Max the Death Social Link",
+    "cannotInherit": [
+      "light",
+      "recovery"
+    ],
     "specialRecipe": [
       "Pisaca",
       "Pale Rider",
@@ -7351,6 +7901,9 @@
         "name": "Recarm",
         "level": 17
       }
+    ],
+    "cannotInherit": [
+      "elec"
     ]
   },
   {
@@ -7401,6 +7954,11 @@
         "name": "Dodge Elec",
         "level": 27
       }
+    ],
+    "cannotInherit": [
+      "elec",
+      "dark",
+      "ailment"
     ]
   },
   {
@@ -7459,7 +8017,10 @@
     "heartItem": {
       "name": "Soul Sea Driblet",
       "level": 33
-    }
+    },
+    "cannotInherit": [
+      "elec"
+    ]
   },
   {
     "name": "Seiryu",
@@ -7513,7 +8074,10 @@
     "heartItem": {
       "name": "Soul Sea Droplet",
       "level": 42
-    }
+    },
+    "cannotInherit": [
+      "elec"
+    ]
   },
   {
     "name": "Okuninushi",
@@ -7567,6 +8131,9 @@
         "name": "Evade Fire",
         "level": 49
       }
+    ],
+    "cannotInherit": [
+      "wind"
     ]
   },
   {
@@ -7625,7 +8192,12 @@
     "heartItem": {
       "name": "Soul Sea Drop",
       "level": 60
-    }
+    },
+    "cannotInherit": [
+      "ice",
+      "dark",
+      "ailment"
+    ]
   },
   {
     "name": "Byakko",
@@ -7684,7 +8256,12 @@
       "name": "King of Beasts Fang",
       "level": 68
     },
-    "unlock": "Max Koromaru's Link"
+    "unlock": "Max Koromaru's Link",
+    "cannotInherit": [
+      "fire",
+      "dark",
+      "ailment"
+    ]
   },
   {
     "name": "Yurlungur",
@@ -7743,7 +8320,11 @@
       "name": "Rainbow Snake Scale",
       "level": 77
     },
-    "unlock": "Max the Temperance Social Link"
+    "unlock": "Max the Temperance Social Link",
+    "cannotInherit": [
+      "dark",
+      "ailment"
+    ]
   },
   {
     "name": "Lilim",
@@ -7789,6 +8370,11 @@
         "name": "Mazio",
         "level": 13
       }
+    ],
+    "cannotInherit": [
+      "wind",
+      "light",
+      "recovery"
     ]
   },
   {
@@ -7839,6 +8425,13 @@
         "name": "Evil Smile",
         "level": 23
       }
+    ],
+    "cannotInherit": [
+      "slash",
+      "strike",
+      "pierce",
+      "light",
+      "recovery"
     ]
   },
   {
@@ -7893,6 +8486,11 @@
         "name": "Endure Light",
         "level": 36
       }
+    ],
+    "cannotInherit": [
+      "wind",
+      "light",
+      "recovery"
     ]
   },
   {
@@ -7947,6 +8545,13 @@
         "name": "Drain Ability",
         "level": 42
       }
+    ],
+    "cannotInherit": [
+      "slash",
+      "strike",
+      "pierce",
+      "light",
+      "recovery"
     ]
   },
   {
@@ -8005,7 +8610,14 @@
     "heartItem": {
       "name": "Soul Sea Droplet",
       "level": 51
-    }
+    },
+    "cannotInherit": [
+      "slash",
+      "strike",
+      "pierce",
+      "light",
+      "recovery"
+    ]
   },
   {
     "name": "Pazuzu",
@@ -8059,6 +8671,11 @@
         "name": "Ailment Boost",
         "level": 61
       }
+    ],
+    "cannotInherit": [
+      "elec",
+      "light",
+      "recovery"
     ]
   },
   {
@@ -8118,7 +8735,14 @@
       "name": "Soul Sea Drop",
       "level": 70
     },
-    "unlock": "Reach Tartarus floor 193 (Harabah I)"
+    "unlock": "Reach Tartarus floor 193 (Harabah I)",
+    "cannotInherit": [
+      "slash",
+      "strike",
+      "pierce",
+      "light",
+      "recovery"
+    ]
   },
   {
     "name": "Abaddon",
@@ -8176,7 +8800,12 @@
     "heartItem": {
       "name": "Abyssal King Tooth",
       "level": 82
-    }
+    },
+    "cannotInherit": [
+      "ice",
+      "light",
+      "recovery"
+    ]
   },
   {
     "name": "Beelzebub",
@@ -8236,6 +8865,11 @@
       "level": 88
     },
     "unlock": "Max the Devil Social Link",
+    "cannotInherit": [
+      "fire",
+      "light",
+      "recovery"
+    ],
     "specialRecipe": [
       "Incubus",
       "Succubus",
@@ -8293,6 +8927,9 @@
         "name": "Life Aid",
         "level": 36
       }
+    ],
+    "cannotInherit": [
+      "elec"
     ]
   },
   {
@@ -8355,7 +8992,10 @@
     "heartItem": {
       "name": "Fetching Hero's Comb",
       "level": 44
-    }
+    },
+    "cannotInherit": [
+      "ice"
+    ]
   },
   {
     "name": "Magatsu-Izanagi",
@@ -8410,7 +9050,10 @@
         "level": 56
       }
     ],
-    "dlc": "P4G Persona Set"
+    "dlc": "P4G Persona Set",
+    "cannotInherit": [
+      "ice"
+    ]
   },
   {
     "name": "Bishamonten",
@@ -8464,6 +9107,11 @@
         "name": "Pierce Amp",
         "level": 66
       }
+    ],
+    "cannotInherit": [
+      "ice",
+      "dark",
+      "ailment"
     ]
   },
   {
@@ -8518,6 +9166,9 @@
         "name": "Evade Strike",
         "level": 73
       }
+    ],
+    "cannotInherit": [
+      "fire"
     ]
   },
   {
@@ -8577,6 +9228,9 @@
       "name": "Mara's Head",
       "level": 81
     },
+    "cannotInherit": [
+      "ice"
+    ],
     "specialRecipe": [
       "Incubus",
       "Pazuzu",
@@ -8707,6 +9361,9 @@
       "name": "Destroyer's Drums",
       "level": 90
     },
+    "cannotInherit": [
+      "ice"
+    ],
     "specialRecipe": [
       "Rangda",
       "Barong"
@@ -8769,7 +9426,10 @@
       "name": "Bull Warrior Horns",
       "level": 94
     },
-    "unlock": "Max the Tower Social Link"
+    "unlock": "Max the Tower Social Link",
+    "cannotInherit": [
+      "elec"
+    ]
   },
   {
     "name": "Neko Shogun",
@@ -8819,6 +9479,12 @@
         "name": "Resist Dizzy",
         "level": 22
       }
+    ],
+    "cannotInherit": [
+      "fire",
+      "ice",
+      "elec",
+      "wind"
     ]
   },
   {
@@ -8873,6 +9539,11 @@
         "name": "Resist Fire",
         "level": 34
       }
+    ],
+    "cannotInherit": [
+      "fire",
+      "dark",
+      "ailment"
     ]
   },
   {
@@ -8928,7 +9599,11 @@
         "level": 42
       }
     ],
-    "dlc": "P5R Persona Set 1"
+    "dlc": "P5R Persona Set 1",
+    "cannotInherit": [
+      "dark",
+      "ailment"
+    ]
   },
   {
     "name": "Kaiwan",
@@ -8982,6 +9657,10 @@
         "name": "Evade Pierce",
         "level": 47
       }
+    ],
+    "cannotInherit": [
+      "light",
+      "recovery"
     ]
   },
   {
@@ -9036,6 +9715,10 @@
         "name": "Repel Pierce",
         "level": 57
       }
+    ],
+    "cannotInherit": [
+      "dark",
+      "ailment"
     ]
   },
   {
@@ -9091,7 +9774,11 @@
         "level": 64
       }
     ],
-    "dlc": "P5R Persona Set 2"
+    "dlc": "P5R Persona Set 2",
+    "cannotInherit": [
+      "dark",
+      "ailment"
+    ]
   },
   {
     "name": "Garuda",
@@ -9141,6 +9828,11 @@
         "name": "Panta Rhei",
         "level": 70
       }
+    ],
+    "cannotInherit": [
+      "elec",
+      "dark",
+      "ailment"
     ]
   },
   {
@@ -9200,7 +9892,12 @@
       "name": "Soul Sea Drop",
       "level": 75
     },
-    "unlock": "Reach Tartarus floor 225 (Harabah II)"
+    "unlock": "Reach Tartarus floor 225 (Harabah II)",
+    "cannotInherit": [
+      "elec",
+      "dark",
+      "ailment"
+    ]
   },
   {
     "name": "Saturnus",
@@ -9259,7 +9956,10 @@
       "name": "Black Sun Candle",
       "level": 82
     },
-    "unlock": "Max Ryoji's Link"
+    "unlock": "Max Ryoji's Link",
+    "cannotInherit": [
+      "ice"
+    ]
   },
   {
     "name": "Helel",
@@ -9319,7 +10019,12 @@
         "fusionSpell": true
       }
     ],
-    "unlock": "Max the Star Social Link"
+    "unlock": "Max the Star Social Link",
+    "cannotInherit": [
+      "ice",
+      "dark",
+      "ailment"
+    ]
   },
   {
     "name": "Gurulu",
@@ -9373,6 +10078,10 @@
         "name": "Poison Boost",
         "level": 19
       }
+    ],
+    "cannotInherit": [
+      "light",
+      "recovery"
     ]
   },
   {
@@ -9431,7 +10140,10 @@
     "heartItem": {
       "name": "Soul Sea Driblet",
       "level": 28
-    }
+    },
+    "cannotInherit": [
+      "slash"
+    ]
   },
   {
     "name": "Kaguya",
@@ -9486,7 +10198,10 @@
         "level": 39
       }
     ],
-    "dlc": "P4G Persona Set"
+    "dlc": "P4G Persona Set",
+    "cannotInherit": [
+      "fire"
+    ]
   },
   {
     "name": "Girimekhala",
@@ -9540,6 +10255,11 @@
         "name": "Repel Slash",
         "level": 46
       }
+    ],
+    "cannotInherit": [
+      "wind",
+      "light",
+      "recovery"
     ]
   },
   {
@@ -9594,6 +10314,9 @@
         "name": "Regenerate 3",
         "level": 54
       }
+    ],
+    "cannotInherit": [
+      "wind"
     ]
   },
   {
@@ -9652,7 +10375,12 @@
     "heartItem": {
       "name": "Soul Sea Drop",
       "level": 61
-    }
+    },
+    "cannotInherit": [
+      "fire",
+      "light",
+      "recovery"
+    ]
   },
   {
     "name": "Seth",
@@ -9706,6 +10434,10 @@
         "name": "Repel Ice",
         "level": 68
       }
+    ],
+    "cannotInherit": [
+      "light",
+      "recovery"
     ]
   },
   {
@@ -9760,6 +10492,11 @@
         "name": "Panta Rhei",
         "level": 78
       }
+    ],
+    "cannotInherit": [
+      "fire",
+      "light",
+      "recovery"
     ]
   },
   {
@@ -9819,7 +10556,11 @@
       "name": "Prayer Angel Garland",
       "level": 87
     },
-    "unlock": "Max the Moon Social Link"
+    "unlock": "Max the Moon Social Link",
+    "cannotInherit": [
+      "dark",
+      "ailment"
+    ]
   },
   {
     "name": "Yatagarasu",
@@ -9873,6 +10614,11 @@
         "name": "Masukunda",
         "level": 30
       }
+    ],
+    "cannotInherit": [
+      "ice",
+      "dark",
+      "ailment"
     ]
   },
   {
@@ -9923,6 +10669,11 @@
         "name": "Null Elec",
         "level": 41
       }
+    ],
+    "cannotInherit": [
+      "slash",
+      "strike",
+      "pierce"
     ]
   },
   {
@@ -9977,6 +10728,11 @@
         "name": "Ice Amp",
         "level": 51
       }
+    ],
+    "cannotInherit": [
+      "elec",
+      "dark",
+      "ailment"
     ]
   },
   {
@@ -10035,7 +10791,10 @@
     "heartItem": {
       "name": "Soul Sea Drop",
       "level": 60
-    }
+    },
+    "cannotInherit": [
+      "pierce"
+    ]
   },
   {
     "name": "Horus",
@@ -10094,7 +10853,11 @@
       "name": "Eye of Wadjet",
       "level": 72
     },
-    "unlock": "Max Akihiko's Link"
+    "unlock": "Max Akihiko's Link",
+    "cannotInherit": [
+      "dark",
+      "ailment"
+    ]
   },
   {
     "name": "Vishnu",
@@ -10152,7 +10915,11 @@
     "heartItem": {
       "name": "Preservation Conch",
       "level": 85
-    }
+    },
+    "cannotInherit": [
+      "dark",
+      "ailment"
+    ]
   },
   {
     "name": "Asura",
@@ -10273,6 +11040,11 @@
         "name": "Resist Dark",
         "level": 45
       }
+    ],
+    "cannotInherit": [
+      "slash",
+      "strike",
+      "pierce"
     ]
   },
   {
@@ -10386,7 +11158,10 @@
       "name": "Archangel Wings",
       "level": 75
     },
-    "unlock": "Max Ken's Link"
+    "unlock": "Max Ken's Link",
+    "cannotInherit": [
+      "wind"
+    ]
   },
   {
     "name": "Satan",
@@ -10449,6 +11224,9 @@
         "level": 0,
         "fusionSpell": true
       }
+    ],
+    "cannotInherit": [
+      "wind"
     ]
   },
   {
@@ -10509,6 +11287,10 @@
       "level": 97
     },
     "unlock": "Clear Elizabeth's Request #81",
+    "cannotInherit": [
+      "light",
+      "recovery"
+    ],
     "specialRecipe": [
       "Samael",
       "Abaddon",
@@ -10579,6 +11361,10 @@
       "level": 99
     },
     "unlock": "Max the Judgement Social Link",
+    "cannotInherit": [
+      "dark",
+      "ailment"
+    ],
     "specialRecipe": [
       "Orpheus",
       "Thanatos"
@@ -10636,6 +11422,11 @@
         "name": "Null Light",
         "level": 53
       }
+    ],
+    "cannotInherit": [
+      "wind",
+      "light",
+      "recovery"
     ]
   },
   {
@@ -10690,6 +11481,11 @@
         "name": "Heaven's Blade",
         "level": 63
       }
+    ],
+    "cannotInherit": [
+      "ice",
+      "dark",
+      "ailment"
     ]
   },
   {
@@ -10748,7 +11544,10 @@
     "heartItem": {
       "name": "Soul Sea Drop",
       "level": 78
-    }
+    },
+    "cannotInherit": [
+      "elec"
+    ]
   },
   {
     "name": "Metatron",
@@ -10808,6 +11607,10 @@
       "level": 94
     },
     "unlock": "Max the Aeon Social Link",
+    "cannotInherit": [
+      "dark",
+      "ailment"
+    ],
     "specialRecipe": [
       "Uriel",
       "Raphael",
