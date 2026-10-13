@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AffinityStrip } from "@/components/features/AffinityStrip";
+import { PageHeader } from "@/components/features/PageHeader";
 import { PersonaFusions } from "@/components/features/PersonaFusions";
 import { SkillList } from "@/components/features/SkillList";
 import { StatBars } from "@/components/features/StatBars";
@@ -31,22 +32,18 @@ export default async function PersonaPage({ params }: Props) {
 
   return (
     <article className="space-y-10">
-      <header className="space-y-3">
-        <Link href="/" className="text-sm text-muted-foreground hover:text-foreground">
+      <div className="space-y-4">
+        <Link href="/" className="text-sm text-muted-foreground hover:text-p3r-cyan">
           ← Compendium
         </Link>
-        <div className="flex flex-wrap items-end gap-x-4 gap-y-2">
-          <h1 className="font-heading text-5xl font-extrabold uppercase italic leading-none tracking-tight">
-            {persona.name}
-          </h1>
-          <span className="font-heading text-2xl font-bold italic text-p3r-yellow">Lv {persona.level}</span>
-        </div>
-        <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-muted-foreground">
-          <ArcanaBadge arcana={persona.arcana} />
-          {persona.dlc ? <span className="font-semibold text-p3r-gold">{persona.dlc}</span> : null}
-          {persona.unlock ? <span>{persona.unlock}</span> : null}
-        </div>
-      </header>
+        <PageHeader title={persona.name} kicker={`Lv ${persona.level} · ${persona.arcana}`} backdrop={persona.arcana}>
+          <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm">
+            <ArcanaBadge arcana={persona.arcana} />
+            {persona.dlc ? <span className="font-semibold text-p3r-red">{persona.dlc}</span> : null}
+            {persona.unlock ? <span>{persona.unlock}</span> : null}
+          </div>
+        </PageHeader>
+      </div>
 
       <div className="grid gap-8 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)]">
         <div className="space-y-8">
@@ -73,7 +70,7 @@ export default async function PersonaPage({ params }: Props) {
       <Section
         title="Fusion"
         action={
-          <Link href={`/fusion/?t=${persona.slug}`} className="text-sm text-muted-foreground hover:text-p3r-yellow">
+          <Link href={`/fusion/?t=${persona.slug}`} className="text-sm text-muted-foreground hover:text-p3r-cyan">
             Plan with skills →
           </Link>
         }
@@ -88,7 +85,7 @@ function Section({ title, action, children }: { title: string; action?: React.Re
   return (
     <section className="space-y-3">
       <div className="flex items-baseline justify-between gap-3">
-        <h2 className="font-heading text-lg font-bold uppercase tracking-wider text-p3r-blue-light">{title}</h2>
+        <h2 className="font-heading text-lg font-bold uppercase tracking-wider text-p3r-cyan">{title}</h2>
         {action}
       </div>
       {children}
