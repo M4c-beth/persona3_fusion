@@ -31,22 +31,27 @@
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) * 1.4);
 
+  --color-p3r-cyan: var(--p3r-cyan);
+  --color-p3r-sky: var(--p3r-sky);
   --color-p3r-blue: var(--p3r-blue);
-  --color-p3r-blue-light: var(--p3r-blue-light);
-  --color-p3r-yellow: var(--p3r-yellow);
-  --color-p3r-gold: var(--p3r-gold);
-  --color-p3r-gray: var(--p3r-gray);
+  --color-p3r-navy: var(--p3r-navy);
+  --color-p3r-deep: var(--p3r-deep);
+  --color-p3r-white: var(--p3r-white);
+  --color-p3r-mist: var(--p3r-mist);
+  --color-p3r-red: var(--p3r-red);
 }
 
 :root {
-  --p3r-blue:       #0A2472;
-  --p3r-blue-light: #3A6CF0;
-  --p3r-yellow:     #FFD60A;
-  --p3r-gold:       #C9A227;
-  --p3r-black:      #0A0A0F;
-  --p3r-dark:       #14141F;
-  --p3r-white:      #F5F5F7;
-  --p3r-gray:       #8A8A9A;
+  /* Persona 3 Reload: key-art cyan, royal blue bar, deep night navy, white type */
+  --p3r-cyan:  #2EC4FF;
+  --p3r-sky:   #8FDcFF;
+  --p3r-blue:  #1550E0;
+  --p3r-navy:  #0B1E5B;
+  --p3r-deep:  #050E2E;
+  --p3r-ink:   #030820;
+  --p3r-white: #F2FAFF;
+  --p3r-mist:  #8EA3C8;
+  --p3r-red:   #FF3D63;
 
   --elem-slash:     #C0C4CC;
   --elem-strike:    #A8A29E;
@@ -61,28 +66,28 @@
   --elem-ailment:   #E879A6;
   --elem-recovery:  #6EE7B7;
   --elem-support:   #93C5FD;
-  --elem-special:   #C9A227;
+  --elem-special:   #FF3D63;
   --elem-passive:   #8A8A9A;
 
-  --background: var(--p3r-black);
+  --background: var(--p3r-deep);
   --foreground: var(--p3r-white);
-  --card: var(--p3r-dark);
+  --card: rgb(8 22 72 / 88%);
   --card-foreground: var(--p3r-white);
-  --popover: var(--p3r-dark);
+  --popover: #0A1A4F;
   --popover-foreground: var(--p3r-white);
-  --primary: var(--p3r-yellow);
-  --primary-foreground: var(--p3r-black);
-  --secondary: #1C1C2B;
+  --primary: var(--p3r-cyan);
+  --primary-foreground: var(--p3r-ink);
+  --secondary: rgb(46 196 255 / 12%);
   --secondary-foreground: var(--p3r-white);
-  --muted: #1C1C2B;
-  --muted-foreground: var(--p3r-gray);
-  --accent: #1A2350;
+  --muted: rgb(46 196 255 / 10%);
+  --muted-foreground: var(--p3r-mist);
+  --accent: rgb(46 196 255 / 16%);
   --accent-foreground: var(--p3r-white);
-  --destructive: #FF5A3C;
-  --border: rgb(245 245 247 / 9%);
-  --input: rgb(245 245 247 / 12%);
-  --ring: var(--p3r-blue-light);
-  --radius: 0.25rem;
+  --destructive: var(--p3r-red);
+  --border: rgb(143 220 255 / 14%);
+  --input: rgb(143 220 255 / 20%);
+  --ring: var(--p3r-cyan);
+  --radius: 0.125rem;
 
   color-scheme: dark;
 }
@@ -94,20 +99,45 @@
   body {
     @apply bg-background text-foreground;
     background-image:
-      radial-gradient(ellipse 80% 50% at 50% -10%, rgb(10 36 114 / 55%), transparent 70%),
-      linear-gradient(180deg, transparent 0, var(--p3r-black) 60rem);
+      /* key-art light sweeps */
+      linear-gradient(115deg, transparent 0 58%, rgb(46 196 255 / 10%) 58% 66%, transparent 66%),
+      linear-gradient(115deg, transparent 0 70%, rgb(21 80 224 / 16%) 70% 84%, transparent 84%),
+      radial-gradient(ellipse 90% 60% at 85% -10%, rgb(46 196 255 / 28%), transparent 60%),
+      linear-gradient(180deg, var(--p3r-navy) 0, var(--p3r-deep) 34rem);
     background-attachment: fixed;
   }
   html {
     @apply font-sans;
   }
   ::selection {
-    background: var(--p3r-yellow);
-    color: var(--p3r-black);
+    background: var(--p3r-cyan);
+    color: var(--p3r-ink);
   }
 }
 
 @layer components {
+  /* Heavy display type: tight, uppercase, like the P3R title cards */
+  .display {
+    font-family: var(--font-display);
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -0.035em;
+    line-height: 0.86;
+  }
+
+  /* Giant faded word behind a page title */
+  .backdrop-word {
+    font-family: var(--font-display);
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -0.05em;
+    line-height: 0.8;
+    color: transparent;
+    -webkit-text-stroke: 1.5px rgb(46 196 255 / 18%);
+    user-select: none;
+    pointer-events: none;
+  }
+
   /* Slanted geometric chip used for arcana tags and active nav */
   .clip-slant {
     clip-path: polygon(6px 0, 100% 0, calc(100% - 6px) 100%, 0 100%);
