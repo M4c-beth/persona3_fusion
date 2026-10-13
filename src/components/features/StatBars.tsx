@@ -9,7 +9,7 @@ export function StatBars({ stats }: { stats: Persona["stats"] }) {
           <dt className="font-heading font-bold uppercase tracking-wider text-muted-foreground">{STAT_LABEL[key]}</dt>
           <dd className="text-right font-mono tabular-nums">{stats[key]}</dd>
           <dd className="h-1.5 overflow-hidden bg-secondary" aria-hidden>
-            <div className="h-full bg-p3r-yellow" style={{ width: `${(stats[key] / 99) * 100}%` }} />
+            <div className="h-full bg-p3r-cyan" style={{ width: `${(stats[key] / 99) * 100}%` }} />
           </dd>
         </div>
       ))}
