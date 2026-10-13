@@ -13,11 +13,26 @@ interface Props {
 
 /** Average glyph width of the heavy display face, as a fraction of its size. */
 const GLYPH_WIDTH = 0.65;
+/** Same for the title, which is set tighter and heavier. */
+const TITLE_GLYPH_WIDTH = 0.72;
+const TITLE_SIZE = "min(4.5rem, 10.5vw)";
+const CONTENT_WIDTH = "(min(100vw, 1184px) - 32px)";
+/** Bar, padding and breathing room between title and backdrop. */
+const GAP = "120px";
 
-/** Size the backdrop word so it fills at most the right half of the page, never the title. */
-function backdropSize(word: string): string {
+/**
+ * Size the backdrop word to fit the space right of the title (and at most half the
+ * page), so it never runs into the title however long either one is.
+ */
+function backdropSize(word: string, title: string): string {
   const span = GLYPH_WIDTH * word.length;
-  return `min(13rem, ${(48 / span).toFixed(2)}vw, ${Math.round(600 / span)}px)`;
+  const longest = Math.max(...title.split(" ").map((w) => w.length));
+  const titleWidth = `${TITLE_SIZE} * ${(TITLE_GLYPH_WIDTH * longest).toFixed(2)}`;
+  return [
+    "13rem",
+    `calc(${CONTENT_WIDTH} * 0.5 / ${span.toFixed(2)})`,
+    `calc((${CONTENT_WIDTH} - ${titleWidth} - ${GAP}) / ${span.toFixed(2)})`,
+  ].reduce((acc, v) => `min(${acc}, ${v})`);
 }
 
 /** Title card: royal-blue bar, heavy stacked words, faded giant word behind. */
@@ -28,7 +43,7 @@ export function PageHeader({ title, kicker = "Persona 3 Reload", backdrop, child
       <span
         aria-hidden
         className="backdrop-word absolute -top-4 right-0 -z-10 hidden whitespace-nowrap sm:block"
-        style={{ fontSize: backdropSize(word) }}
+        style={{ fontSize: backdropSize(word, title) }}
       >
         {word}
       </span>
