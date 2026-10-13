@@ -13,11 +13,12 @@
 - Overall: ≥ 85%.
 
 ## Test Naming
-ts
+```ts
 describe('FusionCalculator', () => {
   it('returns valid recipes for Thanatos', () => { ... });
   it('rejects invalid arcana pair', () => { ... });
 });
+```
 
 ## Rules
 - Every bug fix must include a regression test.

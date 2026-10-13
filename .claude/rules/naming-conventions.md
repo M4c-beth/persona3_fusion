@@ -11,6 +11,7 @@
 
 ## Elements
 - Lowercase in code: `fire`, `ice`, `elec` (not `electricity`).
+- Full P3R set: `slash`, `strike`, `pierce`, `fire`, `ice`, `elec`, `wind`, `light`, `dark`, `almighty`.
 - Affinity levels: `weak`, `normal`, `resist`, `null`, `repel`, `absorb`.
 
 ## API Routes

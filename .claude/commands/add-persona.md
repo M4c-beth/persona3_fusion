@@ -16,6 +16,6 @@ Add-persona --name "Thanatos" --arcana Death --level 57
 
 ## Validation Rules
 - Name: 2–40 chars, alphanumeric + spaces + hyphens.
-- Arcana: must be in the 24-arcana enum.
+- Arcana: must be a value of the `Arcana` enum.
 - Level: integer 1–99.
 - Stats: each 1–99.

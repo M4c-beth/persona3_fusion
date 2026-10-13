@@ -18,13 +18,15 @@ mysterious, and bold.
   --p3r-gray:       #8A8A9A;   /* Muted text */
 
   /* Element colors */
+  --elem-slash:     #C0C4CC;
+  --elem-strike:    #A8A29E;
+  --elem-pierce:    #D4D4D8;
   --elem-fire:      #FF5A3C;
   --elem-ice:       #5AC8FF;
   --elem-elec:      #FFD60A;
   --elem-wind:      #7CFF7C;
-  --elem-psy:       #FF7CE8;
-  --elem-nuke:      #FF9A3C;
   --elem-light:     #FFF5B8;
   --elem-dark:      #8A5AC8;
   --elem-almighty:  #FFFFFF;
 }
+```

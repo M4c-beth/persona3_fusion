@@ -14,7 +14,10 @@
 - React escapes output by default — do NOT use `dangerouslySetInnerHTML`
   unless content is sanitized.
 - Set `Content-Security-Policy` header:
-
+  ```
+  default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'
+  ```
+  (Next.js inline scripts need a nonce — prefer nonces over `'unsafe-inline'`.)
 - Enable `X-Content-Type-Options: nosniff`.
 
 ## Authentication & Authorization
