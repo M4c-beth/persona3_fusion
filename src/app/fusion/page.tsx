@@ -7,13 +7,15 @@ export const metadata: Metadata = { title: "Fusion Planner" };
 
 export default function FusionPage() {
   return (
-    <div className="mx-auto max-w-3xl space-y-10">
+    <div className="space-y-10">
       <PageHeader title="Fusion Planner" backdrop="Fusion">
         Pick a persona and its skills to get a step-by-step fusion path.
       </PageHeader>
-      <Suspense>
-        <FusionPlanner />
-      </Suspense>
+      <div className="mx-auto max-w-3xl">
+        <Suspense>
+          <FusionPlanner />
+        </Suspense>
+      </div>
     </div>
   );
 }
