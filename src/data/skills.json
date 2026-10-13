@@ -8,7 +8,7 @@
     "power": 40,
     "effect": "",
     "rank": 2,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Agidyne",
@@ -19,7 +19,7 @@
     "power": 220,
     "effect": "",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Agilao",
@@ -30,7 +30,7 @@
     "power": 100,
     "effect": "",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Ailment Boost",
@@ -41,7 +41,7 @@
     "power": 0,
     "effect": "Ailments affliction rate x1.25",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Akasha Arts",
@@ -52,7 +52,7 @@
     "power": 300,
     "effect": "1-2 hits, 88% acc, 12% crit",
     "rank": 8,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Ali Dance",
@@ -63,7 +63,7 @@
     "power": 0,
     "effect": "Incoming hit rate x0.5",
     "rank": 8,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Almighty Boost",
@@ -74,7 +74,7 @@
     "power": 0,
     "effect": "Almighty dmg dealt x1.25",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Amrita Drop",
@@ -85,7 +85,7 @@
     "power": 0,
     "effect": "Patra + Baisudi",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Amrita Shower",
@@ -96,7 +96,7 @@
     "power": 0,
     "effect": "Patra + Baisudi",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Angelic Grace",
@@ -107,7 +107,7 @@
     "power": 0,
     "effect": "Fire, Ice, Wind, Elec, Light, Dark evasion x1.15",
     "rank": 7,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Anti-Electric Master",
@@ -118,7 +118,7 @@
     "power": 0,
     "effect": "Begins battle with Resist Elec for 3 turns",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Anti-Fire Master",
@@ -129,7 +129,7 @@
     "power": 0,
     "effect": "Begins battle with Resist Fire for 3 turns",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Anti-Ice Master",
@@ -140,7 +140,7 @@
     "power": 0,
     "effect": "Begins battle with Resist Ice for 3 turns",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Anti-Wind Master",
@@ -151,7 +151,7 @@
     "power": 0,
     "effect": "Begins battle with Resist Wind for 3 turns",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Apt Pupil",
@@ -162,7 +162,7 @@
     "power": 0,
     "effect": "Crit rate x2",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Armageddon",
@@ -173,7 +173,7 @@
     "power": 0,
     "effect": "9999 dmg dealt, reduces user's HP and SP to 1",
     "rank": 0,
-    "unique": false
+    "inheritable": false
   },
   {
     "name": "Arms Master",
@@ -184,7 +184,7 @@
     "power": 0,
     "effect": "HP costs x0.5",
     "rank": 8,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Arrow Rain",
@@ -195,7 +195,7 @@
     "power": 27,
     "effect": "1-4 hits, 85% acc",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Assault Dive",
@@ -206,7 +206,7 @@
     "power": 120,
     "effect": "88% acc, 13% crit",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Auto Maraku",
@@ -217,7 +217,7 @@
     "power": 0,
     "effect": "Begins battle with Marakukaja",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Auto Masuku",
@@ -228,7 +228,7 @@
     "power": 0,
     "effect": "Begins battle with Masukukaja",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Auto Mataru",
@@ -239,7 +239,7 @@
     "power": 0,
     "effect": "Begins battle with Matarukaja",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Auto Rakukaja",
@@ -250,7 +250,7 @@
     "power": 0,
     "effect": "Begins battle with Rakukaja",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Auto Rebellion",
@@ -261,7 +261,7 @@
     "power": 0,
     "effect": "Begins battle with Rebellion",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Auto Sukukaja",
@@ -272,7 +272,7 @@
     "power": 0,
     "effect": "Begins battle with Sukukaja",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Auto Tarukaja",
@@ -283,7 +283,7 @@
     "power": 0,
     "effect": "Begins battle with Tarukaja",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Baisudi",
@@ -294,7 +294,7 @@
     "power": 0,
     "effect": "Removes Freeze, Shock, Poison, Down, Dizzy",
     "rank": 2,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Bash",
@@ -305,7 +305,7 @@
     "power": 50,
     "effect": "8% crit",
     "rank": 1,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Best Friends",
@@ -316,7 +316,7 @@
     "power": 0,
     "effect": "Charge + Concentrate",
     "rank": 0,
-    "unique": false
+    "inheritable": false
   },
   {
     "name": "Bewilder",
@@ -327,7 +327,7 @@
     "power": 0,
     "effect": "70% Distress",
     "rank": 1,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Black Viper",
@@ -338,7 +338,7 @@
     "power": 1000,
     "effect": "",
     "rank": 0,
-    "unique": false
+    "inheritable": false
   },
   {
     "name": "Blade of Fury",
@@ -349,7 +349,7 @@
     "power": 42,
     "effect": "2-4 hits, 80% acc, 10% crit",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Blazing Hell",
@@ -360,7 +360,7 @@
     "power": 500,
     "effect": "",
     "rank": 0,
-    "unique": false
+    "inheritable": false
   },
   {
     "name": "Bloody Charge",
@@ -371,7 +371,7 @@
     "power": 0,
     "effect": "Next phys attack x2.3 dmg and crit up",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Brave Blade",
@@ -382,7 +382,7 @@
     "power": 650,
     "effect": "20% crit",
     "rank": 8,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Bufu",
@@ -393,7 +393,7 @@
     "power": 40,
     "effect": "15% Freeze",
     "rank": 2,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Bufudyne",
@@ -404,7 +404,7 @@
     "power": 220,
     "effect": "15% Freeze",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Bufula",
@@ -415,7 +415,7 @@
     "power": 100,
     "effect": "15% Freeze",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Cadenza",
@@ -426,7 +426,7 @@
     "power": 0,
     "effect": "50% HP restore + Sukukaja",
     "rank": 0,
-    "unique": false
+    "inheritable": false
   },
   {
     "name": "Charge",
@@ -437,7 +437,7 @@
     "power": 0,
     "effect": "Dmg dealt by next phys attack x2.3",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Charm Boost",
@@ -448,7 +448,7 @@
     "power": 0,
     "effect": "Charm affliction rate x1.5",
     "rank": 2,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Concentrate",
@@ -459,7 +459,7 @@
     "power": 0,
     "effect": "Dmg dealt by next magic attack x2.3",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Confuse Boost",
@@ -470,7 +470,7 @@
     "power": 0,
     "effect": "Confuse affliction rate x1.5",
     "rank": 2,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Cosmic Flare",
@@ -481,7 +481,7 @@
     "power": 550,
     "effect": "",
     "rank": 0,
-    "unique": false
+    "inheritable": false
   },
   {
     "name": "Counter",
@@ -492,7 +492,7 @@
     "power": 0,
     "effect": "10% chance to repel phys dmg taken",
     "rank": 2,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Counterstrike",
@@ -503,7 +503,7 @@
     "power": 0,
     "effect": "15% chance to repel phys dmg taken",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Crit Rate Amp",
@@ -514,7 +514,7 @@
     "power": 0,
     "effect": "Crit rate +15%, overwrites Crit Rate Boost",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Crit Rate Boost",
@@ -525,7 +525,7 @@
     "power": 0,
     "effect": "Crit rate +5%",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Cross Slash",
@@ -536,7 +536,7 @@
     "power": 150,
     "effect": "2 hits, 13% crit",
     "rank": 0,
-    "unique": false
+    "inheritable": false
   },
   {
     "name": "Cruel Attack",
@@ -547,7 +547,7 @@
     "power": 200,
     "effect": "Dmg dealt x1.5 on Downed foes",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Dark Amp",
@@ -558,7 +558,7 @@
     "power": 0,
     "effect": "Dark dmg dealt x1.5",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Dark Boost",
@@ -569,7 +569,7 @@
     "power": 0,
     "effect": "Dark dmg dealt x1.25",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Dark Driver",
@@ -580,7 +580,7 @@
     "power": 0,
     "effect": "Dark dmg dealt x1.75",
     "rank": 0,
-    "unique": false
+    "inheritable": false
   },
   {
     "name": "Deathbound",
@@ -591,7 +591,7 @@
     "power": 350,
     "effect": "85% acc, 17% crit",
     "rank": 7,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Debilitate",
@@ -602,7 +602,7 @@
     "power": 0,
     "effect": "Tarunda + Rakunda + Sukunda",
     "rank": 8,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Dekaja",
@@ -613,7 +613,7 @@
     "power": 0,
     "effect": "Removes -kaja effects",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Dekunda",
@@ -624,7 +624,7 @@
     "power": 0,
     "effect": "Removes -kunda effects",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Demonic Decree",
@@ -635,7 +635,7 @@
     "power": 0,
     "effect": "Reduces current HP by 50%",
     "rank": 8,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Dia",
@@ -646,7 +646,7 @@
     "power": 50,
     "effect": "HP restore",
     "rank": 2,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Diamond Dust",
@@ -657,7 +657,7 @@
     "power": 600,
     "effect": "60% Freeze",
     "rank": 8,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Diarahan",
@@ -668,7 +668,7 @@
     "power": 0,
     "effect": "100% HP restore",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Diarama",
@@ -679,7 +679,7 @@
     "power": 150,
     "effect": "HP restore",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Die For Me!",
@@ -690,7 +690,7 @@
     "power": 0,
     "effect": "70% Instakill",
     "rank": 0,
-    "unique": false
+    "inheritable": false
   },
   {
     "name": "Distress Boost",
@@ -701,7 +701,7 @@
     "power": 0,
     "effect": "Distress affliction rate x1.5",
     "rank": 2,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Divine Grace",
@@ -712,7 +712,7 @@
     "power": 0,
     "effect": "HP restore skill pwr x1.5",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Divine Judgment",
@@ -723,7 +723,7 @@
     "power": 0,
     "effect": "Reduces current HP by 50%",
     "rank": 8,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Dizzy Boost",
@@ -734,7 +734,7 @@
     "power": 0,
     "effect": "Dizzy affliction rate x1.25",
     "rank": 2,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Dodge Dark",
@@ -745,7 +745,7 @@
     "power": 0,
     "effect": "Dark evasion x1.15",
     "rank": 2,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Dodge Elec",
@@ -756,7 +756,7 @@
     "power": 0,
     "effect": "Elec evasion x1.15",
     "rank": 2,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Dodge Fire",
@@ -767,7 +767,7 @@
     "power": 0,
     "effect": "Fire evasion x1.15",
     "rank": 2,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Dodge Ice",
@@ -778,7 +778,7 @@
     "power": 0,
     "effect": "Ice evasion x1.15",
     "rank": 2,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Dodge Light",
@@ -789,7 +789,7 @@
     "power": 0,
     "effect": "Light evasion x1.15",
     "rank": 2,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Dodge Pierce",
@@ -800,7 +800,7 @@
     "power": 0,
     "effect": "Pierce evasion x1.15",
     "rank": 2,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Dodge Slash",
@@ -811,7 +811,7 @@
     "power": 0,
     "effect": "Slash evasion x1.15",
     "rank": 2,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Dodge Strike",
@@ -822,7 +822,7 @@
     "power": 0,
     "effect": "Strike evasion x1.15",
     "rank": 2,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Dodge Wind",
@@ -833,7 +833,7 @@
     "power": 0,
     "effect": "Wind evasion x1.15",
     "rank": 2,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Drain Ability",
@@ -844,7 +844,7 @@
     "power": 0,
     "effect": "Life Drain + Spirit Drain dmg dealt x2",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Drain Dark",
@@ -855,7 +855,7 @@
     "power": 0,
     "effect": "Drains Dark dmg taken",
     "rank": 8,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Drain Elec",
@@ -866,7 +866,7 @@
     "power": 0,
     "effect": "Drains Elec dmg taken",
     "rank": 8,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Drain Fire",
@@ -877,7 +877,7 @@
     "power": 0,
     "effect": "Drains Fire dmg taken",
     "rank": 8,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Drain Ice",
@@ -888,7 +888,7 @@
     "power": 0,
     "effect": "Drains Ice dmg taken",
     "rank": 8,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Drain Light",
@@ -899,7 +899,7 @@
     "power": 0,
     "effect": "Drains Light dmg taken",
     "rank": 8,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Drain Pierce",
@@ -910,7 +910,7 @@
     "power": 0,
     "effect": "Drains Pierce dmg taken",
     "rank": 8,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Drain Slash",
@@ -921,7 +921,7 @@
     "power": 0,
     "effect": "Drains Slash dmg taken",
     "rank": 8,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Drain Strike",
@@ -932,7 +932,7 @@
     "power": 0,
     "effect": "Drains Strike dmg taken",
     "rank": 8,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Drain Wind",
@@ -943,7 +943,7 @@
     "power": 0,
     "effect": "Drains Wind dmg taken",
     "rank": 8,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Eerie Sound",
@@ -954,7 +954,7 @@
     "power": 0,
     "effect": "50% Distress",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Eiga",
@@ -965,7 +965,7 @@
     "power": 140,
     "effect": "",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Eigaon",
@@ -976,7 +976,7 @@
     "power": 350,
     "effect": "",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Eiha",
@@ -987,7 +987,7 @@
     "power": 60,
     "effect": "",
     "rank": 2,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Elec Amp",
@@ -998,7 +998,7 @@
     "power": 0,
     "effect": "Elec dmg dealt x1.5",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Elec Boost",
@@ -1009,7 +1009,7 @@
     "power": 0,
     "effect": "Elec dmg dealt x1.25",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Elec Break",
@@ -1020,7 +1020,7 @@
     "power": 0,
     "effect": "Removes Elec resistance for 3 turns",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Elec Driver",
@@ -1031,7 +1031,7 @@
     "power": 0,
     "effect": "Elec dmg dealt x1.75",
     "rank": 0,
-    "unique": false
+    "inheritable": false
   },
   {
     "name": "Endure",
@@ -1042,7 +1042,7 @@
     "power": 0,
     "effect": "Survive with 1 HP after a mortal blow once per battle",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Endure Dark",
@@ -1053,7 +1053,7 @@
     "power": 0,
     "effect": "100% chance to endure Dark instakill",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Endure Light",
@@ -1064,7 +1064,7 @@
     "power": 0,
     "effect": "100% chance to endure Light instakill",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Enduring Soul",
@@ -1075,7 +1075,7 @@
     "power": 0,
     "effect": "Survive with 100% HP after a mortal blow once per battle",
     "rank": 8,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Evade Dark",
@@ -1086,7 +1086,7 @@
     "power": 0,
     "effect": "Dark evasion x1.4",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Evade Elec",
@@ -1097,7 +1097,7 @@
     "power": 0,
     "effect": "Elec evasion x1.4",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Evade Fire",
@@ -1108,7 +1108,7 @@
     "power": 0,
     "effect": "Fire evasion x1.4",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Evade Ice",
@@ -1119,7 +1119,7 @@
     "power": 0,
     "effect": "Ice evasion x1.4",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Evade Light",
@@ -1130,7 +1130,7 @@
     "power": 0,
     "effect": "Light evasion x1.4",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Evade Pierce",
@@ -1141,7 +1141,7 @@
     "power": 0,
     "effect": "Pierce evasion x1.4",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Evade Slash",
@@ -1152,7 +1152,7 @@
     "power": 0,
     "effect": "Slash evasion x1.4",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Evade Strike",
@@ -1163,7 +1163,7 @@
     "power": 0,
     "effect": "Strike evasion x1.4",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Evade Wind",
@@ -1174,7 +1174,7 @@
     "power": 0,
     "effect": "Wind evasion x1.4",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Evil Smile",
@@ -1185,7 +1185,7 @@
     "power": 0,
     "effect": "45% Fear",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Evil Touch",
@@ -1196,7 +1196,7 @@
     "power": 0,
     "effect": "60% Fear",
     "rank": 1,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Fast Heal",
@@ -1207,7 +1207,7 @@
     "power": 0,
     "effect": "Ailment recovery time x0.5",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Fatal End",
@@ -1218,7 +1218,7 @@
     "power": 110,
     "effect": "35% Fear",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Fear Boost",
@@ -1229,7 +1229,7 @@
     "power": 0,
     "effect": "Fear affliction rate x1.5",
     "rank": 2,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Fire Amp",
@@ -1240,7 +1240,7 @@
     "power": 0,
     "effect": "Fire dmg dealt x1.5",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Fire Boost",
@@ -1251,7 +1251,7 @@
     "power": 0,
     "effect": "Fire dmg dealt x1.25",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Fire Break",
@@ -1262,7 +1262,7 @@
     "power": 0,
     "effect": "Removes Fire resistance for 3 turns",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Fire Driver",
@@ -1273,7 +1273,7 @@
     "power": 0,
     "effect": "Fire dmg dealt x1.75",
     "rank": 0,
-    "unique": false
+    "inheritable": false
   },
   {
     "name": "Firm Stance",
@@ -1284,7 +1284,7 @@
     "power": 0,
     "effect": "Dmg taken x0.5 but cannot dodge",
     "rank": 8,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Foul Breath",
@@ -1295,7 +1295,7 @@
     "power": 0,
     "effect": "Raises ailment susceptibility for 3 turns",
     "rank": 2,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Freeze Boost",
@@ -1306,7 +1306,7 @@
     "power": 0,
     "effect": "Freeze affliction rate x1.5",
     "rank": 2,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Garu",
@@ -1317,7 +1317,7 @@
     "power": 40,
     "effect": "",
     "rank": 2,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Garudyne",
@@ -1328,7 +1328,7 @@
     "power": 220,
     "effect": "",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Garula",
@@ -1339,7 +1339,7 @@
     "power": 100,
     "effect": "",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Getsu-ei",
@@ -1350,7 +1350,7 @@
     "power": 180,
     "effect": "15% crit, dmg dealt x1.75 during Full Moon",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Ghastly Wail",
@@ -1361,7 +1361,7 @@
     "power": 0,
     "effect": "100% instakill when Fear",
     "rank": 7,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Gigantic Fist",
@@ -1372,7 +1372,7 @@
     "power": 380,
     "effect": "85% acc, 15% crit",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "God's Hand",
@@ -1383,7 +1383,7 @@
     "power": 800,
     "effect": "88% acc, 13% crit",
     "rank": 8,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Growth 1",
@@ -1394,7 +1394,7 @@
     "power": 0,
     "effect": "25% exp gained when not active",
     "rank": 2,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Growth 2",
@@ -1405,7 +1405,7 @@
     "power": 0,
     "effect": "50% exp gained when not active",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Growth 3",
@@ -1416,7 +1416,7 @@
     "power": 0,
     "effect": "100% exp gained when not active",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Hama",
@@ -1427,7 +1427,7 @@
     "power": 0,
     "effect": "30% Instakill",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Hama Boost",
@@ -1438,7 +1438,7 @@
     "power": 0,
     "effect": "Light instakill affliction rate x1.5",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Hamaon",
@@ -1449,7 +1449,7 @@
     "power": 0,
     "effect": "50% Instakill",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Heat Riser",
@@ -1460,7 +1460,7 @@
     "power": 0,
     "effect": "Tarukaja + Rakukaja + Sukukaja",
     "rank": 8,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Heat Wave",
@@ -1471,7 +1471,7 @@
     "power": 400,
     "effect": "10% crit",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Heaven's Blade",
@@ -1482,7 +1482,7 @@
     "power": 500,
     "effect": "30% crit",
     "rank": 0,
-    "unique": false
+    "inheritable": false
   },
   {
     "name": "Herculean Strike",
@@ -1493,7 +1493,7 @@
     "power": 230,
     "effect": "85% acc, 10% crit",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "High Counter",
@@ -1504,7 +1504,7 @@
     "power": 0,
     "effect": "20% chance to repel phys dmg taken",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Holy Arrow",
@@ -1515,7 +1515,7 @@
     "power": 65,
     "effect": "35% Charm",
     "rank": 2,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Ice Age",
@@ -1526,7 +1526,7 @@
     "power": 450,
     "effect": "35% Freeze",
     "rank": 0,
-    "unique": false
+    "inheritable": false
   },
   {
     "name": "Ice Amp",
@@ -1537,7 +1537,7 @@
     "power": 0,
     "effect": "Ice dmg dealt x1.5",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Ice Boost",
@@ -1548,7 +1548,7 @@
     "power": 0,
     "effect": "Ice dmg dealt x1.25",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Ice Break",
@@ -1559,7 +1559,7 @@
     "power": 0,
     "effect": "Removes Ice resistance for 3 turns",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Ice Driver",
@@ -1570,7 +1570,7 @@
     "power": 0,
     "effect": "Ice dmg dealt x1.75",
     "rank": 0,
-    "unique": false
+    "inheritable": false
   },
   {
     "name": "Inferno",
@@ -1581,7 +1581,7 @@
     "power": 600,
     "effect": "",
     "rank": 8,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Infuriate",
@@ -1592,7 +1592,7 @@
     "power": 0,
     "effect": "50% Rage",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Insta-Heal",
@@ -1603,7 +1603,7 @@
     "power": 0,
     "effect": "Ailment recovery time reduced to 1 turn",
     "rank": 7,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Invigorate 1",
@@ -1614,7 +1614,7 @@
     "power": 0,
     "effect": "3 SP restore each turn",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Invigorate 2",
@@ -1625,7 +1625,7 @@
     "power": 0,
     "effect": "5 SP restore each turn",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Invigorate 3",
@@ -1636,7 +1636,7 @@
     "power": 0,
     "effect": "7 SP restore each turn",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Jack Brothers",
@@ -1647,7 +1647,7 @@
     "power": 80,
     "effect": "80% Down",
     "rank": 0,
-    "unique": false
+    "inheritable": false
   },
   {
     "name": "King and I",
@@ -1658,7 +1658,7 @@
     "power": 180,
     "effect": "50% Freeze, ignores resistances",
     "rank": 0,
-    "unique": false
+    "inheritable": false
   },
   {
     "name": "Kouga",
@@ -1669,7 +1669,7 @@
     "power": 140,
     "effect": "",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Kougaon",
@@ -1680,7 +1680,7 @@
     "power": 350,
     "effect": "",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Kouha",
@@ -1691,7 +1691,7 @@
     "power": 60,
     "effect": "",
     "rank": 2,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Life Aid",
@@ -1702,7 +1702,7 @@
     "power": 0,
     "effect": "8% max HP + SP restore after battle",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Life Drain",
@@ -1713,7 +1713,7 @@
     "power": 0,
     "effect": "35 dmg dealt, HP restore",
     "rank": 2,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Light Amp",
@@ -1724,7 +1724,7 @@
     "power": 0,
     "effect": "Light dmg dealt x1.5",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Light Boost",
@@ -1735,7 +1735,7 @@
     "power": 0,
     "effect": "Light dmg dealt x1.25",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Light Driver",
@@ -1746,7 +1746,7 @@
     "power": 0,
     "effect": "Light dmg dealt x1.75",
     "rank": 0,
-    "unique": false
+    "inheritable": false
   },
   {
     "name": "Mabaisudi",
@@ -1757,7 +1757,7 @@
     "power": 0,
     "effect": "Removes Freeze, Shock, Poison, Down, Dizzy",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Mabufu",
@@ -1768,7 +1768,7 @@
     "power": 40,
     "effect": "10% Freeze",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Mabufudyne",
@@ -1779,7 +1779,7 @@
     "power": 220,
     "effect": "10% Freeze",
     "rank": 7,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Mabufula",
@@ -1790,7 +1790,7 @@
     "power": 100,
     "effect": "10% Freeze",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Maeiga",
@@ -1801,7 +1801,7 @@
     "power": 140,
     "effect": "",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Maeigaon",
@@ -1812,7 +1812,7 @@
     "power": 350,
     "effect": "",
     "rank": 7,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Maeiha",
@@ -1823,7 +1823,7 @@
     "power": 60,
     "effect": "",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Magaru",
@@ -1834,7 +1834,7 @@
     "power": 40,
     "effect": "",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Magarudyne",
@@ -1845,7 +1845,7 @@
     "power": 220,
     "effect": "",
     "rank": 7,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Magarula",
@@ -1856,7 +1856,7 @@
     "power": 100,
     "effect": "",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Magatsu Mandala",
@@ -1867,7 +1867,7 @@
     "power": 300,
     "effect": "50% Fear, Confuse",
     "rank": 0,
-    "unique": false
+    "inheritable": false
   },
   {
     "name": "Magic Ability",
@@ -1878,7 +1878,7 @@
     "power": 0,
     "effect": "Non-Almighty magic dmg dealt x1.25",
     "rank": 9,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Mahama",
@@ -1889,7 +1889,7 @@
     "power": 0,
     "effect": "30% Instakill",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Mahamaon",
@@ -1900,7 +1900,7 @@
     "power": 0,
     "effect": "50% Instakill",
     "rank": 7,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Makarakarn",
@@ -1911,7 +1911,7 @@
     "power": 0,
     "effect": "Repels next non-Almighty magic attack",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Makouga",
@@ -1922,7 +1922,7 @@
     "power": 140,
     "effect": "",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Makougaon",
@@ -1933,7 +1933,7 @@
     "power": 350,
     "effect": "",
     "rank": 7,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Makouha",
@@ -1944,7 +1944,7 @@
     "power": 60,
     "effect": "",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Mamudo",
@@ -1955,7 +1955,7 @@
     "power": 0,
     "effect": "30% Instakill",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Mamudoon",
@@ -1966,7 +1966,7 @@
     "power": 0,
     "effect": "50% Instakill",
     "rank": 7,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Maragi",
@@ -1977,7 +1977,7 @@
     "power": 40,
     "effect": "",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Maragidyne",
@@ -1988,7 +1988,7 @@
     "power": 220,
     "effect": "",
     "rank": 7,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Maragion",
@@ -1999,7 +1999,7 @@
     "power": 100,
     "effect": "",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Marakukaja",
@@ -2010,7 +2010,7 @@
     "power": 0,
     "effect": "Defense x1.4 for 3 turns",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Marakunda",
@@ -2021,7 +2021,7 @@
     "power": 0,
     "effect": "Defense x0.6 for 3 turns",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Maralagidyne",
@@ -2032,7 +2032,7 @@
     "power": 220,
     "effect": "35% Charm",
     "rank": 0,
-    "unique": false
+    "inheritable": false
   },
   {
     "name": "Marin Karin",
@@ -2043,7 +2043,7 @@
     "power": 0,
     "effect": "60% Charm",
     "rank": 1,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Masquerade",
@@ -2054,7 +2054,7 @@
     "power": 200,
     "effect": "2 hits, 30% crit",
     "rank": 0,
-    "unique": false
+    "inheritable": false
   },
   {
     "name": "Masukukaja",
@@ -2065,7 +2065,7 @@
     "power": 0,
     "effect": "Hit and evasion x1.3 for 3 turns",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Masukunda",
@@ -2076,7 +2076,7 @@
     "power": 0,
     "effect": "Hit and evasion x0.7 for 3 turns",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Matarukaja",
@@ -2087,7 +2087,7 @@
     "power": 0,
     "effect": "Attack x1.4 for 3 turns",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Matarunda",
@@ -2098,7 +2098,7 @@
     "power": 0,
     "effect": "Attack x0.6 for 3 turns",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Mazio",
@@ -2109,7 +2109,7 @@
     "power": 40,
     "effect": "10% Shock",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Maziodyne",
@@ -2120,7 +2120,7 @@
     "power": 220,
     "effect": "10% Shock",
     "rank": 7,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Mazionga",
@@ -2131,7 +2131,7 @@
     "power": 100,
     "effect": "10% Shock",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Me Patra",
@@ -2142,7 +2142,7 @@
     "power": 0,
     "effect": "Removes Distress, Confuse, Charm, Rage, Fear",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Media",
@@ -2153,7 +2153,7 @@
     "power": 50,
     "effect": "HP restore",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Mediarahan",
@@ -2164,7 +2164,7 @@
     "power": 0,
     "effect": "100% HP restore",
     "rank": 7,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Mediarama",
@@ -2175,7 +2175,7 @@
     "power": 150,
     "effect": "HP restore",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Megido",
@@ -2186,7 +2186,7 @@
     "power": 170,
     "effect": "",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Megidola",
@@ -2197,7 +2197,7 @@
     "power": 380,
     "effect": "",
     "rank": 7,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Megidolaon",
@@ -2208,7 +2208,7 @@
     "power": 690,
     "effect": "",
     "rank": 8,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Morning Star",
@@ -2219,7 +2219,7 @@
     "power": 850,
     "effect": "",
     "rank": 9,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Mudo",
@@ -2230,7 +2230,7 @@
     "power": 0,
     "effect": "30% Instakill",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Mudo Boost",
@@ -2241,7 +2241,7 @@
     "power": 0,
     "effect": "Dark instakill affliction rate x1.5",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Mudoon",
@@ -2252,7 +2252,7 @@
     "power": 0,
     "effect": "50% Instakill",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Multi-Target Boost",
@@ -2263,7 +2263,7 @@
     "power": 0,
     "effect": "Multi-target skill dmg dealt x1.15",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Myriad Arrows",
@@ -2274,7 +2274,7 @@
     "power": 40,
     "effect": "2-5 hits, 88% acc",
     "rank": 7,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Neuro Slash",
@@ -2285,7 +2285,7 @@
     "power": 180,
     "effect": "50% Confuse",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Null Charm",
@@ -2296,7 +2296,7 @@
     "power": 0,
     "effect": "Prevents Charm",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Null Confuse",
@@ -2307,7 +2307,7 @@
     "power": 0,
     "effect": "Prevents Confuse",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Null Dark",
@@ -2318,7 +2318,7 @@
     "power": 0,
     "effect": "Nullifies Dark dmg taken",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Null Distress",
@@ -2329,7 +2329,7 @@
     "power": 0,
     "effect": "Prevents Distress",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Null Dizzy",
@@ -2340,7 +2340,7 @@
     "power": 0,
     "effect": "Prevents Dizzy",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Null Elec",
@@ -2351,7 +2351,7 @@
     "power": 0,
     "effect": "Nullifies Elec dmg taken",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Null Fear",
@@ -2362,7 +2362,7 @@
     "power": 0,
     "effect": "Prevents Fear",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Null Fire",
@@ -2373,7 +2373,7 @@
     "power": 0,
     "effect": "Nullifies Fire dmg taken",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Null Freeze",
@@ -2384,7 +2384,7 @@
     "power": 0,
     "effect": "Prevents Freeze",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Null Ice",
@@ -2395,7 +2395,7 @@
     "power": 0,
     "effect": "Nullifies Ice dmg taken",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Null Light",
@@ -2406,7 +2406,7 @@
     "power": 0,
     "effect": "Nullifies Light dmg taken",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Null Phys",
@@ -2417,7 +2417,7 @@
     "power": 0,
     "effect": "Nullifies Slash, Strike, Pierce dmg taken",
     "rank": 9,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Null Pierce",
@@ -2428,7 +2428,7 @@
     "power": 0,
     "effect": "Nullifies Pierce dmg taken",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Null Poison",
@@ -2439,7 +2439,7 @@
     "power": 0,
     "effect": "Prevents Poison",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Null Rage",
@@ -2450,7 +2450,7 @@
     "power": 0,
     "effect": "Prevents Rage",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Null Shock",
@@ -2461,7 +2461,7 @@
     "power": 0,
     "effect": "Prevents Shock",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Null Slash",
@@ -2472,7 +2472,7 @@
     "power": 0,
     "effect": "Nullifies Slash dmg taken",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Null Strike",
@@ -2483,7 +2483,7 @@
     "power": 0,
     "effect": "Nullifies Strike dmg taken",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Null Wind",
@@ -2494,7 +2494,7 @@
     "power": 0,
     "effect": "Nullifies Wind dmg taken",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "One-shot Kill",
@@ -2505,7 +2505,7 @@
     "power": 250,
     "effect": "30% crit",
     "rank": 0,
-    "unique": false
+    "inheritable": false
   },
   {
     "name": "Panta Rhei",
@@ -2516,7 +2516,7 @@
     "power": 600,
     "effect": "",
     "rank": 8,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Patra",
@@ -2527,7 +2527,7 @@
     "power": 0,
     "effect": "Removes Distress, Confuse, Charm, Rage, Fear",
     "rank": 2,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Pierce Amp",
@@ -2538,7 +2538,7 @@
     "power": 0,
     "effect": "Pierce dmg dealt x1.5",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Pierce Boost",
@@ -2549,7 +2549,7 @@
     "power": 0,
     "effect": "Pierce dmg dealt x1.25",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Pierce Driver",
@@ -2560,7 +2560,7 @@
     "power": 0,
     "effect": "Pierce dmg dealt x1.75",
     "rank": 0,
-    "unique": false
+    "inheritable": false
   },
   {
     "name": "Poisma",
@@ -2571,7 +2571,7 @@
     "power": 0,
     "effect": "70% Poison",
     "rank": 1,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Poison Arrow",
@@ -2582,7 +2582,7 @@
     "power": 300,
     "effect": "50% Poison",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Poison Boost",
@@ -2593,7 +2593,7 @@
     "power": 0,
     "effect": "Poison affliction rate x1.5",
     "rank": 2,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Poison Mist",
@@ -2604,7 +2604,7 @@
     "power": 0,
     "effect": "50% Poison",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Power Slash",
@@ -2615,7 +2615,7 @@
     "power": 50,
     "effect": "",
     "rank": 1,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Pralaya",
@@ -2626,7 +2626,7 @@
     "power": 600,
     "effect": "20% crit, 50% Fear",
     "rank": 0,
-    "unique": false
+    "inheritable": false
   },
   {
     "name": "Primal Force",
@@ -2637,7 +2637,7 @@
     "power": 580,
     "effect": "10% crit",
     "rank": 8,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Provoke",
@@ -2648,7 +2648,7 @@
     "power": 0,
     "effect": "70% Rage",
     "rank": 1,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Pulinpa",
@@ -2659,7 +2659,7 @@
     "power": 0,
     "effect": "60% Confuse",
     "rank": 1,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Rage Boost",
@@ -2670,7 +2670,7 @@
     "power": 0,
     "effect": "Rage affliction rate x1.5",
     "rank": 2,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Raging Tiger",
@@ -2681,7 +2681,7 @@
     "power": 0,
     "effect": "Dmg dealt x1.5 when Enraged",
     "rank": 1,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Rakukaja",
@@ -2692,7 +2692,7 @@
     "power": 0,
     "effect": "Defense x1.4 for 3 turns",
     "rank": 1,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Rakunda",
@@ -2703,7 +2703,7 @@
     "power": 0,
     "effect": "Defense x0.6 for 3 turns",
     "rank": 1,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Rebellion",
@@ -2714,7 +2714,7 @@
     "power": 0,
     "effect": "Crit rate +7% for 3 turns",
     "rank": 2,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Rebellion Blade",
@@ -2725,7 +2725,7 @@
     "power": 700,
     "effect": "Dmg dealt x1.5 on Downed foes",
     "rank": 0,
-    "unique": false
+    "inheritable": false
   },
   {
     "name": "Recarm",
@@ -2736,7 +2736,7 @@
     "power": 0,
     "effect": "50% HP restore after reviving",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Recarmdra",
@@ -2747,7 +2747,7 @@
     "power": 0,
     "effect": "100% HP restore, user's HP reduced to 1",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Regenerate 1",
@@ -2758,7 +2758,7 @@
     "power": 0,
     "effect": "2% HP restore each turn",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Regenerate 2",
@@ -2769,7 +2769,7 @@
     "power": 0,
     "effect": "4% HP restore each turn",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Regenerate 3",
@@ -2780,7 +2780,7 @@
     "power": 0,
     "effect": "6% HP restore each turn",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Repel Dark",
@@ -2791,7 +2791,7 @@
     "power": 0,
     "effect": "Repels Dark dmg taken",
     "rank": 7,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Repel Elec",
@@ -2802,7 +2802,7 @@
     "power": 0,
     "effect": "Repels Elec dmg taken",
     "rank": 7,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Repel Fire",
@@ -2813,7 +2813,7 @@
     "power": 0,
     "effect": "Repels Fire dmg taken",
     "rank": 7,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Repel Ice",
@@ -2824,7 +2824,7 @@
     "power": 0,
     "effect": "Repels Ice dmg taken",
     "rank": 7,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Repel Light",
@@ -2835,7 +2835,7 @@
     "power": 0,
     "effect": "Repels Light dmg taken",
     "rank": 7,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Repel Pierce",
@@ -2846,7 +2846,7 @@
     "power": 0,
     "effect": "Repels Pierce dmg taken",
     "rank": 7,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Repel Slash",
@@ -2857,7 +2857,7 @@
     "power": 0,
     "effect": "Repels Slash dmg taken",
     "rank": 7,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Repel Strike",
@@ -2868,7 +2868,7 @@
     "power": 0,
     "effect": "Repels Strike dmg taken",
     "rank": 7,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Repel Wind",
@@ -2879,7 +2879,7 @@
     "power": 0,
     "effect": "Repels Wind dmg taken",
     "rank": 7,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Resist Ailments",
@@ -2890,7 +2890,7 @@
     "power": 0,
     "effect": "All ailments except Dizzy susceptibility x0.75",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Resist Charm",
@@ -2901,7 +2901,7 @@
     "power": 0,
     "effect": "Charm susceptibility x0.5",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Resist Confuse",
@@ -2912,7 +2912,7 @@
     "power": 0,
     "effect": "Confuse susceptibility x0.5",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Resist Dark",
@@ -2923,7 +2923,7 @@
     "power": 0,
     "effect": "Dark dmg taken x0.5",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Resist Distress",
@@ -2934,7 +2934,7 @@
     "power": 0,
     "effect": "Distress susceptibility x0.5",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Resist Dizzy",
@@ -2945,7 +2945,7 @@
     "power": 0,
     "effect": "Dizzy susceptibility x0.5",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Resist Elec",
@@ -2956,7 +2956,7 @@
     "power": 0,
     "effect": "Elec dmg taken x0.5",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Resist Fear",
@@ -2967,7 +2967,7 @@
     "power": 0,
     "effect": "Fear susceptibility x0.5",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Resist Fire",
@@ -2978,7 +2978,7 @@
     "power": 0,
     "effect": "Fire dmg taken x0.5",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Resist Freeze",
@@ -2989,7 +2989,7 @@
     "power": 0,
     "effect": "Freeze susceptibility x0.5",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Resist Ice",
@@ -3000,7 +3000,7 @@
     "power": 0,
     "effect": "Ice dmg taken x0.5",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Resist Light",
@@ -3011,7 +3011,7 @@
     "power": 0,
     "effect": "Light dmg taken x0.5",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Resist Phys",
@@ -3022,7 +3022,7 @@
     "power": 0,
     "effect": "Slash, Strike, Pierce dmg taken x0.5",
     "rank": 7,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Resist Pierce",
@@ -3033,7 +3033,7 @@
     "power": 0,
     "effect": "Pierce dmg taken x0.5",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Resist Poison",
@@ -3044,7 +3044,7 @@
     "power": 0,
     "effect": "Poison susceptibility x0.5",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Resist Rage",
@@ -3055,7 +3055,7 @@
     "power": 0,
     "effect": "Rage susceptibility x0.5",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Resist Shock",
@@ -3066,7 +3066,7 @@
     "power": 0,
     "effect": "Shock susceptibility x0.5",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Resist Slash",
@@ -3077,7 +3077,7 @@
     "power": 0,
     "effect": "Slash dmg taken x0.5",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Resist Strike",
@@ -3088,7 +3088,7 @@
     "power": 0,
     "effect": "Strike dmg taken x0.5",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Resist Wind",
@@ -3099,7 +3099,7 @@
     "power": 0,
     "effect": "Wind dmg taken x0.5",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Revolution",
@@ -3110,7 +3110,7 @@
     "power": 0,
     "effect": "Crit rate +15% for 3 turns",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Salvation",
@@ -3121,7 +3121,7 @@
     "power": 0,
     "effect": "Diarahan + Amrita",
     "rank": 8,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Samarecarm",
@@ -3132,7 +3132,7 @@
     "power": 0,
     "effect": "100% HP restore after reviving",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Samsara",
@@ -3143,7 +3143,7 @@
     "power": 0,
     "effect": "70% Instakill",
     "rank": 0,
-    "unique": false
+    "inheritable": false
   },
   {
     "name": "Scarlet Havoc",
@@ -3154,7 +3154,7 @@
     "power": 250,
     "effect": "20% crit, ignores resistances",
     "rank": 0,
-    "unique": false
+    "inheritable": false
   },
   {
     "name": "Sexy Dance",
@@ -3165,7 +3165,7 @@
     "power": 0,
     "effect": "45% Charm",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Sharp Student",
@@ -3176,7 +3176,7 @@
     "power": 0,
     "effect": "Incoming crit rate x0.5",
     "rank": 1,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Shift Amp",
@@ -3187,7 +3187,7 @@
     "power": 0,
     "effect": "Dmg dealt x1.2 when receiving Shift",
     "rank": 7,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Shift Boost",
@@ -3198,7 +3198,7 @@
     "power": 0,
     "effect": "Dmg dealt x1.1 when receiving Shift",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Shining Arrows",
@@ -3209,7 +3209,7 @@
     "power": 15,
     "effect": "4-8 hits",
     "rank": 0,
-    "unique": false
+    "inheritable": false
   },
   {
     "name": "Shock Boost",
@@ -3220,7 +3220,7 @@
     "power": 0,
     "effect": "Shock affliction rate x1.5",
     "rank": 2,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Sinful Shell",
@@ -3231,7 +3231,7 @@
     "power": 700,
     "effect": "50% Dark instakill",
     "rank": 0,
-    "unique": false
+    "inheritable": false
   },
   {
     "name": "Single Shot",
@@ -3242,7 +3242,7 @@
     "power": 45,
     "effect": "",
     "rank": 1,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Single-Target Boost",
@@ -3253,7 +3253,7 @@
     "power": 0,
     "effect": "Single-target skill dmg dealt x1.15",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Slash Amp",
@@ -3264,7 +3264,7 @@
     "power": 0,
     "effect": "Slash dmg dealt x1.5",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Slash Boost",
@@ -3275,7 +3275,7 @@
     "power": 0,
     "effect": "Slash dmg dealt x1.25",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Slash Driver",
@@ -3286,7 +3286,7 @@
     "power": 0,
     "effect": "Slash dmg dealt x1.75",
     "rank": 0,
-    "unique": false
+    "inheritable": false
   },
   {
     "name": "Sonic Punch",
@@ -3297,7 +3297,7 @@
     "power": 70,
     "effect": "10% crit, 35% Distress",
     "rank": 2,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Soul Chain",
@@ -3308,7 +3308,7 @@
     "power": 0,
     "effect": "5 SP restore when receiving Shift",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Soul Link",
@@ -3319,7 +3319,7 @@
     "power": 0,
     "effect": "8 SP restore when receiving Shift",
     "rank": 7,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Soul Shift",
@@ -3330,7 +3330,7 @@
     "power": 0,
     "effect": "5 SP restore to ally when Shifting to them",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Spell Master",
@@ -3341,7 +3341,7 @@
     "power": 0,
     "effect": "SP costs x0.5",
     "rank": 8,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Spirit Drain",
@@ -3352,7 +3352,7 @@
     "power": 0,
     "effect": "20 dmg dealt, SP restore",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Stagnant Air",
@@ -3363,7 +3363,7 @@
     "power": 0,
     "effect": "Raises ailment susceptibility for 3 turns",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Strike Amp",
@@ -3374,7 +3374,7 @@
     "power": 0,
     "effect": "Strike dmg dealt x1.5",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Strike Boost",
@@ -3385,7 +3385,7 @@
     "power": 0,
     "effect": "Strike dmg dealt x1.25",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Strike Driver",
@@ -3396,7 +3396,7 @@
     "power": 0,
     "effect": "Strike dmg dealt x1.75",
     "rank": 0,
-    "unique": false
+    "inheritable": false
   },
   {
     "name": "Sukukaja",
@@ -3407,7 +3407,7 @@
     "power": 0,
     "effect": "Hit and evasion x1.3 for 3 turns",
     "rank": 1,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Sukunda",
@@ -3418,7 +3418,7 @@
     "power": 0,
     "effect": "Hit and evasion x0.7 for 3 turns",
     "rank": 1,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Survival Trick",
@@ -3429,7 +3429,7 @@
     "power": 0,
     "effect": "100% chance to endure instakill",
     "rank": 7,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Survive Dark",
@@ -3440,7 +3440,7 @@
     "power": 0,
     "effect": "50% chance to endure Dark instakill",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Survive Light",
@@ -3451,7 +3451,7 @@
     "power": 0,
     "effect": "50% chance to endure Light instakill",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Swift Strike",
@@ -3462,7 +3462,7 @@
     "power": 60,
     "effect": "1-2 hits, 80% acc",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Tarukaja",
@@ -3473,7 +3473,7 @@
     "power": 0,
     "effect": "Attack x1.4 for 3 turns",
     "rank": 1,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Tarunda",
@@ -3484,7 +3484,7 @@
     "power": 0,
     "effect": "Attack x0.6 for 3 turns",
     "rank": 1,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Tempest Slash",
@@ -3495,7 +3495,7 @@
     "power": 50,
     "effect": "1-4 hits, 8% crit",
     "rank": 7,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Tentarafoo",
@@ -3506,7 +3506,7 @@
     "power": 0,
     "effect": "45% Confuse",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Tetrakarn",
@@ -3517,7 +3517,7 @@
     "power": 0,
     "effect": "Repels next phys attack",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Thunder Reign",
@@ -3528,7 +3528,7 @@
     "power": 600,
     "effect": "60% Shock",
     "rank": 8,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Torrent Shot",
@@ -3539,7 +3539,7 @@
     "power": 30,
     "effect": "2-4 hits, 85% acc, 10% crit",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Trickster",
@@ -3550,7 +3550,7 @@
     "power": 300,
     "effect": "80% ailment",
     "rank": 0,
-    "unique": false
+    "inheritable": false
   },
   {
     "name": "Unshaken Will",
@@ -3561,7 +3561,7 @@
     "power": 0,
     "effect": "Prevents Confuse, Fear, Charm, Distress, Rage",
     "rank": 8,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Vacuum Slash",
@@ -3572,7 +3572,7 @@
     "power": 85,
     "effect": "",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Vacuum Wave",
@@ -3583,7 +3583,7 @@
     "power": 500,
     "effect": "",
     "rank": 0,
-    "unique": false
+    "inheritable": false
   },
   {
     "name": "Victory Cry",
@@ -3594,7 +3594,7 @@
     "power": 0,
     "effect": "100% max HP + SP restore after battle",
     "rank": 9,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Vidyaraja's Blessing",
@@ -3605,7 +3605,7 @@
     "power": 0,
     "effect": "Slash, Strike, Pierce evasion x1.15",
     "rank": 7,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Vile Assault",
@@ -3616,7 +3616,7 @@
     "power": 400,
     "effect": "Dmg dealt x1.5 on Downed foes",
     "rank": 7,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Virus Breath",
@@ -3627,7 +3627,7 @@
     "power": 200,
     "effect": "40% Poison",
     "rank": 5,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Vorpal Blade",
@@ -3638,7 +3638,7 @@
     "power": 580,
     "effect": "13% crit",
     "rank": 8,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Wild Thunder",
@@ -3649,7 +3649,7 @@
     "power": 450,
     "effect": "35% Shock",
     "rank": 0,
-    "unique": false
+    "inheritable": false
   },
   {
     "name": "Wind Amp",
@@ -3660,7 +3660,7 @@
     "power": 0,
     "effect": "Wind dmg dealt x1.5",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Wind Boost",
@@ -3671,7 +3671,7 @@
     "power": 0,
     "effect": "Wind dmg dealt x1.25",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Wind Break",
@@ -3682,7 +3682,7 @@
     "power": 0,
     "effect": "Removes Wind resistance for 3 turns",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Wind Driver",
@@ -3693,7 +3693,7 @@
     "power": 0,
     "effect": "Wind dmg dealt x1.75",
     "rank": 0,
-    "unique": false
+    "inheritable": false
   },
   {
     "name": "Zan-ei",
@@ -3704,7 +3704,7 @@
     "power": 100,
     "effect": "88% acc, 10% crit, dmg dealt x1.75 during New Moon",
     "rank": 3,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Zio",
@@ -3715,7 +3715,7 @@
     "power": 40,
     "effect": "15% Shock",
     "rank": 2,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Ziodyne",
@@ -3726,7 +3726,7 @@
     "power": 220,
     "effect": "15% Shock",
     "rank": 6,
-    "unique": false
+    "inheritable": true
   },
   {
     "name": "Zionga",
@@ -3737,6 +3737,6 @@
     "power": 100,
     "effect": "15% Shock",
     "rank": 4,
-    "unique": false
+    "inheritable": true
   }
 ]
