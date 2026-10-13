@@ -35,6 +35,6 @@ Social Link and request details were checked against several guides (Game8, Game
 
 Game data comes from [aqiu384/megaten-fusion-tool](https://github.com/aqiu384/megaten-fusion-tool), which is public domain (Unlicense). It is imported at a pinned commit by `scripts/import-data.ts` and validated with zod. The fusion rules are a port of that tool's P3R logic.
 
-The icons are original SVGs drawn for this project. No game assets are used.
+The icons are original SVGs drawn for this project. Social Link tarot cards are the public-domain Rider–Waite–Smith deck (Pamela Colman Smith, 1910) from Wikimedia Commons; the Aeon card, which that deck lacks, is our own. No game assets are hosted. Persona pages link to their official artwork on the Megami Tensei Wiki instead.
 
 This is an unofficial fan project. Persona 3 Reload is © ATLUS / SEGA, and this project is not affiliated with or endorsed by either.
