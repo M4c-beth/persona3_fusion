@@ -9,6 +9,8 @@ const NAV = [
   { href: "/", label: "Personas" },
   { href: "/fusion/", label: "Fusion" },
   { href: "/skills/", label: "Skills" },
+  { href: "/social-links/", label: "Social Links" },
+  { href: "/requests/", label: "Requests" },
 ] as const;
 
 function isActive(pathname: string, href: string) {
@@ -26,7 +28,10 @@ export function SiteHeader() {
           <span className="display text-2xl text-p3r-white">P3R</span>
           <span className="hidden text-xs font-semibold uppercase tracking-[0.2em] text-p3r-cyan sm:inline">Fusion</span>
         </Link>
-        <nav className="flex min-w-0 flex-1 items-center sm:gap-1" aria-label="Main">
+        <nav
+          className="-my-2 flex min-w-0 flex-1 items-center overflow-x-auto py-2 [scrollbar-width:none] sm:gap-1 [&::-webkit-scrollbar]:hidden"
+          aria-label="Main"
+        >
           {NAV.map(({ href, label }) => {
             const active = isActive(pathname, href);
             return (
@@ -35,7 +40,7 @@ export function SiteHeader() {
                 href={href}
                 aria-current={active ? "page" : undefined}
                 className={cn(
-                  "clip-slant px-2 py-1.5 font-heading text-xs font-bold uppercase tracking-wider transition-colors sm:px-3 sm:text-sm",
+                  "clip-slant shrink-0 whitespace-nowrap px-2 py-1.5 font-heading text-xs font-bold uppercase tracking-wider transition-colors sm:px-3 sm:text-sm",
                   active ? "bg-p3r-white text-p3r-navy" : "text-muted-foreground hover:text-p3r-white",
                 )}
               >
