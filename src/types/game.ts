@@ -106,3 +106,43 @@ export interface Skill {
 
 /** Arcana fusion chart: chart[a][b] = result arcana, symmetric. */
 export type FusionChart = Partial<Record<Arcana, Partial<Record<Arcana, Arcana>>>>;
+
+export const WEEKDAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun", "Holidays", "Every day"] as const;
+
+export type Weekday = (typeof WEEKDAYS)[number];
+
+export interface SocialLink {
+  arcana: Arcana;
+  name: string;
+  /** In-game date (M/D) or a description when guides only agree on a window. */
+  start: string;
+  howToStart: string;
+  /** Ranks up with the story rather than by spending time. */
+  automatic?: true;
+  days?: Weekday[];
+  time?: "Night";
+  location?: string;
+  /** Where sources disagree; worth checking in-game. */
+  note?: string;
+}
+
+export const REQUEST_CATEGORIES = ["item", "fusion", "tartarus", "milestone", "errand", "date"] as const;
+
+export type RequestCategory = (typeof REQUEST_CATEGORIES)[number];
+
+export interface ElizabethRequest {
+  number: number;
+  title: string;
+  /** In-game date (M/D) the request appears. */
+  available: string;
+  /** Last in-game day (M/D) to complete it; missable after this. */
+  deadline?: string;
+  category: RequestCategory;
+  task: string;
+  reward: string;
+  /** Requests that must be completed first. */
+  requires?: number[];
+  /** Fusion target, for the planner and persona links. */
+  link?: { persona?: string; skills?: string[]; level?: number };
+  note?: string;
+}
