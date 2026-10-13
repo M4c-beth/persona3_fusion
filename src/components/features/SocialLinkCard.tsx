@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { CharacterIcon } from "@/components/icons/CharacterIcon";
+import { TarotCard } from "@/components/icons/TarotCard";
 import { DIALOGUE, giftsFor, maxRankPersona, socialLinkSlug } from "@/lib/game/companions";
 import { ARCANA_NUMERAL } from "@/lib/game/labels";
 import type { SocialLink } from "@/types/game";
@@ -21,7 +21,7 @@ export function SocialLinkCard({ link }: { link: SocialLink }) {
         {ARCANA_NUMERAL[link.arcana] || "∞"}
       </span>
       <header className="flex items-center gap-3">
-        <CharacterIcon name={link.name} arcana={link.arcana} className="w-11" />
+        <TarotCard arcana={link.arcana} className="w-12" />
         <div>
           <p className="font-heading text-xs font-bold uppercase tracking-[0.18em] text-p3r-cyan">{link.arcana}</p>
           <h2 className="display text-2xl text-p3r-white">
