@@ -42,7 +42,7 @@ export function PersonaTable() {
       <button
         type="button"
         onClick={() => setSort(key)}
-        className={cn("uppercase tracking-wider hover:text-foreground", sort === key && "text-p3r-yellow")}
+        className={cn("uppercase tracking-wider hover:text-foreground", sort === key && "text-p3r-cyan")}
       >
         {label}
       </button>
@@ -86,10 +86,10 @@ export function PersonaTable() {
               <tr key={p.name} className="group border-b border-border/50 last:border-0 hover:bg-accent/40">
                 <td className="px-3 py-2 text-right font-mono tabular-nums text-muted-foreground">{p.level}</td>
                 <td className="px-3 py-2">
-                  <Link href={`/persona/${p.slug}/`} className="font-medium group-hover:text-p3r-yellow">
+                  <Link href={`/persona/${p.slug}/`} className="font-medium group-hover:text-p3r-cyan">
                     {p.name}
                   </Link>
-                  {p.dlc ? <span className="ml-2 text-[10px] font-bold tracking-wider text-p3r-gold">DLC</span> : null}
+                  {p.dlc ? <span className="ml-2 text-[10px] font-bold tracking-wider text-p3r-red">DLC</span> : null}
                   <span className="mt-0.5 block text-xs text-muted-foreground sm:hidden">{p.arcana}</span>
                 </td>
                 <td className="hidden px-3 py-2 sm:table-cell">
