@@ -103,8 +103,8 @@ describe("FusionPlanner", () => {
     expect(findFusionPaths(base, needsDlc, []).failure).toEqual({ kind: "no-recipe" });
   });
 
-  it("reports when no chain is short enough", () => {
-    expect(findFusionPaths(base, p("Black Frost"), ["Null Phys"], { maxChain: 0 }).failure).toEqual({ kind: "not-found" });
+  it("reports when no path fits within the fusion limit", () => {
+    expect(findFusionPaths(base, p("Black Frost"), ["Null Phys"], { maxFusions: 1 }).failure).toEqual({ kind: "not-found" });
   });
 
   it("carries a high-level skill down a long chain into a special fusion", () => {
@@ -113,6 +113,23 @@ describe("FusionPlanner", () => {
     expectValidPath(paths[0]);
     const sources = flattenPath(paths[0]).obtain.filter((o) => o.skills.some((s) => s.name === "Null Phys"));
     expect(sources.length).toBeGreaterThan(0);
+  });
+
+  it("passes four skills down to a level 1 persona through merged chains", () => {
+    const { paths } = findFusionPaths(base, p("Orpheus"), ["Evade Dark", "Dodge Strike", "Rakukaja", "Mamudoon"]);
+    expect(paths.length).toBeGreaterThan(0);
+    paths.forEach((path) => expectValidPath(path));
+  });
+
+  it("says how far to level a persona that must learn a skill first", () => {
+    const { paths } = findFusionPaths(base, p("Black Frost"), ["Null Phys"]);
+    const messiah = flattenPath(paths[0]).obtain.find((o) => o.persona.name === "Messiah");
+    expect(messiah?.levelTo).toBe(96);
+  });
+
+  it("says how far to level the target for skills it learns later", () => {
+    const { paths } = findFusionPaths(base, p("Thanatos"), ["Megidolaon"]);
+    expect(paths[0].levelTo).toBe(84);
   });
 
   it("lists fewest-fusion paths first", () => {
