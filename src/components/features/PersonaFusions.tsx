@@ -39,7 +39,7 @@ export function PersonaFusions({ persona }: { persona: Persona }) {
   if (!available) {
     return (
       <Notice>
-        {persona.name} is in the <strong className="text-p3r-gold">{persona.dlc}</strong>. Turn it on from the DLC
+        {persona.name} is in the <strong className="text-p3r-red">{persona.dlc}</strong>. Turn it on from the DLC
         menu to see its fusions.
       </Notice>
     );
@@ -56,7 +56,7 @@ export function PersonaFusions({ persona }: { persona: Persona }) {
       }}
       className={cn(
         "clip-slant px-4 py-1.5 font-heading text-sm font-bold uppercase tracking-wider transition-colors",
-        tab === value ? "bg-p3r-yellow text-p3r-black" : "text-muted-foreground hover:text-foreground",
+        tab === value ? "bg-p3r-white text-p3r-navy" : "text-muted-foreground hover:text-foreground",
       )}
     >
       {label} <span className="opacity-60">{count}</span>
@@ -91,7 +91,7 @@ export function PersonaFusions({ persona }: { persona: Persona }) {
             {rows.slice(0, limit).map(({ key, left, right, op }) => (
               <li key={key} className="grid grid-cols-[1fr_auto_1fr] items-center gap-3 px-3 py-2 text-sm">
                 <PersonaLink persona={left} />
-                <span className="font-heading font-bold text-p3r-yellow">{op}</span>
+                <span className="font-heading font-bold text-p3r-cyan">{op}</span>
                 <PersonaLink persona={right} />
               </li>
             ))}
@@ -114,8 +114,8 @@ export function PersonaFusions({ persona }: { persona: Persona }) {
 function SpecialRecipe({ persona, missing }: { persona: Persona; missing: string[] }) {
   const ingredients = (persona.specialRecipe ?? []).map((name) => getPersona(name)).filter((p) => p !== undefined);
   return (
-    <div className="rounded-md border border-p3r-gold/40 bg-p3r-gold/5 p-4">
-      <h3 className="font-heading text-sm font-bold uppercase tracking-wider text-p3r-gold">Special fusion</h3>
+    <div className="rounded-md border border-p3r-red/40 bg-p3r-red/5 p-4">
+      <h3 className="font-heading text-sm font-bold uppercase tracking-wider text-p3r-red">Special fusion</h3>
       <p className="mb-3 text-sm text-muted-foreground">
         Only made by fusing these {ingredients.length} personas together.
       </p>
@@ -123,7 +123,7 @@ function SpecialRecipe({ persona, missing }: { persona: Persona; missing: string
         {ingredients.map((p) => (
           <li key={p.name} className={cn("text-sm", missing.includes(p.name) && "opacity-50")}>
             <PersonaLink persona={p} />
-            {missing.includes(p.name) ? <span className="ml-2 text-xs text-p3r-gold">needs {p.dlc}</span> : null}
+            {missing.includes(p.name) ? <span className="ml-2 text-xs text-p3r-red">needs {p.dlc}</span> : null}
           </li>
         ))}
       </ul>
