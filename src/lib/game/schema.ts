@@ -90,3 +90,35 @@ export const requestSchema = z.object({
 
 export const socialLinksSchema = z.array(socialLinkSchema).length(22);
 export const requestsSchema = z.array(requestSchema).length(101);
+
+const rankSchema = z.object({
+  label: z.string().min(1).max(160),
+  prompts: z.array(
+    z.object({
+      line: z.string().min(1).max(400),
+      options: z
+        .array(z.object({ text: z.string().min(1).max(200), with: z.string().min(1).max(40), without: z.string().min(1).max(40) }))
+        .min(1),
+    }),
+  ),
+  bonus: z.string().min(1).max(60).optional(),
+});
+
+export const socialLinkDialogueSchema = z.record(
+  arcanaSchema,
+  z.object({
+    page: z.string().startsWith("Social Link/"),
+    revision: z.number().int().positive(),
+    ranks: z.array(rankSchema),
+    extras: z.array(rankSchema),
+  }),
+);
+
+export const giftsSchema = z.array(
+  z.object({
+    name: z.string().min(1).max(40),
+    where: z.string().min(1).max(80),
+    loves: z.array(arcanaSchema),
+    likes: z.array(arcanaSchema),
+  }),
+);
