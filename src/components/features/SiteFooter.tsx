@@ -19,6 +19,18 @@ export function SiteFooter() {
           </a>{" "}
           (public domain), imported {DATA_SOURCE.importedAt}.
         </p>
+        <p>
+          Tarot cards: Rider–Waite–Smith deck by Pamela Colman Smith (1910, public domain), via{" "}
+          <a
+            href="https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(TaionWC)"
+            className="underline decoration-dotted underline-offset-2 hover:text-foreground"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Wikimedia Commons
+          </a>
+          . The Aeon card is our own.
+        </p>
       </div>
     </footer>
   );
