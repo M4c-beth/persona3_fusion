@@ -70,17 +70,27 @@ export default async function PersonaPage({ params }: Props) {
         </Section>
       </div>
 
-      <Section title="Fusion">
+      <Section
+        title="Fusion"
+        action={
+          <Link href={`/fusion/?t=${persona.slug}`} className="text-sm text-muted-foreground hover:text-p3r-yellow">
+            Plan with skills →
+          </Link>
+        }
+      >
         <PersonaFusions persona={persona} />
       </Section>
     </article>
   );
 }
 
-function Section({ title, children }: { title: string; children: React.ReactNode }) {
+function Section({ title, action, children }: { title: string; action?: React.ReactNode; children: React.ReactNode }) {
   return (
     <section className="space-y-3">
-      <h2 className="font-heading text-lg font-bold uppercase tracking-wider text-p3r-blue-light">{title}</h2>
+      <div className="flex items-baseline justify-between gap-3">
+        <h2 className="font-heading text-lg font-bold uppercase tracking-wider text-p3r-blue-light">{title}</h2>
+        {action}
+      </div>
       {children}
     </section>
   );
