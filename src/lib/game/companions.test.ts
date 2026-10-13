@@ -1,8 +1,21 @@
 import { describe, expect, it } from "vitest";
 import { ARCANA } from "@/types/game";
-import { LINKED_EPISODES, REQUESTS, SOCIAL_LINKS, linkedEpisodePersona, maxRankPersona, requestUnlock } from "./companions";
+import {
+  DIALOGUE,
+  GIFTS,
+  LINKED_EPISODES,
+  REQUESTS,
+  SOCIAL_LINKS,
+  bestOptions,
+  getSocialLinkBySlug,
+  giftsFor,
+  linkedEpisodePersona,
+  maxRankPersona,
+  requestUnlock,
+  socialLinkSlug,
+} from "./companions";
 import { getPersona, getSkill } from "./data";
-import { requestsSchema, socialLinksSchema } from "./schema";
+import { giftsSchema, requestsSchema, socialLinkDialogueSchema, socialLinksSchema } from "./schema";
 
 describe("Social Links", () => {
   it("matches the schema", () => {
@@ -30,6 +43,49 @@ describe("Social Links", () => {
   it("unlocks a persona for every Linked Episode", () => {
     for (const { key } of LINKED_EPISODES) expect(linkedEpisodePersona(key), key).toBeDefined();
     expect(linkedEpisodePersona("Junpei")?.name).toBe("Surt");
+  });
+});
+
+describe("Social Link answers and gifts", () => {
+  it("matches the dialogue schema", () => {
+    expect(() => socialLinkDialogueSchema.parse(DIALOGUE)).not.toThrow();
+  });
+
+  it("has answers for every link that isn't story-driven", () => {
+    for (const link of SOCIAL_LINKS) {
+      if (!link.automatic) expect(DIALOGUE[link.arcana]?.ranks.length, link.arcana).toBeGreaterThan(0);
+    }
+  });
+
+  it("keeps the player's name as a placeholder", () => {
+    const rank2 = DIALOGUE.Hierophant!.ranks[1];
+    expect(rank2.prompts[0].options[0].text).toBe("[Name] [Surname].");
+    expect(rank2.bonus).toBe("Melon Bread");
+  });
+
+  it("picks the highest-scoring answers", () => {
+    const prompt = DIALOGUE.Magician!.ranks[1].prompts[0];
+    expect(bestOptions(prompt).map((o) => o.text)).toEqual(["No way.", "That's a secret."]);
+  });
+
+  it("marks no best answer when every answer scores the same", () => {
+    expect(bestOptions(DIALOGUE.Magician!.ranks[0].prompts[0])).toEqual([]);
+  });
+
+  it("ignores outcome-only answers like romance choices", () => {
+    const prompt = { line: "x", options: [{ text: "a", with: "Romance", without: "Romance" }] };
+    expect(bestOptions(prompt)).toEqual([]);
+  });
+
+  it("matches the gift schema and lists gifts by character", () => {
+    expect(() => giftsSchema.parse(GIFTS)).not.toThrow();
+    expect(giftsFor("Empress").loves.map((g) => g.name)).toEqual(["Goggle-eyed Idol", "Japanese Doll", "Kaleidoscope"]);
+    expect(giftsFor("Aeon")).toEqual({ loves: [], likes: [] });
+  });
+
+  it("finds links by arcana slug", () => {
+    expect(getSocialLinkBySlug("hanged-man")?.name).toBe("Maiko Oohashi");
+    expect(socialLinkSlug("Hanged Man")).toBe("hanged-man");
   });
 });
 
