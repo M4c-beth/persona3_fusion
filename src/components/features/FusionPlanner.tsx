@@ -1,11 +1,12 @@
 "use client";
 
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import { useCallback, useDeferredValue, useMemo, useState } from "react";
+import { useCallback, useMemo, useState } from "react";
 import { ArcanaBadge } from "@/components/icons/ArcanaBadge";
 import { getPersonaBySlug, getSkill, getSkillBySlug } from "@/lib/game/data";
 import { SKILL_TYPE_LABEL } from "@/lib/game/labels";
-import { findFusionPaths, type PlanFailure } from "@/lib/game/planner";
+import type { PlanFailure } from "@/lib/game/planner";
+import { usePlanner } from "@/lib/game/usePlanner";
 import { cn } from "@/lib/utils";
 import type { Persona } from "@/types/game";
 import { useDlc } from "./DlcProvider";
@@ -33,7 +34,7 @@ function describeFailure(failure: PlanFailure, target: Persona): string {
 }
 
 export function FusionPlanner() {
-  const { pool } = useDlc();
+  const { pool, enabled } = useDlc();
   const params = useSearchParams();
   const router = useRouter();
   const pathname = usePathname();
@@ -78,12 +79,7 @@ export function FusionPlanner() {
     [params, pathname, router],
   );
 
-  const request = useDeferredValue(useMemo(() => ({ target, skills, pool }), [target, skills, pool]));
-  const result = useMemo(
-    () => (request.target ? findFusionPaths(request.pool, request.target, request.skills) : null),
-    [request],
-  );
-  const pending = request.target !== target || request.skills !== skills;
+  const { result, pending } = usePlanner(pool, enabled, target, skills);
   const path = result?.paths[Math.min(choice, result.paths.length - 1)];
 
   return (
@@ -151,7 +147,9 @@ export function FusionPlanner() {
             </p>
           ) : path ? (
             <FusionPathView path={path} />
-          ) : null}
+          ) : (
+            <p className="p-6 text-center text-muted-foreground">Finding the shortest fusion path…</p>
+          )}
 
           {skills.length > 0 ? (
             <p className="text-xs text-muted-foreground">
