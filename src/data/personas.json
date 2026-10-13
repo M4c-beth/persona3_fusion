@@ -1,0 +1,10818 @@
+[
+  {
+    "name": "Orpheus",
+    "slug": "orpheus",
+    "arcana": "Fool",
+    "level": 1,
+    "stats": {
+      "st": 2,
+      "ma": 2,
+      "en": 2,
+      "ag": 3,
+      "lu": 2
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "resist",
+      "ice": "normal",
+      "elec": "weak",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "weak"
+    },
+    "skills": [
+      {
+        "name": "Agi",
+        "level": 0
+      },
+      {
+        "name": "Dia",
+        "level": 3
+      },
+      {
+        "name": "Bash",
+        "level": 4
+      },
+      {
+        "name": "Tarunda",
+        "level": 5
+      },
+      {
+        "name": "Cadenza",
+        "level": 0,
+        "fusionSpell": true
+      }
+    ]
+  },
+  {
+    "name": "Slime",
+    "slug": "slime",
+    "arcana": "Fool",
+    "level": 12,
+    "stats": {
+      "st": 10,
+      "ma": 6,
+      "en": 14,
+      "ag": 6,
+      "lu": 7
+    },
+    "affinities": {
+      "slash": "resist",
+      "strike": "resist",
+      "pierce": "normal",
+      "fire": "weak",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "weak",
+      "light": "normal",
+      "dark": "resist"
+    },
+    "skills": [
+      {
+        "name": "Bash",
+        "level": 0
+      },
+      {
+        "name": "Evil Touch",
+        "level": 0
+      },
+      {
+        "name": "Raging Tiger",
+        "level": 0
+      },
+      {
+        "name": "Mudo",
+        "level": 13
+      },
+      {
+        "name": "Fire Break",
+        "level": 15
+      },
+      {
+        "name": "Survive Light",
+        "level": 16
+      }
+    ]
+  },
+  {
+    "name": "Arsène",
+    "slug": "arsene",
+    "arcana": "Fool",
+    "level": 23,
+    "stats": {
+      "st": 17,
+      "ma": 17,
+      "en": 14,
+      "ag": 18,
+      "lu": 11
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "weak",
+      "dark": "resist"
+    },
+    "skills": [
+      {
+        "name": "Eiga",
+        "level": 0
+      },
+      {
+        "name": "Fatal End",
+        "level": 0
+      },
+      {
+        "name": "Dark Driver",
+        "level": 0
+      },
+      {
+        "name": "Evil Smile",
+        "level": 24
+      },
+      {
+        "name": "Vacuum Slash",
+        "level": 25
+      },
+      {
+        "name": "Maeiga",
+        "level": 27
+      },
+      {
+        "name": "Survival Trick",
+        "level": 29
+      }
+    ],
+    "dlc": "P5R Persona Set 1",
+    "specialRecipe": [
+      "Tam Lin",
+      "Jack-o'-Lantern",
+      "Neko Shogun"
+    ]
+  },
+  {
+    "name": "Legion",
+    "slug": "legion",
+    "arcana": "Fool",
+    "level": 26,
+    "stats": {
+      "st": 16,
+      "ma": 14,
+      "en": 26,
+      "ag": 9,
+      "lu": 20
+    },
+    "affinities": {
+      "slash": "resist",
+      "strike": "resist",
+      "pierce": "weak",
+      "fire": "resist",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "weak",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Assault Dive",
+        "level": 0
+      },
+      {
+        "name": "Pulinpa",
+        "level": 0
+      },
+      {
+        "name": "Rebellion",
+        "level": 0
+      },
+      {
+        "name": "Null Distress",
+        "level": 27
+      },
+      {
+        "name": "Sexy Dance",
+        "level": 28
+      },
+      {
+        "name": "Confuse Boost",
+        "level": 30
+      },
+      {
+        "name": "Resist Pierce",
+        "level": 31
+      }
+    ]
+  },
+  {
+    "name": "Black Frost",
+    "slug": "black-frost",
+    "arcana": "Fool",
+    "level": 37,
+    "stats": {
+      "st": 22,
+      "ma": 34,
+      "en": 23,
+      "ag": 25,
+      "lu": 20
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "null",
+      "ice": "absorb",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "weak",
+      "dark": "repel"
+    },
+    "skills": [
+      {
+        "name": "Maeiga",
+        "level": 0
+      },
+      {
+        "name": "Bufula",
+        "level": 0
+      },
+      {
+        "name": "Matarukaja",
+        "level": 0
+      },
+      {
+        "name": "Agidyne",
+        "level": 38
+      },
+      {
+        "name": "Dark Boost",
+        "level": 39
+      },
+      {
+        "name": "Bufudyne",
+        "level": 40
+      },
+      {
+        "name": "Fast Heal",
+        "level": 42
+      },
+      {
+        "name": "Resist Light",
+        "level": 43
+      },
+      {
+        "name": "King and I",
+        "level": 0,
+        "fusionSpell": true
+      }
+    ],
+    "heartItem": {
+      "name": "Black Frostite",
+      "level": 41
+    },
+    "specialRecipe": [
+      "Jack Frost",
+      "Jack-o'-Lantern",
+      "King Frost"
+    ]
+  },
+  {
+    "name": "Ose",
+    "slug": "ose",
+    "arcana": "Fool",
+    "level": 41,
+    "stats": {
+      "st": 32,
+      "ma": 23,
+      "en": 28,
+      "ag": 25,
+      "lu": 22
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "resist",
+      "pierce": "normal",
+      "fire": "resist",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "weak",
+      "dark": "null"
+    },
+    "skills": [
+      {
+        "name": "Blade of Fury",
+        "level": 0
+      },
+      {
+        "name": "Matarunda",
+        "level": 0
+      },
+      {
+        "name": "Multi-Target Boost",
+        "level": 0
+      },
+      {
+        "name": "Deathbound",
+        "level": 42
+      },
+      {
+        "name": "Null Rage",
+        "level": 43
+      },
+      {
+        "name": "Life Aid",
+        "level": 45
+      },
+      {
+        "name": "Tempest Slash",
+        "level": 47
+      }
+    ]
+  },
+  {
+    "name": "Izanagi",
+    "slug": "izanagi",
+    "arcana": "Fool",
+    "level": 46,
+    "stats": {
+      "st": 31,
+      "ma": 30,
+      "en": 25,
+      "ag": 31,
+      "lu": 28
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "resist",
+      "wind": "weak",
+      "light": "normal",
+      "dark": "null"
+    },
+    "skills": [
+      {
+        "name": "Cross Slash",
+        "level": 0
+      },
+      {
+        "name": "Ziodyne",
+        "level": 0
+      },
+      {
+        "name": "Marakukaja",
+        "level": 0
+      },
+      {
+        "name": "Matarukaja",
+        "level": 47
+      },
+      {
+        "name": "Blade of Fury",
+        "level": 48
+      },
+      {
+        "name": "Evade Slash",
+        "level": 50
+      },
+      {
+        "name": "Soul Shift",
+        "level": 52
+      }
+    ],
+    "dlc": "P4G Persona Set"
+  },
+  {
+    "name": "Decarabia",
+    "slug": "decarabia",
+    "arcana": "Fool",
+    "level": 54,
+    "stats": {
+      "st": 35,
+      "ma": 35,
+      "en": 35,
+      "ag": 35,
+      "lu": 35
+    },
+    "affinities": {
+      "slash": "weak",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Megido",
+        "level": 0
+      },
+      {
+        "name": "Tetrakarn",
+        "level": 0
+      },
+      {
+        "name": "Invigorate 2",
+        "level": 0
+      },
+      {
+        "name": "Agidyne",
+        "level": 55
+      },
+      {
+        "name": "Fast Heal",
+        "level": 56
+      },
+      {
+        "name": "Megidola",
+        "level": 58
+      },
+      {
+        "name": "Null Slash",
+        "level": 60
+      },
+      {
+        "name": "Best Friends",
+        "level": 0,
+        "fusionSpell": true
+      }
+    ],
+    "unlock": "Reach Tartarus floor 143 (Tziah I)"
+  },
+  {
+    "name": "Loki",
+    "slug": "loki",
+    "arcana": "Fool",
+    "level": 69,
+    "stats": {
+      "st": 48,
+      "ma": 60,
+      "en": 45,
+      "ag": 42,
+      "lu": 28
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "weak",
+      "ice": "null",
+      "elec": "normal",
+      "wind": "absorb",
+      "light": "normal",
+      "dark": "resist"
+    },
+    "skills": [
+      {
+        "name": "Agidyne",
+        "level": 0
+      },
+      {
+        "name": "Bufudyne",
+        "level": 0
+      },
+      {
+        "name": "Ziodyne",
+        "level": 0
+      },
+      {
+        "name": "Garudyne",
+        "level": 0
+      },
+      {
+        "name": "Megidola",
+        "level": 72
+      },
+      {
+        "name": "Single-Target Boost",
+        "level": 73
+      },
+      {
+        "name": "Soul Shift",
+        "level": 74
+      },
+      {
+        "name": "Spell Master",
+        "level": 76
+      },
+      {
+        "name": "Trickster",
+        "level": 0,
+        "fusionSpell": true
+      }
+    ]
+  },
+  {
+    "name": "Susano-o",
+    "slug": "susano-o",
+    "arcana": "Fool",
+    "level": 77,
+    "stats": {
+      "st": 71,
+      "ma": 35,
+      "en": 43,
+      "ag": 49,
+      "lu": 55
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "repel",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "weak",
+      "wind": "null",
+      "light": "weak",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Brave Blade",
+        "level": 0
+      },
+      {
+        "name": "Vorpal Blade",
+        "level": 0
+      },
+      {
+        "name": "Charge",
+        "level": 0
+      },
+      {
+        "name": "Auto Mataru",
+        "level": 78
+      },
+      {
+        "name": "High Counter",
+        "level": 79
+      },
+      {
+        "name": "Slash Amp",
+        "level": 81
+      },
+      {
+        "name": "Repel Light",
+        "level": 84
+      },
+      {
+        "name": "Trickster",
+        "level": 0,
+        "fusionSpell": true
+      }
+    ],
+    "heartItem": {
+      "name": "Susano-o's Cloth",
+      "level": 84
+    },
+    "unlock": "Max the Fool Social Link",
+    "specialRecipe": [
+      "Take-Minakata",
+      "Take-Mikazuchi",
+      "Okuninushi",
+      "Shiki-Ouji",
+      "Kikuri-Hime"
+    ]
+  },
+  {
+    "name": "Satanael",
+    "slug": "satanael",
+    "arcana": "Fool",
+    "level": 89,
+    "stats": {
+      "st": 63,
+      "ma": 60,
+      "en": 57,
+      "ag": 56,
+      "lu": 56
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "resist",
+      "ice": "resist",
+      "elec": "resist",
+      "wind": "resist",
+      "light": "null",
+      "dark": "absorb"
+    },
+    "skills": [
+      {
+        "name": "Sinful Shell",
+        "level": 0
+      },
+      {
+        "name": "Maeigaon",
+        "level": 0
+      },
+      {
+        "name": "Survival Trick",
+        "level": 0
+      },
+      {
+        "name": "Primal Force",
+        "level": 90
+      },
+      {
+        "name": "Life Aid",
+        "level": 91
+      },
+      {
+        "name": "Heat Riser",
+        "level": 93
+      },
+      {
+        "name": "Almighty Boost",
+        "level": 95
+      }
+    ],
+    "dlc": "P5R Persona Set 2",
+    "specialRecipe": [
+      "Orpheus",
+      "Michael",
+      "Thanatos",
+      "Satan",
+      "Helel",
+      "Lucifer"
+    ]
+  },
+  {
+    "name": "Orpheus Telos",
+    "slug": "orpheus-telos",
+    "arcana": "Fool",
+    "level": 91,
+    "stats": {
+      "st": 63,
+      "ma": 63,
+      "en": 63,
+      "ag": 63,
+      "lu": 63
+    },
+    "affinities": {
+      "slash": "resist",
+      "strike": "resist",
+      "pierce": "resist",
+      "fire": "resist",
+      "ice": "resist",
+      "elec": "resist",
+      "wind": "resist",
+      "light": "resist",
+      "dark": "resist"
+    },
+    "skills": [
+      {
+        "name": "Victory Cry",
+        "level": 0
+      }
+    ],
+    "unlock": "Max all Social Links",
+    "specialRecipe": [
+      "Thanatos",
+      "Asura",
+      "Chi You",
+      "Metatron",
+      "Helel",
+      "Messiah"
+    ]
+  },
+  {
+    "name": "Nekomata",
+    "slug": "nekomata",
+    "arcana": "Magician",
+    "level": 3,
+    "stats": {
+      "st": 4,
+      "ma": 4,
+      "en": 2,
+      "ag": 5,
+      "lu": 2
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "weak",
+      "wind": "resist",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Agi",
+        "level": 0
+      },
+      {
+        "name": "Rakunda",
+        "level": 0
+      },
+      {
+        "name": "Power Slash",
+        "level": 4
+      },
+      {
+        "name": "Resist Distress",
+        "level": 5
+      },
+      {
+        "name": "Marin Karin",
+        "level": 6
+      },
+      {
+        "name": "Maragi",
+        "level": 8
+      }
+    ]
+  },
+  {
+    "name": "Jack Frost",
+    "slug": "jack-frost",
+    "arcana": "Magician",
+    "level": 8,
+    "stats": {
+      "st": 5,
+      "ma": 9,
+      "en": 8,
+      "ag": 6,
+      "lu": 4
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "weak",
+      "ice": "null",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Bufu",
+        "level": 0
+      },
+      {
+        "name": "Pulinpa",
+        "level": 0
+      },
+      {
+        "name": "Mabufu",
+        "level": 10
+      },
+      {
+        "name": "Sonic Punch",
+        "level": 11
+      },
+      {
+        "name": "Freeze Boost",
+        "level": 12
+      },
+      {
+        "name": "Ice Boost",
+        "level": 13
+      },
+      {
+        "name": "Jack Brothers",
+        "level": 0,
+        "fusionSpell": true
+      }
+    ],
+    "heartItem": {
+      "name": "Jacktite",
+      "level": 11
+    }
+  },
+  {
+    "name": "Jack-o'-Lantern",
+    "slug": "jack-o-lantern",
+    "arcana": "Magician",
+    "level": 15,
+    "stats": {
+      "st": 8,
+      "ma": 15,
+      "en": 9,
+      "ag": 9,
+      "lu": 11
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "null",
+      "ice": "weak",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Agi",
+        "level": 0
+      },
+      {
+        "name": "Maragi",
+        "level": 0
+      },
+      {
+        "name": "Provoke",
+        "level": 0
+      },
+      {
+        "name": "Rage Boost",
+        "level": 17
+      },
+      {
+        "name": "Dodge Ice",
+        "level": 19
+      },
+      {
+        "name": "Agilao",
+        "level": 21
+      },
+      {
+        "name": "Jack Brothers",
+        "level": 0,
+        "fusionSpell": true
+      }
+    ],
+    "heartItem": {
+      "name": "Jacktite",
+      "level": 17
+    }
+  },
+  {
+    "name": "Hua Po",
+    "slug": "hua-po",
+    "arcana": "Magician",
+    "level": 19,
+    "stats": {
+      "st": 8,
+      "ma": 21,
+      "en": 13,
+      "ag": 17,
+      "lu": 11
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "null",
+      "ice": "weak",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "null"
+    },
+    "skills": [
+      {
+        "name": "Maragi",
+        "level": 0
+      },
+      {
+        "name": "Baisudi",
+        "level": 0
+      },
+      {
+        "name": "Rakunda",
+        "level": 0
+      },
+      {
+        "name": "Agilao",
+        "level": 20
+      },
+      {
+        "name": "Resist Freeze",
+        "level": 21
+      },
+      {
+        "name": "Fire Boost",
+        "level": 23
+      }
+    ],
+    "heartItem": {
+      "name": "Soul Sea Driblet",
+      "level": 22
+    },
+    "unlock": "Clear Elizabeth's Request #77"
+  },
+  {
+    "name": "Zorro",
+    "slug": "zorro",
+    "arcana": "Magician",
+    "level": 22,
+    "stats": {
+      "st": 13,
+      "ma": 17,
+      "en": 13,
+      "ag": 15,
+      "lu": 15
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "weak",
+      "wind": "resist",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Magaru",
+        "level": 0
+      },
+      {
+        "name": "Media",
+        "level": 0
+      },
+      {
+        "name": "Wind Driver",
+        "level": 0
+      },
+      {
+        "name": "Garula",
+        "level": 23
+      },
+      {
+        "name": "Recarm",
+        "level": 24
+      },
+      {
+        "name": "Divine Grace",
+        "level": 25
+      },
+      {
+        "name": "Magarula",
+        "level": 27
+      }
+    ],
+    "dlc": "P5R Persona Set 1"
+  },
+  {
+    "name": "Sati",
+    "slug": "sati",
+    "arcana": "Magician",
+    "level": 29,
+    "stats": {
+      "st": 13,
+      "ma": 27,
+      "en": 13,
+      "ag": 21,
+      "lu": 20
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "null",
+      "ice": "weak",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Agilao",
+        "level": 0
+      },
+      {
+        "name": "Maragi",
+        "level": 0
+      },
+      {
+        "name": "Media",
+        "level": 0
+      },
+      {
+        "name": "Baisudi",
+        "level": 30
+      },
+      {
+        "name": "Maragion",
+        "level": 32
+      },
+      {
+        "name": "Anti-Fire Master",
+        "level": 33
+      },
+      {
+        "name": "Evade Ice",
+        "level": 35
+      }
+    ],
+    "heartItem": {
+      "name": "Soul Sea Driblet",
+      "level": 32
+    }
+  },
+  {
+    "name": "Orobas",
+    "slug": "orobas",
+    "arcana": "Magician",
+    "level": 39,
+    "stats": {
+      "st": 22,
+      "ma": 33,
+      "en": 22,
+      "ag": 28,
+      "lu": 19
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "weak",
+      "elec": "normal",
+      "wind": "null",
+      "light": "normal",
+      "dark": "resist"
+    },
+    "skills": [
+      {
+        "name": "Magarula",
+        "level": 0
+      },
+      {
+        "name": "Torrent Shot",
+        "level": 0
+      },
+      {
+        "name": "Wind Break",
+        "level": 0
+      },
+      {
+        "name": "Wind Boost",
+        "level": 40
+      },
+      {
+        "name": "Masukukaja",
+        "level": 42
+      },
+      {
+        "name": "Resist Ice",
+        "level": 44
+      },
+      {
+        "name": "Survival Trick",
+        "level": 45
+      }
+    ]
+  },
+  {
+    "name": "Mercurius",
+    "slug": "mercurius",
+    "arcana": "Magician",
+    "level": 43,
+    "stats": {
+      "st": 23,
+      "ma": 31,
+      "en": 22,
+      "ag": 33,
+      "lu": 27
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "weak",
+      "wind": "null",
+      "light": "resist",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Vacuum Wave",
+        "level": 0
+      },
+      {
+        "name": "Mediarama",
+        "level": 0
+      },
+      {
+        "name": "Masukunda",
+        "level": 0
+      },
+      {
+        "name": "Samarecarm",
+        "level": 44
+      },
+      {
+        "name": "Garudyne",
+        "level": 45
+      },
+      {
+        "name": "Anti-Electric Master",
+        "level": 47
+      },
+      {
+        "name": "Salvation",
+        "level": 49
+      }
+    ],
+    "dlc": "P5R Persona Set 2"
+  },
+  {
+    "name": "Rangda",
+    "slug": "rangda",
+    "arcana": "Magician",
+    "level": 50,
+    "stats": {
+      "st": 33,
+      "ma": 39,
+      "en": 28,
+      "ag": 30,
+      "lu": 30
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "repel",
+      "pierce": "normal",
+      "fire": "resist",
+      "ice": "weak",
+      "elec": "weak",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Myriad Arrows",
+        "level": 0
+      },
+      {
+        "name": "Matarunda",
+        "level": 0
+      },
+      {
+        "name": "Counterstrike",
+        "level": 0
+      },
+      {
+        "name": "Agidyne",
+        "level": 51
+      },
+      {
+        "name": "High Counter",
+        "level": 53
+      },
+      {
+        "name": "Maeiga",
+        "level": 54
+      },
+      {
+        "name": "Evade Ice",
+        "level": 56
+      }
+    ],
+    "heartItem": {
+      "name": "Soul Sea Droplet",
+      "level": 54
+    }
+  },
+  {
+    "name": "Surt",
+    "slug": "surt",
+    "arcana": "Magician",
+    "level": 60,
+    "stats": {
+      "st": 43,
+      "ma": 51,
+      "en": 40,
+      "ag": 28,
+      "lu": 34
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "absorb",
+      "ice": "weak",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Agidyne",
+        "level": 0
+      },
+      {
+        "name": "Deathbound",
+        "level": 0
+      },
+      {
+        "name": "Auto Tarukaja",
+        "level": 0
+      },
+      {
+        "name": "Maragidyne",
+        "level": 61
+      },
+      {
+        "name": "Marakunda",
+        "level": 62
+      },
+      {
+        "name": "Inferno",
+        "level": 64
+      },
+      {
+        "name": "Fire Amp",
+        "level": 66
+      }
+    ],
+    "heartItem": {
+      "name": "Muspell Rock",
+      "level": 66
+    },
+    "unlock": "Max Junpei's Link"
+  },
+  {
+    "name": "Futsunushi",
+    "slug": "futsunushi",
+    "arcana": "Magician",
+    "level": 74,
+    "stats": {
+      "st": 62,
+      "ma": 49,
+      "en": 50,
+      "ag": 42,
+      "lu": 35
+    },
+    "affinities": {
+      "slash": "null",
+      "strike": "resist",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "resist",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "weak"
+    },
+    "skills": [
+      {
+        "name": "Vorpal Blade",
+        "level": 0
+      },
+      {
+        "name": "Bloody Charge",
+        "level": 0
+      },
+      {
+        "name": "Apt Pupil",
+        "level": 0
+      },
+      {
+        "name": "Matarukaja",
+        "level": 75
+      },
+      {
+        "name": "Sharp Student",
+        "level": 76
+      },
+      {
+        "name": "Brave Blade",
+        "level": 78
+      },
+      {
+        "name": "Unshaken Will",
+        "level": 81
+      }
+    ],
+    "heartItem": {
+      "name": "Sword God Steel",
+      "level": 80
+    },
+    "unlock": "Max the Magician Social Link"
+  },
+  {
+    "name": "Apsaras",
+    "slug": "apsaras",
+    "arcana": "Priestess",
+    "level": 2,
+    "stats": {
+      "st": 2,
+      "ma": 4,
+      "en": 2,
+      "ag": 3,
+      "lu": 2
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "weak",
+      "ice": "resist",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Bufu",
+        "level": 0
+      },
+      {
+        "name": "Baisudi",
+        "level": 3
+      },
+      {
+        "name": "Sukunda",
+        "level": 4
+      },
+      {
+        "name": "Patra",
+        "level": 5
+      },
+      {
+        "name": "Resist Freeze",
+        "level": 7
+      },
+      {
+        "name": "Cadenza",
+        "level": 0,
+        "fusionSpell": true
+      }
+    ]
+  },
+  {
+    "name": "Unicorn",
+    "slug": "unicorn",
+    "arcana": "Priestess",
+    "level": 11,
+    "stats": {
+      "st": 5,
+      "ma": 10,
+      "en": 12,
+      "ag": 8,
+      "lu": 7
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "null",
+      "elec": "normal",
+      "wind": "weak",
+      "light": "null",
+      "dark": "weak"
+    },
+    "skills": [
+      {
+        "name": "Kouha",
+        "level": 0
+      },
+      {
+        "name": "Dia",
+        "level": 0
+      },
+      {
+        "name": "Hama",
+        "level": 12
+      },
+      {
+        "name": "Patra",
+        "level": 13
+      },
+      {
+        "name": "Auto Rakukaja",
+        "level": 15
+      },
+      {
+        "name": "Resist Rage",
+        "level": 16
+      }
+    ],
+    "heartItem": {
+      "name": "Soul Sea Driblet",
+      "level": 13
+    }
+  },
+  {
+    "name": "High Pixie",
+    "slug": "high-pixie",
+    "arcana": "Priestess",
+    "level": 20,
+    "stats": {
+      "st": 11,
+      "ma": 20,
+      "en": 10,
+      "ag": 13,
+      "lu": 13
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "null",
+      "elec": "normal",
+      "wind": "weak",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Arrow Rain",
+        "level": 0
+      },
+      {
+        "name": "Mabufu",
+        "level": 0
+      },
+      {
+        "name": "Media",
+        "level": 0
+      },
+      {
+        "name": "Bufula",
+        "level": 22
+      },
+      {
+        "name": "Tarukaja",
+        "level": 23
+      },
+      {
+        "name": "Dodge Wind",
+        "level": 25
+      }
+    ]
+  },
+  {
+    "name": "Johanna",
+    "slug": "johanna",
+    "arcana": "Priestess",
+    "level": 28,
+    "stats": {
+      "st": 19,
+      "ma": 19,
+      "en": 17,
+      "ag": 21,
+      "lu": 15
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "resist",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "weak",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Herculean Strike",
+        "level": 0
+      },
+      {
+        "name": "Diarama",
+        "level": 0
+      },
+      {
+        "name": "Strike Driver",
+        "level": 0
+      },
+      {
+        "name": "Marakukaja",
+        "level": 29
+      },
+      {
+        "name": "Dekunda",
+        "level": 30
+      },
+      {
+        "name": "Megido",
+        "level": 32
+      },
+      {
+        "name": "Gigantic Fist",
+        "level": 33
+      }
+    ],
+    "dlc": "P5R Persona Set 1"
+  },
+  {
+    "name": "Sarasvati",
+    "slug": "sarasvati",
+    "arcana": "Priestess",
+    "level": 32,
+    "stats": {
+      "st": 17,
+      "ma": 26,
+      "en": 16,
+      "ag": 24,
+      "lu": 22
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "null",
+      "elec": "weak",
+      "wind": "normal",
+      "light": "resist",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Diarama",
+        "level": 0
+      },
+      {
+        "name": "Mabaisudi",
+        "level": 0
+      },
+      {
+        "name": "Bufula",
+        "level": 0
+      },
+      {
+        "name": "Dodge Elec",
+        "level": 33
+      },
+      {
+        "name": "Anti-Wind Master",
+        "level": 34
+      },
+      {
+        "name": "Mediarama",
+        "level": 35
+      },
+      {
+        "name": "Masukukaja",
+        "level": 36
+      }
+    ],
+    "heartItem": {
+      "name": "Soul Sea Driblet",
+      "level": 34
+    }
+  },
+  {
+    "name": "Ganga",
+    "slug": "ganga",
+    "arcana": "Priestess",
+    "level": 41,
+    "stats": {
+      "st": 24,
+      "ma": 30,
+      "en": 26,
+      "ag": 22,
+      "lu": 28
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "resist",
+      "fire": "weak",
+      "ice": "resist",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "resist",
+      "dark": "weak"
+    },
+    "skills": [
+      {
+        "name": "Tentarafoo",
+        "level": 0
+      },
+      {
+        "name": "Confuse Boost",
+        "level": 0
+      },
+      {
+        "name": "Media",
+        "level": 0
+      },
+      {
+        "name": "Neuro Slash",
+        "level": 42
+      },
+      {
+        "name": "Bufula",
+        "level": 43
+      },
+      {
+        "name": "Diarama",
+        "level": 44
+      },
+      {
+        "name": "Endure Dark",
+        "level": 46
+      }
+    ]
+  },
+  {
+    "name": "Parvati",
+    "slug": "parvati",
+    "arcana": "Priestess",
+    "level": 48,
+    "stats": {
+      "st": 26,
+      "ma": 40,
+      "en": 26,
+      "ag": 31,
+      "lu": 31
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "weak",
+      "ice": "null",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Mabufula",
+        "level": 0
+      },
+      {
+        "name": "Diarama",
+        "level": 0
+      },
+      {
+        "name": "Mabaisudi",
+        "level": 0
+      },
+      {
+        "name": "Amrita Drop",
+        "level": 49
+      },
+      {
+        "name": "Mediarama",
+        "level": 50
+      },
+      {
+        "name": "Divine Grace",
+        "level": 52
+      },
+      {
+        "name": "Bufudyne",
+        "level": 53
+      }
+    ],
+    "heartItem": {
+      "name": "Soul Sea Droplet",
+      "level": 51
+    },
+    "specialRecipe": [
+      "Sati",
+      "Sarasvati",
+      "Dakini"
+    ]
+  },
+  {
+    "name": "Anat",
+    "slug": "anat",
+    "arcana": "Priestess",
+    "level": 53,
+    "stats": {
+      "st": 36,
+      "ma": 39,
+      "en": 33,
+      "ag": 37,
+      "lu": 23
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "null",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "resist",
+      "elec": "weak",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Cosmic Flare",
+        "level": 0
+      },
+      {
+        "name": "Neuro Slash",
+        "level": 0
+      },
+      {
+        "name": "Diarahan",
+        "level": 0
+      },
+      {
+        "name": "Auto Maraku",
+        "level": 54
+      },
+      {
+        "name": "Samarecarm",
+        "level": 55
+      },
+      {
+        "name": "Mediarahan",
+        "level": 57
+      },
+      {
+        "name": "Enduring Soul",
+        "level": 59
+      }
+    ],
+    "dlc": "P5R Persona Set 2"
+  },
+  {
+    "name": "Kikuri-Hime",
+    "slug": "kikuri-hime",
+    "arcana": "Priestess",
+    "level": 61,
+    "stats": {
+      "st": 29,
+      "ma": 50,
+      "en": 34,
+      "ag": 41,
+      "lu": 39
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "weak",
+      "ice": "null",
+      "elec": "normal",
+      "wind": "resist",
+      "light": "resist",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Bufudyne",
+        "level": 0
+      },
+      {
+        "name": "Mabufula",
+        "level": 0
+      },
+      {
+        "name": "Mediarama",
+        "level": 0
+      },
+      {
+        "name": "Amrita Shower",
+        "level": 62
+      },
+      {
+        "name": "Marakukaja",
+        "level": 63
+      },
+      {
+        "name": "Samarecarm",
+        "level": 65
+      },
+      {
+        "name": "Mediarahan",
+        "level": 67
+      }
+    ],
+    "heartItem": {
+      "name": "Soul Sea Drop",
+      "level": 66
+    }
+  },
+  {
+    "name": "Scathach",
+    "slug": "scathach",
+    "arcana": "Priestess",
+    "level": 75,
+    "stats": {
+      "st": 55,
+      "ma": 58,
+      "en": 40,
+      "ag": 49,
+      "lu": 42
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "null",
+      "fire": "weak",
+      "ice": "null",
+      "elec": "normal",
+      "wind": "resist",
+      "light": "resist",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Mabufudyne",
+        "level": 0
+      },
+      {
+        "name": "Magarudyne",
+        "level": 0
+      },
+      {
+        "name": "Myriad Arrows",
+        "level": 0
+      },
+      {
+        "name": "Auto Masuku",
+        "level": 76
+      },
+      {
+        "name": "Freeze Boost",
+        "level": 77
+      },
+      {
+        "name": "Invigorate 3",
+        "level": 79
+      },
+      {
+        "name": "Auto Mataru",
+        "level": 81
+      }
+    ],
+    "heartItem": {
+      "name": "Preceptress Silk",
+      "level": 81
+    },
+    "unlock": "Max the Priestess Social Link"
+  },
+  {
+    "name": "Leanan Sidhe",
+    "slug": "leanan-sidhe",
+    "arcana": "Empress",
+    "level": 21,
+    "stats": {
+      "st": 12,
+      "ma": 22,
+      "en": 13,
+      "ag": 15,
+      "lu": 14
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "weak",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "resist",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Media",
+        "level": 0
+      },
+      {
+        "name": "Diarama",
+        "level": 0
+      },
+      {
+        "name": "Patra",
+        "level": 0
+      },
+      {
+        "name": "Spirit Drain",
+        "level": 22
+      },
+      {
+        "name": "Me Patra",
+        "level": 24
+      },
+      {
+        "name": "Marin Karin",
+        "level": 25
+      },
+      {
+        "name": "Null Charm",
+        "level": 26
+      }
+    ]
+  },
+  {
+    "name": "Yakshini",
+    "slug": "yakshini",
+    "arcana": "Empress",
+    "level": 32,
+    "stats": {
+      "st": 33,
+      "ma": 16,
+      "en": 13,
+      "ag": 25,
+      "lu": 18
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "resist",
+      "fire": "weak",
+      "ice": "null",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Sexy Dance",
+        "level": 0
+      },
+      {
+        "name": "Fatal End",
+        "level": 0
+      },
+      {
+        "name": "Blade of Fury",
+        "level": 33
+      },
+      {
+        "name": "Charm Boost",
+        "level": 35
+      },
+      {
+        "name": "Multi-Target Boost",
+        "level": 36
+      },
+      {
+        "name": "Deathbound",
+        "level": 37
+      }
+    ]
+  },
+  {
+    "name": "Milady",
+    "slug": "milady",
+    "arcana": "Empress",
+    "level": 36,
+    "stats": {
+      "st": 27,
+      "ma": 24,
+      "en": 22,
+      "ag": 22,
+      "lu": 20
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "resist",
+      "fire": "weak",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Torrent Shot",
+        "level": 0
+      },
+      {
+        "name": "Amrita Drop",
+        "level": 0
+      },
+      {
+        "name": "Pierce Driver",
+        "level": 0
+      },
+      {
+        "name": "Fast Heal",
+        "level": 37
+      },
+      {
+        "name": "Tentarafoo",
+        "level": 38
+      },
+      {
+        "name": "Tetrakarn",
+        "level": 40
+      },
+      {
+        "name": "Makarakarn",
+        "level": 41
+      }
+    ],
+    "dlc": "P5R Persona Set 1"
+  },
+  {
+    "name": "Hariti",
+    "slug": "hariti",
+    "arcana": "Empress",
+    "level": 48,
+    "stats": {
+      "st": 24,
+      "ma": 42,
+      "en": 31,
+      "ag": 28,
+      "lu": 33
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "absorb",
+      "elec": "weak",
+      "wind": "normal",
+      "light": "absorb",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Mediarama",
+        "level": 0
+      },
+      {
+        "name": "Samarecarm",
+        "level": 0
+      },
+      {
+        "name": "Me Patra",
+        "level": 0
+      },
+      {
+        "name": "Diarahan",
+        "level": 50
+      },
+      {
+        "name": "Amrita Shower",
+        "level": 52
+      },
+      {
+        "name": "Invigorate 3",
+        "level": 54
+      }
+    ]
+  },
+  {
+    "name": "Astarte",
+    "slug": "astarte",
+    "arcana": "Empress",
+    "level": 54,
+    "stats": {
+      "st": 42,
+      "ma": 36,
+      "en": 33,
+      "ag": 33,
+      "lu": 31
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "null",
+      "fire": "weak",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "resist"
+    },
+    "skills": [
+      {
+        "name": "One-shot Kill",
+        "level": 0
+      },
+      {
+        "name": "Tetrakarn",
+        "level": 0
+      },
+      {
+        "name": "Makarakarn",
+        "level": 0
+      },
+      {
+        "name": "Insta-Heal",
+        "level": 55
+      },
+      {
+        "name": "Amrita Shower",
+        "level": 56
+      },
+      {
+        "name": "Single-Target Boost",
+        "level": 58
+      },
+      {
+        "name": "Myriad Arrows",
+        "level": 60
+      }
+    ],
+    "dlc": "P5R Persona Set 2"
+  },
+  {
+    "name": "Gabriel",
+    "slug": "gabriel",
+    "arcana": "Empress",
+    "level": 62,
+    "stats": {
+      "st": 40,
+      "ma": 52,
+      "en": 35,
+      "ag": 41,
+      "lu": 37
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "absorb",
+      "elec": "normal",
+      "wind": "weak",
+      "light": "null",
+      "dark": "weak"
+    },
+    "skills": [
+      {
+        "name": "Mabufudyne",
+        "level": 0
+      },
+      {
+        "name": "Ziodyne",
+        "level": 0
+      },
+      {
+        "name": "Diarahan",
+        "level": 0
+      },
+      {
+        "name": "Divine Judgment",
+        "level": 64
+      },
+      {
+        "name": "Evade Wind",
+        "level": 65
+      },
+      {
+        "name": "Ice Amp",
+        "level": 66
+      },
+      {
+        "name": "Diamond Dust",
+        "level": 68
+      }
+    ],
+    "heartItem": {
+      "name": "Soul Sea Drop",
+      "level": 67
+    }
+  },
+  {
+    "name": "Skadi",
+    "slug": "skadi",
+    "arcana": "Empress",
+    "level": 68,
+    "stats": {
+      "st": 52,
+      "ma": 58,
+      "en": 33,
+      "ag": 40,
+      "lu": 40
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "weak",
+      "ice": "absorb",
+      "elec": "normal",
+      "wind": "resist",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Mabufudyne",
+        "level": 0
+      },
+      {
+        "name": "Tetrakarn",
+        "level": 0
+      },
+      {
+        "name": "Vorpal Blade",
+        "level": 0
+      },
+      {
+        "name": "Diamond Dust",
+        "level": 69
+      },
+      {
+        "name": "Maeigaon",
+        "level": 70
+      },
+      {
+        "name": "Ice Amp",
+        "level": 72
+      },
+      {
+        "name": "Drain Fire",
+        "level": 75
+      }
+    ],
+    "heartItem": {
+      "name": "Shadow Lipstick",
+      "level": 74
+    }
+  },
+  {
+    "name": "Mother Harlot",
+    "slug": "mother-harlot",
+    "arcana": "Empress",
+    "level": 77,
+    "stats": {
+      "st": 44,
+      "ma": 65,
+      "en": 60,
+      "ag": 36,
+      "lu": 42
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "null",
+      "pierce": "normal",
+      "fire": "weak",
+      "ice": "normal",
+      "elec": "repel",
+      "wind": "weak",
+      "light": "normal",
+      "dark": "null"
+    },
+    "skills": [
+      {
+        "name": "Mamudoon",
+        "level": 0
+      },
+      {
+        "name": "Ziodyne",
+        "level": 0
+      },
+      {
+        "name": "Sexy Dance",
+        "level": 0
+      },
+      {
+        "name": "Mudo Boost",
+        "level": 78
+      },
+      {
+        "name": "Maziodyne",
+        "level": 80
+      },
+      {
+        "name": "Debilitate",
+        "level": 82
+      },
+      {
+        "name": "Diamond Dust",
+        "level": 83
+      }
+    ],
+    "heartItem": {
+      "name": "Soul Sea Drop",
+      "level": 82
+    }
+  },
+  {
+    "name": "Alilat",
+    "slug": "alilat",
+    "arcana": "Empress",
+    "level": 84,
+    "stats": {
+      "st": 51,
+      "ma": 70,
+      "en": 60,
+      "ag": 51,
+      "lu": 51
+    },
+    "affinities": {
+      "slash": "repel",
+      "strike": "repel",
+      "pierce": "normal",
+      "fire": "weak",
+      "ice": "null",
+      "elec": "normal",
+      "wind": "resist",
+      "light": "normal",
+      "dark": "weak"
+    },
+    "skills": [
+      {
+        "name": "Mabufudyne",
+        "level": 0
+      },
+      {
+        "name": "Maziodyne",
+        "level": 0
+      },
+      {
+        "name": "Makarakarn",
+        "level": 0
+      },
+      {
+        "name": "Repel Fire",
+        "level": 86
+      },
+      {
+        "name": "Diamond Dust",
+        "level": 87
+      },
+      {
+        "name": "Inferno",
+        "level": 89
+      },
+      {
+        "name": "Repel Pierce",
+        "level": 91
+      }
+    ],
+    "heartItem": {
+      "name": "Black Pillar Shard",
+      "level": 91
+    },
+    "unlock": "Max the Empress Social Link"
+  },
+  {
+    "name": "Forneus",
+    "slug": "forneus",
+    "arcana": "Emperor",
+    "level": 7,
+    "stats": {
+      "st": 5,
+      "ma": 6,
+      "en": 7,
+      "ag": 6,
+      "lu": 4
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "resist",
+      "elec": "weak",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Bufu",
+        "level": 0
+      },
+      {
+        "name": "Bash",
+        "level": 0
+      },
+      {
+        "name": "Tarukaja",
+        "level": 0
+      },
+      {
+        "name": "Single Shot",
+        "level": 9
+      },
+      {
+        "name": "Sharp Student",
+        "level": 10
+      },
+      {
+        "name": "Dodge Ice",
+        "level": 12
+      },
+      {
+        "name": "Best Friends",
+        "level": 0,
+        "fusionSpell": true
+      }
+    ]
+  },
+  {
+    "name": "Oberon",
+    "slug": "oberon",
+    "arcana": "Emperor",
+    "level": 16,
+    "stats": {
+      "st": 11,
+      "ma": 15,
+      "en": 9,
+      "ag": 12,
+      "lu": 8
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "weak",
+      "elec": "null",
+      "wind": "normal",
+      "light": "resist",
+      "dark": "resist"
+    },
+    "skills": [
+      {
+        "name": "Zio",
+        "level": 0
+      },
+      {
+        "name": "Media",
+        "level": 0
+      },
+      {
+        "name": "Mazio",
+        "level": 17
+      },
+      {
+        "name": "Zan-ei",
+        "level": 18
+      },
+      {
+        "name": "Survive Dark",
+        "level": 19
+      },
+      {
+        "name": "Zionga",
+        "level": 21
+      }
+    ],
+    "heartItem": {
+      "name": "Soul Sea Driblet",
+      "level": 18
+    }
+  },
+  {
+    "name": "Take-Mikazuchi",
+    "slug": "take-mikazuchi",
+    "arcana": "Emperor",
+    "level": 23,
+    "stats": {
+      "st": 18,
+      "ma": 17,
+      "en": 13,
+      "ag": 15,
+      "lu": 14
+    },
+    "affinities": {
+      "slash": "resist",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "null",
+      "wind": "weak",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Mazio",
+        "level": 0
+      },
+      {
+        "name": "Fatal End",
+        "level": 0
+      },
+      {
+        "name": "Elec Break",
+        "level": 0
+      },
+      {
+        "name": "Zionga",
+        "level": 24
+      },
+      {
+        "name": "Auto Tarukaja",
+        "level": 26
+      },
+      {
+        "name": "Getsu-ei",
+        "level": 27
+      },
+      {
+        "name": "Mazionga",
+        "level": 28
+      }
+    ]
+  },
+  {
+    "name": "Goemon",
+    "slug": "goemon",
+    "arcana": "Emperor",
+    "level": 27,
+    "stats": {
+      "st": 24,
+      "ma": 16,
+      "en": 18,
+      "ag": 17,
+      "lu": 13
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "weak",
+      "ice": "resist",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Bufula",
+        "level": 0
+      },
+      {
+        "name": "Getsu-ei",
+        "level": 0
+      },
+      {
+        "name": "Ice Driver",
+        "level": 0
+      },
+      {
+        "name": "Shift Boost",
+        "level": 28
+      },
+      {
+        "name": "Counterstrike",
+        "level": 29
+      },
+      {
+        "name": "Blade of Fury",
+        "level": 31
+      },
+      {
+        "name": "Mabufula",
+        "level": 32
+      }
+    ],
+    "dlc": "P5R Persona Set 1"
+  },
+  {
+    "name": "King Frost",
+    "slug": "king-frost",
+    "arcana": "Emperor",
+    "level": 34,
+    "stats": {
+      "st": 18,
+      "ma": 31,
+      "en": 26,
+      "ag": 14,
+      "lu": 20
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "weak",
+      "ice": "absorb",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Bufula",
+        "level": 0
+      },
+      {
+        "name": "Freeze Boost",
+        "level": 0
+      },
+      {
+        "name": "Rakukaja",
+        "level": 0
+      },
+      {
+        "name": "Mabufula",
+        "level": 35
+      },
+      {
+        "name": "Ice Break",
+        "level": 36
+      },
+      {
+        "name": "Marakukaja",
+        "level": 37
+      },
+      {
+        "name": "Null Ice",
+        "level": 39
+      },
+      {
+        "name": "King and I",
+        "level": 0,
+        "fusionSpell": true
+      }
+    ],
+    "unlock": "Clear Elizabeth's Request #24"
+  },
+  {
+    "name": "Naga Raja",
+    "slug": "naga-raja",
+    "arcana": "Emperor",
+    "level": 43,
+    "stats": {
+      "st": 33,
+      "ma": 31,
+      "en": 22,
+      "ag": 27,
+      "lu": 23
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "resist",
+      "fire": "weak",
+      "ice": "normal",
+      "elec": "null",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Mazionga",
+        "level": 0
+      },
+      {
+        "name": "Cruel Attack",
+        "level": 0
+      },
+      {
+        "name": "Tentarafoo",
+        "level": 0
+      },
+      {
+        "name": "Revolution",
+        "level": 44
+      },
+      {
+        "name": "Elec Break",
+        "level": 45
+      },
+      {
+        "name": "Confuse Boost",
+        "level": 46
+      },
+      {
+        "name": "Null Pierce",
+        "level": 48
+      }
+    ]
+  },
+  {
+    "name": "Kamu Susano-o",
+    "slug": "kamu-susano-o",
+    "arcana": "Emperor",
+    "level": 47,
+    "stats": {
+      "st": 40,
+      "ma": 25,
+      "en": 30,
+      "ag": 30,
+      "lu": 23
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "weak",
+      "ice": "null",
+      "elec": "normal",
+      "wind": "resist",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Ice Age",
+        "level": 0
+      },
+      {
+        "name": "Tempest Slash",
+        "level": 0
+      },
+      {
+        "name": "Masukukaja",
+        "level": 0
+      },
+      {
+        "name": "Bufudyne",
+        "level": 48
+      },
+      {
+        "name": "High Counter",
+        "level": 49
+      },
+      {
+        "name": "Shift Amp",
+        "level": 51
+      },
+      {
+        "name": "Vorpal Blade",
+        "level": 53
+      }
+    ],
+    "dlc": "P5R Persona Set 2"
+  },
+  {
+    "name": "Belphegor",
+    "slug": "belphegor",
+    "arcana": "Emperor",
+    "level": 53,
+    "stats": {
+      "st": 34,
+      "ma": 43,
+      "en": 38,
+      "ag": 28,
+      "lu": 29
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "weak",
+      "ice": "resist",
+      "elec": "resist",
+      "wind": "normal",
+      "light": "weak",
+      "dark": "absorb"
+    },
+    "skills": [
+      {
+        "name": "Mabufula",
+        "level": 0
+      },
+      {
+        "name": "Maeiga",
+        "level": 0
+      },
+      {
+        "name": "Dodge Light",
+        "level": 0
+      },
+      {
+        "name": "Mudoon",
+        "level": 54
+      },
+      {
+        "name": "Stagnant Air",
+        "level": 55
+      },
+      {
+        "name": "Endure Light",
+        "level": 57
+      },
+      {
+        "name": "Maeigaon",
+        "level": 59
+      }
+    ]
+  },
+  {
+    "name": "Barong",
+    "slug": "barong",
+    "arcana": "Emperor",
+    "level": 63,
+    "stats": {
+      "st": 43,
+      "ma": 55,
+      "en": 41,
+      "ag": 31,
+      "lu": 32
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "null",
+      "wind": "weak",
+      "light": "null",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Ziodyne",
+        "level": 0
+      },
+      {
+        "name": "Elec Boost",
+        "level": 0
+      },
+      {
+        "name": "Elec Break",
+        "level": 0
+      },
+      {
+        "name": "Maziodyne",
+        "level": 64
+      },
+      {
+        "name": "Eerie Sound",
+        "level": 65
+      },
+      {
+        "name": "Auto Masuku",
+        "level": 67
+      },
+      {
+        "name": "Drain Elec",
+        "level": 69
+      }
+    ]
+  },
+  {
+    "name": "Odin",
+    "slug": "odin",
+    "arcana": "Emperor",
+    "level": 74,
+    "stats": {
+      "st": 44,
+      "ma": 63,
+      "en": 42,
+      "ag": 46,
+      "lu": 49
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "absorb",
+      "wind": "weak",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Maziodyne",
+        "level": 0
+      },
+      {
+        "name": "Primal Force",
+        "level": 0
+      },
+      {
+        "name": "Marakunda",
+        "level": 0
+      },
+      {
+        "name": "Thunder Reign",
+        "level": 75
+      },
+      {
+        "name": "Elec Amp",
+        "level": 76
+      },
+      {
+        "name": "Concentrate",
+        "level": 78
+      },
+      {
+        "name": "Spell Master",
+        "level": 80
+      }
+    ],
+    "heartItem": {
+      "name": "Eyepatch of Wisdom",
+      "level": 81
+    },
+    "unlock": "Max the Emperor Social Link"
+  },
+  {
+    "name": "Omoikane",
+    "slug": "omoikane",
+    "arcana": "Hierophant",
+    "level": 7,
+    "stats": {
+      "st": 4,
+      "ma": 8,
+      "en": 6,
+      "ag": 4,
+      "lu": 6
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "resist",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "weak"
+    },
+    "skills": [
+      {
+        "name": "Zio",
+        "level": 0
+      },
+      {
+        "name": "Dia",
+        "level": 0
+      },
+      {
+        "name": "Rebellion",
+        "level": 8
+      },
+      {
+        "name": "Resist Shock",
+        "level": 10
+      },
+      {
+        "name": "Auto Rakukaja",
+        "level": 12
+      }
+    ]
+  },
+  {
+    "name": "Berith",
+    "slug": "berith",
+    "arcana": "Hierophant",
+    "level": 13,
+    "stats": {
+      "st": 12,
+      "ma": 7,
+      "en": 10,
+      "ag": 11,
+      "lu": 6
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "resist",
+      "ice": "normal",
+      "elec": "weak",
+      "wind": "resist",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Single Shot",
+        "level": 0
+      },
+      {
+        "name": "Agi",
+        "level": 0
+      },
+      {
+        "name": "Rakukaja",
+        "level": 0
+      },
+      {
+        "name": "Power Slash",
+        "level": 14
+      },
+      {
+        "name": "Dodge Fire",
+        "level": 16
+      },
+      {
+        "name": "Assault Dive",
+        "level": 18
+      }
+    ]
+  },
+  {
+    "name": "Shiisaa",
+    "slug": "shiisaa",
+    "arcana": "Hierophant",
+    "level": 23,
+    "stats": {
+      "st": 15,
+      "ma": 15,
+      "en": 19,
+      "ag": 16,
+      "lu": 11
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "resist",
+      "pierce": "normal",
+      "fire": "weak",
+      "ice": "null",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "resist",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Mabufu",
+        "level": 0
+      },
+      {
+        "name": "Assault Dive",
+        "level": 0
+      },
+      {
+        "name": "Rakukaja",
+        "level": 24
+      },
+      {
+        "name": "Ice Boost",
+        "level": 26
+      },
+      {
+        "name": "Dodge Fire",
+        "level": 27
+      },
+      {
+        "name": "Herculean Strike",
+        "level": 29
+      }
+    ]
+  },
+  {
+    "name": "Flauros",
+    "slug": "flauros",
+    "arcana": "Hierophant",
+    "level": 33,
+    "stats": {
+      "st": 27,
+      "ma": 25,
+      "en": 20,
+      "ag": 18,
+      "lu": 16
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "null",
+      "ice": "weak",
+      "elec": "normal",
+      "wind": "resist",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Agilao",
+        "level": 0
+      },
+      {
+        "name": "Swift Strike",
+        "level": 0
+      },
+      {
+        "name": "Auto Sukukaja",
+        "level": 0
+      },
+      {
+        "name": "Crit Rate Boost",
+        "level": 34
+      },
+      {
+        "name": "Apt Pupil",
+        "level": 35
+      },
+      {
+        "name": "Herculean Strike",
+        "level": 36
+      },
+      {
+        "name": "Evade Wind",
+        "level": 38
+      }
+    ],
+    "heartItem": {
+      "name": "Soul Sea Droplet",
+      "level": 37
+    },
+    "specialRecipe": [
+      "Forneus",
+      "Berith",
+      "Eligor"
+    ]
+  },
+  {
+    "name": "Thoth",
+    "slug": "thoth",
+    "arcana": "Hierophant",
+    "level": 40,
+    "stats": {
+      "st": 20,
+      "ma": 40,
+      "en": 20,
+      "ag": 25,
+      "lu": 25
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "weak",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "null",
+      "wind": "normal",
+      "light": "null",
+      "dark": "weak"
+    },
+    "skills": [
+      {
+        "name": "Zionga",
+        "level": 0
+      },
+      {
+        "name": "Mahama",
+        "level": 0
+      },
+      {
+        "name": "Diarama",
+        "level": 0
+      },
+      {
+        "name": "Mazionga",
+        "level": 41
+      },
+      {
+        "name": "Soul Shift",
+        "level": 43
+      },
+      {
+        "name": "Megido",
+        "level": 44
+      },
+      {
+        "name": "Concentrate",
+        "level": 45
+      }
+    ],
+    "unlock": "Clear Elizabeth's Request #78"
+  },
+  {
+    "name": "Mishaguji",
+    "slug": "mishaguji",
+    "arcana": "Hierophant",
+    "level": 48,
+    "stats": {
+      "st": 36,
+      "ma": 35,
+      "en": 30,
+      "ag": 24,
+      "lu": 26
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "weak",
+      "elec": "null",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "null"
+    },
+    "skills": [
+      {
+        "name": "Mazionga",
+        "level": 0
+      },
+      {
+        "name": "Deathbound",
+        "level": 0
+      },
+      {
+        "name": "Marin Karin",
+        "level": 0
+      },
+      {
+        "name": "Ziodyne",
+        "level": 49
+      },
+      {
+        "name": "Matarukaja",
+        "level": 50
+      },
+      {
+        "name": "Vile Assault",
+        "level": 52
+      },
+      {
+        "name": "Null Strike",
+        "level": 54
+      }
+    ]
+  },
+  {
+    "name": "Daisoujou",
+    "slug": "daisoujou",
+    "arcana": "Hierophant",
+    "level": 59,
+    "stats": {
+      "st": 33,
+      "ma": 49,
+      "en": 38,
+      "ag": 31,
+      "lu": 42
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "null",
+      "dark": "weak"
+    },
+    "skills": [
+      {
+        "name": "Hamaon",
+        "level": 0
+      },
+      {
+        "name": "Diarahan",
+        "level": 0
+      },
+      {
+        "name": "Growth 3",
+        "level": 0
+      },
+      {
+        "name": "Samsara",
+        "level": 60
+      },
+      {
+        "name": "Invigorate 3",
+        "level": 61
+      },
+      {
+        "name": "Hama Boost",
+        "level": 63
+      },
+      {
+        "name": "Null Dark",
+        "level": 65
+      }
+    ]
+  },
+  {
+    "name": "Kohryu",
+    "slug": "kohryu",
+    "arcana": "Hierophant",
+    "level": 71,
+    "stats": {
+      "st": 44,
+      "ma": 53,
+      "en": 58,
+      "ag": 31,
+      "lu": 40
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "repel",
+      "wind": "normal",
+      "light": "null",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Makougaon",
+        "level": 0
+      },
+      {
+        "name": "Mediarahan",
+        "level": 0
+      },
+      {
+        "name": "Invigorate 3",
+        "level": 0
+      },
+      {
+        "name": "Concentrate",
+        "level": 73
+      },
+      {
+        "name": "Makarakarn",
+        "level": 74
+      },
+      {
+        "name": "Tetrakarn",
+        "level": 75
+      },
+      {
+        "name": "Spell Master",
+        "level": 77
+      }
+    ],
+    "heartItem": {
+      "name": "God Dragon Whiskers",
+      "level": 78
+    },
+    "unlock": "Max the Hierophant Social Link",
+    "specialRecipe": [
+      "Genbu",
+      "Seiryu",
+      "Suzaku",
+      "Byakko"
+    ]
+  },
+  {
+    "name": "Pixie",
+    "slug": "pixie",
+    "arcana": "Lovers",
+    "level": 2,
+    "stats": {
+      "st": 2,
+      "ma": 2,
+      "en": 2,
+      "ag": 4,
+      "lu": 3
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "weak",
+      "elec": "resist",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Dia",
+        "level": 0
+      },
+      {
+        "name": "Pulinpa",
+        "level": 0
+      },
+      {
+        "name": "Zio",
+        "level": 4
+      },
+      {
+        "name": "Tarukaja",
+        "level": 5
+      },
+      {
+        "name": "Resist Confuse",
+        "level": 6
+      }
+    ]
+  },
+  {
+    "name": "Silky",
+    "slug": "silky",
+    "arcana": "Lovers",
+    "level": 5,
+    "stats": {
+      "st": 3,
+      "ma": 7,
+      "en": 3,
+      "ag": 4,
+      "lu": 5
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "weak",
+      "ice": "resist",
+      "elec": "weak",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Bewilder",
+        "level": 0
+      },
+      {
+        "name": "Bufu",
+        "level": 0
+      },
+      {
+        "name": "Dia",
+        "level": 6
+      },
+      {
+        "name": "Baisudi",
+        "level": 7
+      },
+      {
+        "name": "Sharp Student",
+        "level": 9
+      }
+    ]
+  },
+  {
+    "name": "Tam Lin",
+    "slug": "tam-lin",
+    "arcana": "Lovers",
+    "level": 13,
+    "stats": {
+      "st": 12,
+      "ma": 11,
+      "en": 8,
+      "ag": 10,
+      "lu": 5
+    },
+    "affinities": {
+      "slash": "resist",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "null",
+      "wind": "normal",
+      "light": "resist",
+      "dark": "weak"
+    },
+    "skills": [
+      {
+        "name": "Power Slash",
+        "level": 0
+      },
+      {
+        "name": "Zio",
+        "level": 0
+      },
+      {
+        "name": "Sukukaja",
+        "level": 0
+      },
+      {
+        "name": "Fatal End",
+        "level": 15
+      },
+      {
+        "name": "Mazio",
+        "level": 17
+      },
+      {
+        "name": "Survive Dark",
+        "level": 18
+      }
+    ]
+  },
+  {
+    "name": "Carmen",
+    "slug": "carmen",
+    "arcana": "Lovers",
+    "level": 19,
+    "stats": {
+      "st": 8,
+      "ma": 18,
+      "en": 12,
+      "ag": 14,
+      "lu": 12
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "resist",
+      "ice": "weak",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Agilao",
+        "level": 0
+      },
+      {
+        "name": "Tarunda",
+        "level": 0
+      },
+      {
+        "name": "Fire Driver",
+        "level": 0
+      },
+      {
+        "name": "Sexy Dance",
+        "level": 20
+      },
+      {
+        "name": "Diarama",
+        "level": 21
+      },
+      {
+        "name": "Charm Boost",
+        "level": 22
+      },
+      {
+        "name": "Maragion",
+        "level": 24
+      }
+    ],
+    "dlc": "P5R Persona Set 1"
+  },
+  {
+    "name": "Narcissus",
+    "slug": "narcissus",
+    "arcana": "Lovers",
+    "level": 23,
+    "stats": {
+      "st": 12,
+      "ma": 18,
+      "en": 10,
+      "ag": 17,
+      "lu": 20
+    },
+    "affinities": {
+      "slash": "weak",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "resist",
+      "elec": "resist",
+      "wind": "resist",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Marin Karin",
+        "level": 0
+      },
+      {
+        "name": "Charm Boost",
+        "level": 0
+      },
+      {
+        "name": "Magaru",
+        "level": 0
+      },
+      {
+        "name": "Sexy Dance",
+        "level": 24
+      },
+      {
+        "name": "Sharp Student",
+        "level": 25
+      },
+      {
+        "name": "Growth 1",
+        "level": 27
+      },
+      {
+        "name": "Dodge Slash",
+        "level": 28
+      }
+    ],
+    "heartItem": {
+      "name": "Soul Sea Driblet",
+      "level": 25
+    }
+  },
+  {
+    "name": "Queen Medb",
+    "slug": "queen-medb",
+    "arcana": "Lovers",
+    "level": 28,
+    "stats": {
+      "st": 14,
+      "ma": 26,
+      "en": 15,
+      "ag": 19,
+      "lu": 17
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "resist",
+      "ice": "normal",
+      "elec": "null",
+      "wind": "weak",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Me Patra",
+        "level": 0
+      },
+      {
+        "name": "Mazio",
+        "level": 0
+      },
+      {
+        "name": "Maragi",
+        "level": 0
+      },
+      {
+        "name": "Multi-Target Boost",
+        "level": 29
+      },
+      {
+        "name": "Dodge Strike",
+        "level": 30
+      },
+      {
+        "name": "Dodge Pierce",
+        "level": 31
+      },
+      {
+        "name": "Matarunda",
+        "level": 33
+      }
+    ]
+  },
+  {
+    "name": "Saki Mitama",
+    "slug": "saki-mitama",
+    "arcana": "Lovers",
+    "level": 36,
+    "stats": {
+      "st": 16,
+      "ma": 30,
+      "en": 20,
+      "ag": 22,
+      "lu": 28
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "weak",
+      "pierce": "normal",
+      "fire": "resist",
+      "ice": "resist",
+      "elec": "resist",
+      "wind": "resist",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Diarama",
+        "level": 0
+      },
+      {
+        "name": "Mabufu",
+        "level": 0
+      },
+      {
+        "name": "Ice Break",
+        "level": 0
+      },
+      {
+        "name": "Mediarama",
+        "level": 37
+      },
+      {
+        "name": "Dekunda",
+        "level": 38
+      },
+      {
+        "name": "Null Shock",
+        "level": 39
+      },
+      {
+        "name": "Divine Grace",
+        "level": 41
+      }
+    ]
+  },
+  {
+    "name": "Hecate",
+    "slug": "hecate",
+    "arcana": "Lovers",
+    "level": 42,
+    "stats": {
+      "st": 22,
+      "ma": 35,
+      "en": 24,
+      "ag": 26,
+      "lu": 26
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "null",
+      "ice": "weak",
+      "elec": "resist",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Blazing Hell",
+        "level": 0
+      },
+      {
+        "name": "Sexy Dance",
+        "level": 0
+      },
+      {
+        "name": "Matarunda",
+        "level": 0
+      },
+      {
+        "name": "Stagnant Air",
+        "level": 43
+      },
+      {
+        "name": "Agidyne",
+        "level": 44
+      },
+      {
+        "name": "Concentrate",
+        "level": 46
+      },
+      {
+        "name": "Drain Fire",
+        "level": 48
+      }
+    ],
+    "dlc": "P5R Persona Set 2"
+  },
+  {
+    "name": "Titania",
+    "slug": "titania",
+    "arcana": "Lovers",
+    "level": 49,
+    "stats": {
+      "st": 19,
+      "ma": 45,
+      "en": 23,
+      "ag": 34,
+      "lu": 36
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "weak",
+      "ice": "null",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "resist",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Bufudyne",
+        "level": 0
+      },
+      {
+        "name": "Mabufula",
+        "level": 0
+      },
+      {
+        "name": "Magarula",
+        "level": 50
+      },
+      {
+        "name": "Freeze Boost",
+        "level": 51
+      },
+      {
+        "name": "Concentrate",
+        "level": 53
+      },
+      {
+        "name": "Mabufudyne",
+        "level": 55
+      }
+    ],
+    "heartItem": {
+      "name": "Soul Sea Droplet",
+      "level": 52
+    }
+  },
+  {
+    "name": "Raphael",
+    "slug": "raphael",
+    "arcana": "Lovers",
+    "level": 60,
+    "stats": {
+      "st": 46,
+      "ma": 42,
+      "en": 37,
+      "ag": 31,
+      "lu": 40
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "resist",
+      "ice": "normal",
+      "elec": "weak",
+      "wind": "null",
+      "light": "null",
+      "dark": "weak"
+    },
+    "skills": [
+      {
+        "name": "Tempest Slash",
+        "level": 0
+      },
+      {
+        "name": "Mediarama",
+        "level": 0
+      },
+      {
+        "name": "Dekaja",
+        "level": 0
+      },
+      {
+        "name": "Auto Maraku",
+        "level": 61
+      },
+      {
+        "name": "Magarudyne",
+        "level": 62
+      },
+      {
+        "name": "Angelic Grace",
+        "level": 64
+      },
+      {
+        "name": "Heat Riser",
+        "level": 66
+      }
+    ]
+  },
+  {
+    "name": "Cybele",
+    "slug": "cybele",
+    "arcana": "Lovers",
+    "level": 67,
+    "stats": {
+      "st": 39,
+      "ma": 54,
+      "en": 40,
+      "ag": 42,
+      "lu": 45
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "resist",
+      "ice": "null",
+      "elec": "weak",
+      "wind": "normal",
+      "light": "resist",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Makougaon",
+        "level": 0
+      },
+      {
+        "name": "Garudyne",
+        "level": 0
+      },
+      {
+        "name": "Diarahan",
+        "level": 0
+      },
+      {
+        "name": "Mediarahan",
+        "level": 68
+      },
+      {
+        "name": "Auto Maraku",
+        "level": 69
+      },
+      {
+        "name": "Light Amp",
+        "level": 71
+      },
+      {
+        "name": "Spell Master",
+        "level": 73
+      }
+    ],
+    "heartItem": {
+      "name": "Earth Goddess Ring",
+      "level": 74
+    },
+    "unlock": "Max the Lovers Social Link"
+  },
+  {
+    "name": "Ara Mitama",
+    "slug": "ara-mitama",
+    "arcana": "Chariot",
+    "level": 6,
+    "stats": {
+      "st": 8,
+      "ma": 3,
+      "en": 4,
+      "ag": 5,
+      "lu": 5
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "resist",
+      "pierce": "normal",
+      "fire": "resist",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "weak",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Bash",
+        "level": 0
+      },
+      {
+        "name": "Rakukaja",
+        "level": 0
+      },
+      {
+        "name": "Provoke",
+        "level": 0
+      },
+      {
+        "name": "Agi",
+        "level": 7
+      },
+      {
+        "name": "Rakunda",
+        "level": 8
+      },
+      {
+        "name": "Rage Boost",
+        "level": 10
+      }
+    ]
+  },
+  {
+    "name": "Chimera",
+    "slug": "chimera",
+    "arcana": "Chariot",
+    "level": 9,
+    "stats": {
+      "st": 8,
+      "ma": 4,
+      "en": 12,
+      "ag": 4,
+      "lu": 6
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "resist",
+      "pierce": "normal",
+      "fire": "resist",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "weak"
+    },
+    "skills": [
+      {
+        "name": "Power Slash",
+        "level": 0
+      },
+      {
+        "name": "Bewilder",
+        "level": 0
+      },
+      {
+        "name": "Agi",
+        "level": 10
+      },
+      {
+        "name": "Sonic Punch",
+        "level": 11
+      },
+      {
+        "name": "Sukunda",
+        "level": 12
+      },
+      {
+        "name": "Auto Tarukaja",
+        "level": 14
+      }
+    ]
+  },
+  {
+    "name": "Zouchouten",
+    "slug": "zouchouten",
+    "arcana": "Chariot",
+    "level": 14,
+    "stats": {
+      "st": 14,
+      "ma": 7,
+      "en": 13,
+      "ag": 6,
+      "lu": 10
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "resist",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "weak",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Bash",
+        "level": 0
+      },
+      {
+        "name": "Zio",
+        "level": 0
+      },
+      {
+        "name": "Crit Rate Boost",
+        "level": 0
+      },
+      {
+        "name": "Auto Tarukaja",
+        "level": 15
+      },
+      {
+        "name": "Assault Dive",
+        "level": 16
+      },
+      {
+        "name": "Rebellion",
+        "level": 18
+      },
+      {
+        "name": "Swift Strike",
+        "level": 19
+      }
+    ]
+  },
+  {
+    "name": "Captain Kidd",
+    "slug": "captain-kidd",
+    "arcana": "Chariot",
+    "level": 18,
+    "stats": {
+      "st": 14,
+      "ma": 8,
+      "en": 16,
+      "ag": 12,
+      "lu": 11
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "resist",
+      "wind": "weak",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Mazio",
+        "level": 0
+      },
+      {
+        "name": "Assault Dive",
+        "level": 0
+      },
+      {
+        "name": "Elec Driver",
+        "level": 0
+      },
+      {
+        "name": "Tarukaja",
+        "level": 19
+      },
+      {
+        "name": "Shock Boost",
+        "level": 20
+      },
+      {
+        "name": "Zionga",
+        "level": 21
+      },
+      {
+        "name": "Swift Strike",
+        "level": 23
+      }
+    ],
+    "dlc": "P5R Persona Set 1"
+  },
+  {
+    "name": "Mithras",
+    "slug": "mithras",
+    "arcana": "Chariot",
+    "level": 24,
+    "stats": {
+      "st": 16,
+      "ma": 19,
+      "en": 15,
+      "ag": 14,
+      "lu": 15
+    },
+    "affinities": {
+      "slash": "resist",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "absorb",
+      "ice": "normal",
+      "elec": "weak",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Makouha",
+        "level": 0
+      },
+      {
+        "name": "Zan-ei",
+        "level": 0
+      },
+      {
+        "name": "Rakunda",
+        "level": 0
+      },
+      {
+        "name": "Agilao",
+        "level": 25
+      },
+      {
+        "name": "Hama",
+        "level": 26
+      },
+      {
+        "name": "Tentarafoo",
+        "level": 27
+      },
+      {
+        "name": "Swift Strike",
+        "level": 29
+      },
+      {
+        "name": "Scarlet Havoc",
+        "level": 0,
+        "fusionSpell": true
+      }
+    ]
+  },
+  {
+    "name": "Oni",
+    "slug": "oni",
+    "arcana": "Chariot",
+    "level": 31,
+    "stats": {
+      "st": 30,
+      "ma": 13,
+      "en": 26,
+      "ag": 21,
+      "lu": 19
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "resist",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Bash",
+        "level": 0
+      },
+      {
+        "name": "Counter",
+        "level": 0
+      },
+      {
+        "name": "Regenerate 1",
+        "level": 0
+      },
+      {
+        "name": "Swift Strike",
+        "level": 32
+      },
+      {
+        "name": "Anti-Electric Master",
+        "level": 33
+      },
+      {
+        "name": "Counterstrike",
+        "level": 34
+      },
+      {
+        "name": "Dizzy Boost",
+        "level": 36
+      }
+    ],
+    "heartItem": {
+      "name": "Soul Sea Driblet",
+      "level": 34
+    }
+  },
+  {
+    "name": "Seiten Taisei",
+    "slug": "seiten-taisei",
+    "arcana": "Chariot",
+    "level": 40,
+    "stats": {
+      "st": 30,
+      "ma": 20,
+      "en": 33,
+      "ag": 24,
+      "lu": 20
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "resist",
+      "ice": "normal",
+      "elec": "null",
+      "wind": "weak",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Wild Thunder",
+        "level": 0
+      },
+      {
+        "name": "Deathbound",
+        "level": 0
+      },
+      {
+        "name": "Auto Tarukaja",
+        "level": 0
+      },
+      {
+        "name": "Auto Rebellion",
+        "level": 41
+      },
+      {
+        "name": "Charge",
+        "level": 43
+      },
+      {
+        "name": "Gigantic Fist",
+        "level": 44
+      },
+      {
+        "name": "Auto Mataru",
+        "level": 46
+      }
+    ],
+    "dlc": "P5R Persona Set 2"
+  },
+  {
+    "name": "Shiki-Ouji",
+    "slug": "shiki-ouji",
+    "arcana": "Chariot",
+    "level": 45,
+    "stats": {
+      "st": 33,
+      "ma": 28,
+      "en": 28,
+      "ag": 25,
+      "lu": 28
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "repel",
+      "pierce": "null",
+      "fire": "weak",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "weak",
+      "light": "resist",
+      "dark": "resist"
+    },
+    "skills": [
+      {
+        "name": "Torrent Shot",
+        "level": 0
+      },
+      {
+        "name": "Dekaja",
+        "level": 0
+      },
+      {
+        "name": "Kouga",
+        "level": 0
+      },
+      {
+        "name": "Tetrakarn",
+        "level": 46
+      },
+      {
+        "name": "Matarukaja",
+        "level": 47
+      },
+      {
+        "name": "Evade Wind",
+        "level": 49
+      },
+      {
+        "name": "Null Fire",
+        "level": 51
+      }
+    ]
+  },
+  {
+    "name": "Koumokuten",
+    "slug": "koumokuten",
+    "arcana": "Chariot",
+    "level": 52,
+    "stats": {
+      "st": 40,
+      "ma": 35,
+      "en": 40,
+      "ag": 25,
+      "lu": 29
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "resist",
+      "pierce": "resist",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "weak",
+      "wind": "null",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Herculean Strike",
+        "level": 0
+      },
+      {
+        "name": "Magarula",
+        "level": 0
+      },
+      {
+        "name": "Masukukaja",
+        "level": 0
+      },
+      {
+        "name": "Gigantic Fist",
+        "level": 53
+      },
+      {
+        "name": "Auto Tarukaja",
+        "level": 54
+      },
+      {
+        "name": "Vile Assault",
+        "level": 56
+      },
+      {
+        "name": "Enduring Soul",
+        "level": 57
+      }
+    ]
+  },
+  {
+    "name": "Thor",
+    "slug": "thor",
+    "arcana": "Chariot",
+    "level": 64,
+    "stats": {
+      "st": 54,
+      "ma": 50,
+      "en": 42,
+      "ag": 30,
+      "lu": 35
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "null",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "null",
+      "wind": "weak",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Ziodyne",
+        "level": 0
+      },
+      {
+        "name": "Maziodyne",
+        "level": 0
+      },
+      {
+        "name": "Gigantic Fist",
+        "level": 0
+      },
+      {
+        "name": "High Counter",
+        "level": 66
+      },
+      {
+        "name": "Elec Amp",
+        "level": 68
+      },
+      {
+        "name": "God's Hand",
+        "level": 71
+      }
+    ],
+    "heartItem": {
+      "name": "Thunder Whetstone",
+      "level": 70
+    },
+    "unlock": "Max the Chariot Social Link"
+  },
+  {
+    "name": "Angel",
+    "slug": "angel",
+    "arcana": "Justice",
+    "level": 4,
+    "stats": {
+      "st": 4,
+      "ma": 5,
+      "en": 3,
+      "ag": 4,
+      "lu": 3
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "resist",
+      "wind": "normal",
+      "light": "resist",
+      "dark": "weak"
+    },
+    "skills": [
+      {
+        "name": "Garu",
+        "level": 0
+      },
+      {
+        "name": "Sukukaja",
+        "level": 0
+      },
+      {
+        "name": "Single Shot",
+        "level": 5
+      },
+      {
+        "name": "Patra",
+        "level": 6
+      },
+      {
+        "name": "Resist Charm",
+        "level": 8
+      }
+    ]
+  },
+  {
+    "name": "Archangel",
+    "slug": "archangel",
+    "arcana": "Justice",
+    "level": 10,
+    "stats": {
+      "st": 8,
+      "ma": 8,
+      "en": 8,
+      "ag": 7,
+      "lu": 6
+    },
+    "affinities": {
+      "slash": "resist",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "weak",
+      "wind": "normal",
+      "light": "null",
+      "dark": "weak"
+    },
+    "skills": [
+      {
+        "name": "Kouha",
+        "level": 0
+      },
+      {
+        "name": "Single Shot",
+        "level": 0
+      },
+      {
+        "name": "Baisudi",
+        "level": 0
+      },
+      {
+        "name": "Sukukaja",
+        "level": 11
+      },
+      {
+        "name": "Holy Arrow",
+        "level": 13
+      },
+      {
+        "name": "Apt Pupil",
+        "level": 15
+      }
+    ]
+  },
+  {
+    "name": "Principality",
+    "slug": "principality",
+    "arcana": "Justice",
+    "level": 16,
+    "stats": {
+      "st": 11,
+      "ma": 13,
+      "en": 7,
+      "ag": 12,
+      "lu": 12
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "resist",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "null",
+      "dark": "weak"
+    },
+    "skills": [
+      {
+        "name": "Hama",
+        "level": 0
+      },
+      {
+        "name": "Kouha",
+        "level": 0
+      },
+      {
+        "name": "Holy Arrow",
+        "level": 0
+      },
+      {
+        "name": "Recarm",
+        "level": 18
+      },
+      {
+        "name": "Dodge Elec",
+        "level": 19
+      },
+      {
+        "name": "Mahama",
+        "level": 21
+      }
+    ]
+  },
+  {
+    "name": "Power",
+    "slug": "power",
+    "arcana": "Justice",
+    "level": 25,
+    "stats": {
+      "st": 20,
+      "ma": 16,
+      "en": 15,
+      "ag": 16,
+      "lu": 15
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "resist",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "resist",
+      "light": "null",
+      "dark": "weak"
+    },
+    "skills": [
+      {
+        "name": "Hama",
+        "level": 0
+      },
+      {
+        "name": "Magaru",
+        "level": 0
+      },
+      {
+        "name": "Arrow Rain",
+        "level": 0
+      },
+      {
+        "name": "Mahama",
+        "level": 26
+      },
+      {
+        "name": "Torrent Shot",
+        "level": 27
+      },
+      {
+        "name": "Dodge Dark",
+        "level": 29
+      },
+      {
+        "name": "Revolution",
+        "level": 30
+      }
+    ]
+  },
+  {
+    "name": "Virtue",
+    "slug": "virtue",
+    "arcana": "Justice",
+    "level": 32,
+    "stats": {
+      "st": 21,
+      "ma": 24,
+      "en": 15,
+      "ag": 22,
+      "lu": 22
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "resist",
+      "light": "repel",
+      "dark": "weak"
+    },
+    "skills": [
+      {
+        "name": "Magaru",
+        "level": 0
+      },
+      {
+        "name": "Kouga",
+        "level": 0
+      },
+      {
+        "name": "Null Poison",
+        "level": 33
+      },
+      {
+        "name": "Mahama",
+        "level": 34
+      },
+      {
+        "name": "Light Boost",
+        "level": 35
+      },
+      {
+        "name": "Makouga",
+        "level": 37
+      }
+    ]
+  },
+  {
+    "name": "Robin Hood",
+    "slug": "robin-hood",
+    "arcana": "Justice",
+    "level": 37,
+    "stats": {
+      "st": 25,
+      "ma": 27,
+      "en": 22,
+      "ag": 24,
+      "lu": 20
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "resist",
+      "dark": "weak"
+    },
+    "skills": [
+      {
+        "name": "Kouga",
+        "level": 0
+      },
+      {
+        "name": "Eiga",
+        "level": 0
+      },
+      {
+        "name": "Light Driver",
+        "level": 0
+      },
+      {
+        "name": "Megido",
+        "level": 38
+      },
+      {
+        "name": "Resist Ailments",
+        "level": 40
+      },
+      {
+        "name": "Kougaon",
+        "level": 41
+      },
+      {
+        "name": "Eigaon",
+        "level": 42
+      }
+    ],
+    "dlc": "P5R Persona Set 1"
+  },
+  {
+    "name": "Dominion",
+    "slug": "dominion",
+    "arcana": "Justice",
+    "level": 42,
+    "stats": {
+      "st": 25,
+      "ma": 32,
+      "en": 24,
+      "ag": 26,
+      "lu": 26
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "weak",
+      "wind": "resist",
+      "light": "null",
+      "dark": "weak"
+    },
+    "skills": [
+      {
+        "name": "Makouga",
+        "level": 0
+      },
+      {
+        "name": "Hamaon",
+        "level": 0
+      },
+      {
+        "name": "Infuriate",
+        "level": 0
+      },
+      {
+        "name": "Hama Boost",
+        "level": 43
+      },
+      {
+        "name": "Samarecarm",
+        "level": 44
+      },
+      {
+        "name": "Light Boost",
+        "level": 46
+      },
+      {
+        "name": "Kougaon",
+        "level": 47
+      }
+    ],
+    "heartItem": {
+      "name": "Soul Sea Droplet",
+      "level": 46
+    }
+  },
+  {
+    "name": "Throne",
+    "slug": "throne",
+    "arcana": "Justice",
+    "level": 52,
+    "stats": {
+      "st": 39,
+      "ma": 35,
+      "en": 30,
+      "ag": 30,
+      "lu": 33
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "weak",
+      "pierce": "normal",
+      "fire": "null",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "repel",
+      "dark": "weak"
+    },
+    "skills": [
+      {
+        "name": "Mahama",
+        "level": 0
+      },
+      {
+        "name": "Maragion",
+        "level": 0
+      },
+      {
+        "name": "Recarmdra",
+        "level": 0
+      },
+      {
+        "name": "Samarecarm",
+        "level": 53
+      },
+      {
+        "name": "Kougaon",
+        "level": 54
+      },
+      {
+        "name": "Hama Boost",
+        "level": 55
+      },
+      {
+        "name": "Mahamaon",
+        "level": 57
+      }
+    ]
+  },
+  {
+    "name": "Loki (P5R)",
+    "slug": "loki-p5r",
+    "arcana": "Justice",
+    "level": 60,
+    "stats": {
+      "st": 44,
+      "ma": 42,
+      "en": 33,
+      "ag": 38,
+      "lu": 33
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "resist",
+      "ice": "resist",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "weak",
+      "dark": "null"
+    },
+    "skills": [
+      {
+        "name": "Rebellion Blade",
+        "level": 0
+      },
+      {
+        "name": "Eigaon",
+        "level": 0
+      },
+      {
+        "name": "Resist Ailments",
+        "level": 0
+      },
+      {
+        "name": "Debilitate",
+        "level": 61
+      },
+      {
+        "name": "Evade Light",
+        "level": 62
+      },
+      {
+        "name": "Akasha Arts",
+        "level": 64
+      },
+      {
+        "name": "Megidolaon",
+        "level": 66
+      }
+    ],
+    "dlc": "P5R Persona Set 2"
+  },
+  {
+    "name": "Melchizedek",
+    "slug": "melchizedek",
+    "arcana": "Justice",
+    "level": 66,
+    "stats": {
+      "st": 54,
+      "ma": 47,
+      "en": 47,
+      "ag": 35,
+      "lu": 31
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "repel",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "weak",
+      "light": "repel",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Gigantic Fist",
+        "level": 0
+      },
+      {
+        "name": "Hamaon",
+        "level": 0
+      },
+      {
+        "name": "Revolution",
+        "level": 0
+      },
+      {
+        "name": "Mahamaon",
+        "level": 67
+      },
+      {
+        "name": "Hama Boost",
+        "level": 69
+      },
+      {
+        "name": "God's Hand",
+        "level": 71
+      },
+      {
+        "name": "Akasha Arts",
+        "level": 73
+      }
+    ],
+    "heartItem": {
+      "name": "Immortal Angel Core",
+      "level": 72
+    },
+    "unlock": "Max the Justice Social Link"
+  },
+  {
+    "name": "Onmoraki",
+    "slug": "onmoraki",
+    "arcana": "Hermit",
+    "level": 8,
+    "stats": {
+      "st": 4,
+      "ma": 7,
+      "en": 6,
+      "ag": 10,
+      "lu": 4
+    },
+    "affinities": {
+      "slash": "weak",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "resist",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "resist",
+      "light": "weak",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Evil Touch",
+        "level": 0
+      },
+      {
+        "name": "Tarunda",
+        "level": 0
+      },
+      {
+        "name": "Garu",
+        "level": 0
+      },
+      {
+        "name": "Eiha",
+        "level": 10
+      },
+      {
+        "name": "Growth 1",
+        "level": 11
+      },
+      {
+        "name": "Magaru",
+        "level": 13
+      }
+    ]
+  },
+  {
+    "name": "Naga",
+    "slug": "naga",
+    "arcana": "Hermit",
+    "level": 17,
+    "stats": {
+      "st": 14,
+      "ma": 10,
+      "en": 11,
+      "ag": 14,
+      "lu": 9
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "weak",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "resist",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "resist"
+    },
+    "skills": [
+      {
+        "name": "Bewilder",
+        "level": 0
+      },
+      {
+        "name": "Single Shot",
+        "level": 0
+      },
+      {
+        "name": "Distress Boost",
+        "level": 18
+      },
+      {
+        "name": "Torrent Shot",
+        "level": 19
+      },
+      {
+        "name": "Eerie Sound",
+        "level": 21
+      },
+      {
+        "name": "Invigorate 1",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "name": "Lamia",
+    "slug": "lamia",
+    "arcana": "Hermit",
+    "level": 25,
+    "stats": {
+      "st": 15,
+      "ma": 20,
+      "en": 16,
+      "ag": 14,
+      "lu": 17
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "weak",
+      "pierce": "normal",
+      "fire": "null",
+      "ice": "normal",
+      "elec": "resist",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "resist"
+    },
+    "skills": [
+      {
+        "name": "Agilao",
+        "level": 0
+      },
+      {
+        "name": "Poisma",
+        "level": 0
+      },
+      {
+        "name": "Resist Charm",
+        "level": 0
+      },
+      {
+        "name": "Poison Boost",
+        "level": 27
+      },
+      {
+        "name": "Poison Mist",
+        "level": 28
+      },
+      {
+        "name": "Stagnant Air",
+        "level": 30
+      }
+    ],
+    "heartItem": {
+      "name": "Soul Sea Driblet",
+      "level": 28
+    }
+  },
+  {
+    "name": "Mothman",
+    "slug": "mothman",
+    "arcana": "Hermit",
+    "level": 31,
+    "stats": {
+      "st": 15,
+      "ma": 25,
+      "en": 18,
+      "ag": 27,
+      "lu": 22
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "weak",
+      "fire": "resist",
+      "ice": "weak",
+      "elec": "repel",
+      "wind": "null",
+      "light": "normal",
+      "dark": "resist"
+    },
+    "skills": [
+      {
+        "name": "Eerie Sound",
+        "level": 0
+      },
+      {
+        "name": "Stagnant Air",
+        "level": 0
+      },
+      {
+        "name": "Zionga",
+        "level": 32
+      },
+      {
+        "name": "Distress Boost",
+        "level": 33
+      },
+      {
+        "name": "Elec Boost",
+        "level": 34
+      },
+      {
+        "name": "Megido",
+        "level": 36
+      }
+    ],
+    "unlock": "Reach Tartarus floor 82 (Yabbashah I)"
+  },
+  {
+    "name": "Dakini",
+    "slug": "dakini",
+    "arcana": "Hermit",
+    "level": 38,
+    "stats": {
+      "st": 36,
+      "ma": 22,
+      "en": 16,
+      "ag": 29,
+      "lu": 18
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "resist",
+      "pierce": "normal",
+      "fire": "resist",
+      "ice": "weak",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Herculean Strike",
+        "level": 0
+      },
+      {
+        "name": "Counterstrike",
+        "level": 0
+      },
+      {
+        "name": "Auto Tarukaja",
+        "level": 39
+      },
+      {
+        "name": "Getsu-ei",
+        "level": 40
+      },
+      {
+        "name": "Strike Boost",
+        "level": 41
+      },
+      {
+        "name": "High Counter",
+        "level": 43
+      }
+    ]
+  },
+  {
+    "name": "Kurama Tengu",
+    "slug": "kurama-tengu",
+    "arcana": "Hermit",
+    "level": 46,
+    "stats": {
+      "st": 26,
+      "ma": 32,
+      "en": 25,
+      "ag": 37,
+      "lu": 25
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "weak",
+      "wind": "absorb",
+      "light": "normal",
+      "dark": "resist"
+    },
+    "skills": [
+      {
+        "name": "Magarula",
+        "level": 0
+      },
+      {
+        "name": "Masukunda",
+        "level": 0
+      },
+      {
+        "name": "Dodge Pierce",
+        "level": 0
+      },
+      {
+        "name": "Tentarafoo",
+        "level": 47
+      },
+      {
+        "name": "Garudyne",
+        "level": 49
+      },
+      {
+        "name": "Null Dizzy",
+        "level": 51
+      }
+    ]
+  },
+  {
+    "name": "Nebiros",
+    "slug": "nebiros",
+    "arcana": "Hermit",
+    "level": 52,
+    "stats": {
+      "st": 28,
+      "ma": 42,
+      "en": 31,
+      "ag": 31,
+      "lu": 37
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "repel",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "weak",
+      "dark": "null"
+    },
+    "skills": [
+      {
+        "name": "Evil Touch",
+        "level": 0
+      },
+      {
+        "name": "Eigaon",
+        "level": 0
+      },
+      {
+        "name": "Ghastly Wail",
+        "level": 0
+      },
+      {
+        "name": "Resist Ailments",
+        "level": 53
+      },
+      {
+        "name": "Evil Smile",
+        "level": 54
+      },
+      {
+        "name": "Fear Boost",
+        "level": 55
+      },
+      {
+        "name": "Mamudoon",
+        "level": 57
+      }
+    ],
+    "heartItem": {
+      "name": "Unholy Wooden Doll",
+      "level": 56
+    },
+    "unlock": "Clear Elizabeth's Request #49"
+  },
+  {
+    "name": "Kumbhanda",
+    "slug": "kumbhanda",
+    "arcana": "Hermit",
+    "level": 61,
+    "stats": {
+      "st": 48,
+      "ma": 44,
+      "en": 39,
+      "ag": 45,
+      "lu": 20
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "absorb",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "null",
+      "light": "weak",
+      "dark": "resist"
+    },
+    "skills": [
+      {
+        "name": "Garudyne",
+        "level": 0
+      },
+      {
+        "name": "Poison Arrow",
+        "level": 0
+      },
+      {
+        "name": "Poison Boost",
+        "level": 0
+      },
+      {
+        "name": "Dekunda",
+        "level": 62
+      },
+      {
+        "name": "Myriad Arrows",
+        "level": 64
+      },
+      {
+        "name": "Magarudyne",
+        "level": 65
+      },
+      {
+        "name": "Insta-Heal",
+        "level": 67
+      }
+    ]
+  },
+  {
+    "name": "Arahabaki",
+    "slug": "arahabaki",
+    "arcana": "Hermit",
+    "level": 68,
+    "stats": {
+      "st": 47,
+      "ma": 52,
+      "en": 53,
+      "ag": 32,
+      "lu": 36
+    },
+    "affinities": {
+      "slash": "repel",
+      "strike": "weak",
+      "pierce": "repel",
+      "fire": "normal",
+      "ice": "weak",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "resist",
+      "dark": "weak"
+    },
+    "skills": [
+      {
+        "name": "Herculean Strike",
+        "level": 0
+      },
+      {
+        "name": "Makarakarn",
+        "level": 0
+      },
+      {
+        "name": "Null Charm",
+        "level": 0
+      },
+      {
+        "name": "Repel Dark",
+        "level": 70
+      },
+      {
+        "name": "Auto Maraku",
+        "level": 71
+      },
+      {
+        "name": "Virus Breath",
+        "level": 72
+      },
+      {
+        "name": "Repel Strike",
+        "level": 76
+      }
+    ],
+    "heartItem": {
+      "name": "Clay God Fragment",
+      "level": 74
+    },
+    "unlock": "Max the Hermit Social Link"
+  },
+  {
+    "name": "Fortuna",
+    "slug": "fortuna",
+    "arcana": "Fortune",
+    "level": 15,
+    "stats": {
+      "st": 7,
+      "ma": 17,
+      "en": 10,
+      "ag": 13,
+      "lu": 11
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "null",
+      "ice": "normal",
+      "elec": "weak",
+      "wind": "null",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Garu",
+        "level": 0
+      },
+      {
+        "name": "Bufu",
+        "level": 0
+      },
+      {
+        "name": "Patra",
+        "level": 0
+      },
+      {
+        "name": "Magaru",
+        "level": 16
+      },
+      {
+        "name": "Dodge Wind",
+        "level": 17
+      },
+      {
+        "name": "Rakukaja",
+        "level": 18
+      },
+      {
+        "name": "Wind Boost",
+        "level": 20
+      }
+    ],
+    "heartItem": {
+      "name": "Soul Sea Driblet",
+      "level": 17
+    },
+    "specialRecipe": [
+      "Angel",
+      "Silky",
+      "Unicorn"
+    ]
+  },
+  {
+    "name": "Sandman",
+    "slug": "sandman",
+    "arcana": "Fortune",
+    "level": 20,
+    "stats": {
+      "st": 13,
+      "ma": 13,
+      "en": 15,
+      "ag": 15,
+      "lu": 20
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "null",
+      "ice": "weak",
+      "elec": "weak",
+      "wind": "null",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Garula",
+        "level": 0
+      },
+      {
+        "name": "Tentarafoo",
+        "level": 0
+      },
+      {
+        "name": "Null Confuse",
+        "level": 21
+      },
+      {
+        "name": "Agilao",
+        "level": 22
+      },
+      {
+        "name": "Confuse Boost",
+        "level": 24
+      },
+      {
+        "name": "Resist Elec",
+        "level": 26
+      }
+    ]
+  },
+  {
+    "name": "Kushi Mitama",
+    "slug": "kushi-mitama",
+    "arcana": "Fortune",
+    "level": 28,
+    "stats": {
+      "st": 16,
+      "ma": 22,
+      "en": 18,
+      "ag": 13,
+      "lu": 22
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "weak",
+      "ice": "normal",
+      "elec": "resist",
+      "wind": "null",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Recarm",
+        "level": 0
+      },
+      {
+        "name": "Garula",
+        "level": 0
+      },
+      {
+        "name": "Magaru",
+        "level": 0
+      },
+      {
+        "name": "Wind Break",
+        "level": 29
+      },
+      {
+        "name": "Regenerate 2",
+        "level": 30
+      },
+      {
+        "name": "Magarula",
+        "level": 32
+      },
+      {
+        "name": "Marakunda",
+        "level": 33
+      }
+    ]
+  },
+  {
+    "name": "Clotho",
+    "slug": "clotho",
+    "arcana": "Fortune",
+    "level": 37,
+    "stats": {
+      "st": 20,
+      "ma": 29,
+      "en": 22,
+      "ag": 24,
+      "lu": 26
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "weak",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "null",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Garula",
+        "level": 0
+      },
+      {
+        "name": "Wind Break",
+        "level": 0
+      },
+      {
+        "name": "Rakunda",
+        "level": 0
+      },
+      {
+        "name": "Masukunda",
+        "level": 38
+      },
+      {
+        "name": "Me Patra",
+        "level": 39
+      },
+      {
+        "name": "Soul Chain",
+        "level": 40
+      },
+      {
+        "name": "Samarecarm",
+        "level": 42
+      }
+    ],
+    "heartItem": {
+      "name": "Soul Sea Droplet",
+      "level": 41
+    }
+  },
+  {
+    "name": "Lachesis",
+    "slug": "lachesis",
+    "arcana": "Fortune",
+    "level": 44,
+    "stats": {
+      "st": 22,
+      "ma": 37,
+      "en": 23,
+      "ag": 30,
+      "lu": 29
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "resist",
+      "elec": "weak",
+      "wind": "null",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Magarula",
+        "level": 0
+      },
+      {
+        "name": "Masukukaja",
+        "level": 0
+      },
+      {
+        "name": "Makarakarn",
+        "level": 0
+      },
+      {
+        "name": "Soul Chain",
+        "level": 45
+      },
+      {
+        "name": "Mediarama",
+        "level": 46
+      },
+      {
+        "name": "Marakunda",
+        "level": 47
+      },
+      {
+        "name": "Evade Elec",
+        "level": 49
+      }
+    ],
+    "heartItem": {
+      "name": "Soul Sea Droplet",
+      "level": 48
+    }
+  },
+  {
+    "name": "Atropos",
+    "slug": "atropos",
+    "arcana": "Fortune",
+    "level": 56,
+    "stats": {
+      "st": 26,
+      "ma": 45,
+      "en": 32,
+      "ag": 36,
+      "lu": 40
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "weak",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "null",
+      "light": "resist",
+      "dark": "resist"
+    },
+    "skills": [
+      {
+        "name": "Magarula",
+        "level": 0
+      },
+      {
+        "name": "Marakunda",
+        "level": 0
+      },
+      {
+        "name": "Dekunda",
+        "level": 0
+      },
+      {
+        "name": "Ziodyne",
+        "level": 57
+      },
+      {
+        "name": "Garudyne",
+        "level": 59
+      },
+      {
+        "name": "Wind Amp",
+        "level": 61
+      },
+      {
+        "name": "Soul Link",
+        "level": 62
+      }
+    ],
+    "heartItem": {
+      "name": "Soul Sea Drop",
+      "level": 61
+    }
+  },
+  {
+    "name": "Norn",
+    "slug": "norn",
+    "arcana": "Fortune",
+    "level": 65,
+    "stats": {
+      "st": 37,
+      "ma": 60,
+      "en": 40,
+      "ag": 37,
+      "lu": 40
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "null",
+      "ice": "repel",
+      "elec": "weak",
+      "wind": "absorb",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Magarudyne",
+        "level": 0
+      },
+      {
+        "name": "Panta Rhei",
+        "level": 0
+      },
+      {
+        "name": "Wind Amp",
+        "level": 0
+      },
+      {
+        "name": "Invigorate 3",
+        "level": 66
+      },
+      {
+        "name": "Mediarahan",
+        "level": 68
+      },
+      {
+        "name": "Soul Link",
+        "level": 70
+      },
+      {
+        "name": "Salvation",
+        "level": 72
+      }
+    ],
+    "heartItem": {
+      "name": "Second Hand of Fate",
+      "level": 71
+    },
+    "specialRecipe": [
+      "Clotho",
+      "Lachesis",
+      "Atropos"
+    ]
+  },
+  {
+    "name": "Lakshmi",
+    "slug": "lakshmi",
+    "arcana": "Fortune",
+    "level": 73,
+    "stats": {
+      "st": 39,
+      "ma": 61,
+      "en": 38,
+      "ag": 45,
+      "lu": 52
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "weak",
+      "ice": "null",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "null",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Diarahan",
+        "level": 0
+      },
+      {
+        "name": "Amrita Shower",
+        "level": 0
+      },
+      {
+        "name": "Bufudyne",
+        "level": 0
+      },
+      {
+        "name": "Soul Link",
+        "level": 74
+      },
+      {
+        "name": "Sexy Dance",
+        "level": 75
+      },
+      {
+        "name": "Mabufudyne",
+        "level": 77
+      },
+      {
+        "name": "Salvation",
+        "level": 80
+      }
+    ],
+    "heartItem": {
+      "name": "Goddess Water Lily",
+      "level": 79
+    },
+    "unlock": "Max the Fortune Social Link"
+  },
+  {
+    "name": "Valkyrie",
+    "slug": "valkyrie",
+    "arcana": "Strength",
+    "level": 10,
+    "stats": {
+      "st": 11,
+      "ma": 7,
+      "en": 6,
+      "ag": 8,
+      "lu": 5
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "resist",
+      "fire": "weak",
+      "ice": "resist",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Power Slash",
+        "level": 0
+      },
+      {
+        "name": "Bufu",
+        "level": 0
+      },
+      {
+        "name": "Dodge Slash",
+        "level": 0
+      },
+      {
+        "name": "Auto Sukukaja",
+        "level": 12
+      },
+      {
+        "name": "Vacuum Slash",
+        "level": 13
+      },
+      {
+        "name": "Fatal End",
+        "level": 15
+      }
+    ]
+  },
+  {
+    "name": "Rakshasa",
+    "slug": "rakshasa",
+    "arcana": "Strength",
+    "level": 15,
+    "stats": {
+      "st": 17,
+      "ma": 8,
+      "en": 13,
+      "ag": 11,
+      "lu": 6
+    },
+    "affinities": {
+      "slash": "resist",
+      "strike": "normal",
+      "pierce": "resist",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "weak",
+      "light": "weak",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Vacuum Slash",
+        "level": 0
+      },
+      {
+        "name": "Dodge Slash",
+        "level": 0
+      },
+      {
+        "name": "Regenerate 1",
+        "level": 0
+      },
+      {
+        "name": "Fatal End",
+        "level": 16
+      },
+      {
+        "name": "Counter",
+        "level": 18
+      },
+      {
+        "name": "Getsu-ei",
+        "level": 20
+      }
+    ]
+  },
+  {
+    "name": "Matador",
+    "slug": "matador",
+    "arcana": "Strength",
+    "level": 22,
+    "stats": {
+      "st": 17,
+      "ma": 14,
+      "en": 12,
+      "ag": 23,
+      "lu": 10
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "weak",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "null",
+      "light": "normal",
+      "dark": "repel"
+    },
+    "skills": [
+      {
+        "name": "Torrent Shot",
+        "level": 0
+      },
+      {
+        "name": "Vacuum Slash",
+        "level": 0
+      },
+      {
+        "name": "Dodge Pierce",
+        "level": 0
+      },
+      {
+        "name": "Auto Sukukaja",
+        "level": 23
+      },
+      {
+        "name": "Dodge Fire",
+        "level": 25
+      },
+      {
+        "name": "Dekunda",
+        "level": 26
+      },
+      {
+        "name": "Blade of Fury",
+        "level": 28
+      }
+    ]
+  },
+  {
+    "name": "Jikokuten",
+    "slug": "jikokuten",
+    "arcana": "Strength",
+    "level": 29,
+    "stats": {
+      "st": 27,
+      "ma": 13,
+      "en": 25,
+      "ag": 12,
+      "lu": 17
+    },
+    "affinities": {
+      "slash": "resist",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "weak",
+      "ice": "repel",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "resist",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Zan-ei",
+        "level": 0
+      },
+      {
+        "name": "Auto Sukukaja",
+        "level": 0
+      },
+      {
+        "name": "Crit Rate Boost",
+        "level": 0
+      },
+      {
+        "name": "Getsu-ei",
+        "level": 31
+      },
+      {
+        "name": "Revolution",
+        "level": 32
+      },
+      {
+        "name": "Slash Boost",
+        "level": 34
+      },
+      {
+        "name": "Endure Dark",
+        "level": 35
+      }
+    ]
+  },
+  {
+    "name": "Hanuman",
+    "slug": "hanuman",
+    "arcana": "Strength",
+    "level": 36,
+    "stats": {
+      "st": 30,
+      "ma": 17,
+      "en": 24,
+      "ag": 22,
+      "lu": 22
+    },
+    "affinities": {
+      "slash": "resist",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "resist",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "weak",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Getsu-ei",
+        "level": 0
+      },
+      {
+        "name": "Blade of Fury",
+        "level": 0
+      },
+      {
+        "name": "Shift Boost",
+        "level": 0
+      },
+      {
+        "name": "Recarm",
+        "level": 37
+      },
+      {
+        "name": "Fatal End",
+        "level": 38
+      },
+      {
+        "name": "Evade Slash",
+        "level": 40
+      },
+      {
+        "name": "Endure",
+        "level": 41
+      }
+    ]
+  },
+  {
+    "name": "White Rider",
+    "slug": "white-rider",
+    "arcana": "Strength",
+    "level": 46,
+    "stats": {
+      "st": 36,
+      "ma": 27,
+      "en": 30,
+      "ag": 27,
+      "lu": 25
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "resist",
+      "ice": "weak",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "null",
+      "dark": "repel"
+    },
+    "skills": [
+      {
+        "name": "Maeiga",
+        "level": 0
+      },
+      {
+        "name": "Arrow Rain",
+        "level": 0
+      },
+      {
+        "name": "Mudoon",
+        "level": 0
+      },
+      {
+        "name": "Poison Arrow",
+        "level": 47
+      },
+      {
+        "name": "Pierce Boost",
+        "level": 48
+      },
+      {
+        "name": "Null Fear",
+        "level": 49
+      },
+      {
+        "name": "Evade Dark",
+        "level": 51
+      }
+    ]
+  },
+  {
+    "name": "Siegfried",
+    "slug": "siegfried",
+    "arcana": "Strength",
+    "level": 54,
+    "stats": {
+      "st": 44,
+      "ma": 29,
+      "en": 38,
+      "ag": 36,
+      "lu": 25
+    },
+    "affinities": {
+      "slash": "null",
+      "strike": "resist",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "null",
+      "dark": "weak"
+    },
+    "skills": [
+      {
+        "name": "Deathbound",
+        "level": 0
+      },
+      {
+        "name": "Charge",
+        "level": 0
+      },
+      {
+        "name": "Auto Rebellion",
+        "level": 0
+      },
+      {
+        "name": "Auto Masuku",
+        "level": 55
+      },
+      {
+        "name": "Crit Rate Amp",
+        "level": 57
+      },
+      {
+        "name": "Brave Blade",
+        "level": 59
+      },
+      {
+        "name": "Slash Amp",
+        "level": 61
+      },
+      {
+        "name": "Scarlet Havoc",
+        "level": 0,
+        "fusionSpell": true
+      }
+    ],
+    "heartItem": {
+      "name": "Nibelung Ore",
+      "level": 59
+    }
+  },
+  {
+    "name": "Kali",
+    "slug": "kali",
+    "arcana": "Strength",
+    "level": 63,
+    "stats": {
+      "st": 53,
+      "ma": 30,
+      "en": 34,
+      "ag": 48,
+      "lu": 34
+    },
+    "affinities": {
+      "slash": "repel",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "resist",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "weak",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Heat Wave",
+        "level": 0
+      },
+      {
+        "name": "Deathbound",
+        "level": 0
+      },
+      {
+        "name": "Marakunda",
+        "level": 0
+      },
+      {
+        "name": "Brave Blade",
+        "level": 64
+      },
+      {
+        "name": "Charge",
+        "level": 66
+      },
+      {
+        "name": "High Counter",
+        "level": 67
+      },
+      {
+        "name": "Vorpal Blade",
+        "level": 70
+      }
+    ],
+    "heartItem": {
+      "name": "Soul Sea Drop",
+      "level": 68
+    }
+  },
+  {
+    "name": "Atavaka",
+    "slug": "atavaka",
+    "arcana": "Strength",
+    "level": 72,
+    "stats": {
+      "st": 63,
+      "ma": 37,
+      "en": 64,
+      "ag": 39,
+      "lu": 35
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "null",
+      "fire": "normal",
+      "ice": "weak",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "null",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Brave Blade",
+        "level": 0
+      },
+      {
+        "name": "Maragidyne",
+        "level": 0
+      },
+      {
+        "name": "Null Dizzy",
+        "level": 0
+      },
+      {
+        "name": "God's Hand",
+        "level": 74
+      },
+      {
+        "name": "Auto Mataru",
+        "level": 75
+      },
+      {
+        "name": "Mediarahan",
+        "level": 77
+      },
+      {
+        "name": "Firm Stance",
+        "level": 79
+      }
+    ],
+    "heartItem": {
+      "name": "Wisdom King's Locks",
+      "level": 79
+    },
+    "unlock": "Max the Strength Social Link"
+  },
+  {
+    "name": "Inugami",
+    "slug": "inugami",
+    "arcana": "Hanged Man",
+    "level": 10,
+    "stats": {
+      "st": 4,
+      "ma": 8,
+      "en": 7,
+      "ag": 7,
+      "lu": 11
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "null",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "weak",
+      "light": "normal",
+      "dark": "resist"
+    },
+    "skills": [
+      {
+        "name": "Poisma",
+        "level": 0
+      },
+      {
+        "name": "Foul Breath",
+        "level": 0
+      },
+      {
+        "name": "Poison Boost",
+        "level": 11
+      },
+      {
+        "name": "Maragi",
+        "level": 12
+      },
+      {
+        "name": "Media",
+        "level": 14
+      }
+    ]
+  },
+  {
+    "name": "Take-Minakata",
+    "slug": "take-minakata",
+    "arcana": "Hanged Man",
+    "level": 20,
+    "stats": {
+      "st": 14,
+      "ma": 14,
+      "en": 21,
+      "ag": 10,
+      "lu": 10
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "resist",
+      "fire": "resist",
+      "ice": "normal",
+      "elec": "resist",
+      "wind": "normal",
+      "light": "weak",
+      "dark": "weak"
+    },
+    "skills": [
+      {
+        "name": "Zio",
+        "level": 0
+      },
+      {
+        "name": "Auto Rakukaja",
+        "level": 0
+      },
+      {
+        "name": "Dekaja",
+        "level": 0
+      },
+      {
+        "name": "Survive Dark",
+        "level": 21
+      },
+      {
+        "name": "Zionga",
+        "level": 22
+      },
+      {
+        "name": "Dodge Strike",
+        "level": 24
+      },
+      {
+        "name": "Elec Boost",
+        "level": 25
+      }
+    ],
+    "heartItem": {
+      "name": "Soul Sea Driblet",
+      "level": 23
+    }
+  },
+  {
+    "name": "Orthrus",
+    "slug": "orthrus",
+    "arcana": "Hanged Man",
+    "level": 27,
+    "stats": {
+      "st": 22,
+      "ma": 14,
+      "en": 20,
+      "ag": 18,
+      "lu": 15
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "absorb",
+      "ice": "weak",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "resist"
+    },
+    "skills": [
+      {
+        "name": "Fatal End",
+        "level": 0
+      },
+      {
+        "name": "Agilao",
+        "level": 0
+      },
+      {
+        "name": "Raging Tiger",
+        "level": 0
+      },
+      {
+        "name": "Counter",
+        "level": 28
+      },
+      {
+        "name": "Resist Poison",
+        "level": 29
+      },
+      {
+        "name": "Eerie Sound",
+        "level": 31
+      },
+      {
+        "name": "Matarukaja",
+        "level": 32
+      }
+    ]
+  },
+  {
+    "name": "Vasuki",
+    "slug": "vasuki",
+    "arcana": "Hanged Man",
+    "level": 38,
+    "stats": {
+      "st": 27,
+      "ma": 27,
+      "en": 35,
+      "ag": 15,
+      "lu": 17
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "resist",
+      "elec": "resist",
+      "wind": "weak",
+      "light": "repel",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Mahama",
+        "level": 0
+      },
+      {
+        "name": "Neuro Slash",
+        "level": 0
+      },
+      {
+        "name": "Poison Mist",
+        "level": 0
+      },
+      {
+        "name": "Recarmdra",
+        "level": 39
+      },
+      {
+        "name": "Hama Boost",
+        "level": 40
+      },
+      {
+        "name": "Counterstrike",
+        "level": 42
+      },
+      {
+        "name": "Mahamaon",
+        "level": 44
+      }
+    ]
+  },
+  {
+    "name": "Hecatoncheires",
+    "slug": "hecatoncheires",
+    "arcana": "Hanged Man",
+    "level": 47,
+    "stats": {
+      "st": 37,
+      "ma": 24,
+      "en": 48,
+      "ag": 20,
+      "lu": 25
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "resist",
+      "pierce": "resist",
+      "fire": "normal",
+      "ice": "resist",
+      "elec": "resist",
+      "wind": "normal",
+      "light": "weak",
+      "dark": "resist"
+    },
+    "skills": [
+      {
+        "name": "Vile Assault",
+        "level": 0
+      },
+      {
+        "name": "Evade Strike",
+        "level": 0
+      },
+      {
+        "name": "Regenerate 2",
+        "level": 0
+      },
+      {
+        "name": "Endure",
+        "level": 48
+      },
+      {
+        "name": "Recarmdra",
+        "level": 49
+      },
+      {
+        "name": "Heat Wave",
+        "level": 51
+      },
+      {
+        "name": "Auto Maraku",
+        "level": 53
+      }
+    ]
+  },
+  {
+    "name": "Mada",
+    "slug": "mada",
+    "arcana": "Hanged Man",
+    "level": 57,
+    "stats": {
+      "st": 42,
+      "ma": 48,
+      "en": 45,
+      "ag": 33,
+      "lu": 28
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "resist",
+      "pierce": "normal",
+      "fire": "absorb",
+      "ice": "weak",
+      "elec": "resist",
+      "wind": "weak",
+      "light": "weak",
+      "dark": "null"
+    },
+    "skills": [
+      {
+        "name": "Gigantic Fist",
+        "level": 0
+      },
+      {
+        "name": "Agidyne",
+        "level": 0
+      },
+      {
+        "name": "Endure",
+        "level": 0
+      },
+      {
+        "name": "Maragidyne",
+        "level": 58
+      },
+      {
+        "name": "Vile Assault",
+        "level": 59
+      },
+      {
+        "name": "Null Wind",
+        "level": 61
+      },
+      {
+        "name": "Amrita Shower",
+        "level": 62
+      },
+      {
+        "name": "Strike Amp",
+        "level": 64
+      }
+    ],
+    "specialRecipe": [
+      "Hanuman",
+      "Vasuki",
+      "Naga Raja",
+      "Ganesha"
+    ]
+  },
+  {
+    "name": "Hell Biker",
+    "slug": "hell-biker",
+    "arcana": "Hanged Man",
+    "level": 65,
+    "stats": {
+      "st": 48,
+      "ma": 51,
+      "en": 50,
+      "ag": 40,
+      "lu": 22
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "repel",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "repel",
+      "light": "weak",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Maragidyne",
+        "level": 0
+      },
+      {
+        "name": "Eigaon",
+        "level": 0
+      },
+      {
+        "name": "Life Aid",
+        "level": 0
+      },
+      {
+        "name": "Bloody Charge",
+        "level": 66
+      },
+      {
+        "name": "Maeigaon",
+        "level": 68
+      },
+      {
+        "name": "Evade Light",
+        "level": 70
+      },
+      {
+        "name": "Enduring Soul",
+        "level": 71
+      }
+    ],
+    "heartItem": {
+      "name": "Hell's Muffler",
+      "level": 70
+    },
+    "unlock": "Max Shinjiro's Link"
+  },
+  {
+    "name": "Attis",
+    "slug": "attis",
+    "arcana": "Hanged Man",
+    "level": 73,
+    "stats": {
+      "st": 45,
+      "ma": 53,
+      "en": 51,
+      "ag": 57,
+      "lu": 32
+    },
+    "affinities": {
+      "slash": "resist",
+      "strike": "resist",
+      "pierce": "resist",
+      "fire": "null",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "repel",
+      "light": "weak",
+      "dark": "weak"
+    },
+    "skills": [
+      {
+        "name": "Mahamaon",
+        "level": 0
+      },
+      {
+        "name": "Recarmdra",
+        "level": 0
+      },
+      {
+        "name": "Samarecarm",
+        "level": 0
+      },
+      {
+        "name": "Survival Trick",
+        "level": 74
+      },
+      {
+        "name": "Endure",
+        "level": 75
+      },
+      {
+        "name": "Megidolaon",
+        "level": 77
+      },
+      {
+        "name": "Enduring Soul",
+        "level": 79
+      }
+    ],
+    "heartItem": {
+      "name": "Sacrifice God Wrap",
+      "level": 79
+    },
+    "unlock": "Max the Hanged Man Social Link"
+  },
+  {
+    "name": "Pisaca",
+    "slug": "pisaca",
+    "arcana": "Death",
+    "level": 15,
+    "stats": {
+      "st": 10,
+      "ma": 13,
+      "en": 16,
+      "ag": 9,
+      "lu": 7
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "resist",
+      "pierce": "weak",
+      "fire": "weak",
+      "ice": "normal",
+      "elec": "resist",
+      "wind": "normal",
+      "light": "weak",
+      "dark": "null"
+    },
+    "skills": [
+      {
+        "name": "Mudo",
+        "level": 0
+      },
+      {
+        "name": "Eiha",
+        "level": 0
+      },
+      {
+        "name": "Dekaja",
+        "level": 16
+      },
+      {
+        "name": "Foul Breath",
+        "level": 17
+      },
+      {
+        "name": "Maeiha",
+        "level": 18
+      },
+      {
+        "name": "Mamudo",
+        "level": 19
+      }
+    ]
+  },
+  {
+    "name": "Pale Rider",
+    "slug": "pale-rider",
+    "arcana": "Death",
+    "level": 23,
+    "stats": {
+      "st": 20,
+      "ma": 18,
+      "en": 13,
+      "ag": 17,
+      "lu": 11
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "resist",
+      "light": "weak",
+      "dark": "repel"
+    },
+    "skills": [
+      {
+        "name": "Maeiha",
+        "level": 0
+      },
+      {
+        "name": "Fatal End",
+        "level": 0
+      },
+      {
+        "name": "Resist Fear",
+        "level": 0
+      },
+      {
+        "name": "Mamudo",
+        "level": 24
+      },
+      {
+        "name": "Eiga",
+        "level": 25
+      },
+      {
+        "name": "Survive Light",
+        "level": 26
+      },
+      {
+        "name": "Null Fear",
+        "level": 28
+      }
+    ],
+    "specialRecipe": [
+      "Berith",
+      "Gurulu",
+      "Matador"
+    ]
+  },
+  {
+    "name": "Loa",
+    "slug": "loa",
+    "arcana": "Death",
+    "level": 33,
+    "stats": {
+      "st": 21,
+      "ma": 26,
+      "en": 24,
+      "ag": 19,
+      "lu": 18
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "resist",
+      "wind": "normal",
+      "light": "weak",
+      "dark": "resist"
+    },
+    "skills": [
+      {
+        "name": "Mamudo",
+        "level": 0
+      },
+      {
+        "name": "Life Drain",
+        "level": 0
+      },
+      {
+        "name": "Maeiha",
+        "level": 0
+      },
+      {
+        "name": "Survive Light",
+        "level": 34
+      },
+      {
+        "name": "Zionga",
+        "level": 36
+      },
+      {
+        "name": "Marakunda",
+        "level": 37
+      },
+      {
+        "name": "Mudo Boost",
+        "level": 38
+      }
+    ],
+    "heartItem": {
+      "name": "Soul Sea Droplet",
+      "level": 36
+    }
+  },
+  {
+    "name": "Samael",
+    "slug": "samael",
+    "arcana": "Death",
+    "level": 41,
+    "stats": {
+      "st": 26,
+      "ma": 31,
+      "en": 27,
+      "ag": 21,
+      "lu": 25
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "resist",
+      "elec": "null",
+      "wind": "weak",
+      "light": "normal",
+      "dark": "null"
+    },
+    "skills": [
+      {
+        "name": "Maeiga",
+        "level": 0
+      },
+      {
+        "name": "Masukunda",
+        "level": 0
+      },
+      {
+        "name": "Poison Mist",
+        "level": 0
+      },
+      {
+        "name": "Dekunda",
+        "level": 42
+      },
+      {
+        "name": "Mudoon",
+        "level": 43
+      },
+      {
+        "name": "Megido",
+        "level": 44
+      },
+      {
+        "name": "Ghastly Wail",
+        "level": 46
+      }
+    ]
+  },
+  {
+    "name": "Mot",
+    "slug": "mot",
+    "arcana": "Death",
+    "level": 58,
+    "stats": {
+      "st": 37,
+      "ma": 42,
+      "en": 44,
+      "ag": 29,
+      "lu": 33
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "null",
+      "wind": "weak",
+      "light": "normal",
+      "dark": "repel"
+    },
+    "skills": [
+      {
+        "name": "Mamudoon",
+        "level": 0
+      },
+      {
+        "name": "Evil Smile",
+        "level": 0
+      },
+      {
+        "name": "Null Fear",
+        "level": 0
+      },
+      {
+        "name": "Ghastly Wail",
+        "level": 59
+      },
+      {
+        "name": "Mazionga",
+        "level": 60
+      },
+      {
+        "name": "Mudo Boost",
+        "level": 61
+      },
+      {
+        "name": "Megidola",
+        "level": 63
+      }
+    ]
+  },
+  {
+    "name": "Alice",
+    "slug": "alice",
+    "arcana": "Death",
+    "level": 68,
+    "stats": {
+      "st": 35,
+      "ma": 62,
+      "en": 31,
+      "ag": 51,
+      "lu": 44
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "weak",
+      "dark": "repel"
+    },
+    "skills": [
+      {
+        "name": "Mudoon",
+        "level": 0
+      },
+      {
+        "name": "Maeigaon",
+        "level": 0
+      },
+      {
+        "name": "Spirit Drain",
+        "level": 0
+      },
+      {
+        "name": "Die For Me!",
+        "level": 69
+      },
+      {
+        "name": "Mudo Boost",
+        "level": 70
+      },
+      {
+        "name": "Endure Light",
+        "level": 72
+      },
+      {
+        "name": "Megidolaon",
+        "level": 74
+      }
+    ],
+    "heartItem": {
+      "name": "Soul Sea Drop",
+      "level": 73
+    },
+    "specialRecipe": [
+      "Pixie",
+      "Lilim",
+      "Narcissus",
+      "Titania"
+    ]
+  },
+  {
+    "name": "Thanatos",
+    "slug": "thanatos",
+    "arcana": "Death",
+    "level": 78,
+    "stats": {
+      "st": 52,
+      "ma": 66,
+      "en": 53,
+      "ag": 45,
+      "lu": 40
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "resist",
+      "ice": "resist",
+      "elec": "resist",
+      "wind": "resist",
+      "light": "weak",
+      "dark": "repel"
+    },
+    "skills": [
+      {
+        "name": "Maeigaon",
+        "level": 0
+      },
+      {
+        "name": "Mamudoon",
+        "level": 0
+      },
+      {
+        "name": "Ghastly Wail",
+        "level": 0
+      },
+      {
+        "name": "Dark Amp",
+        "level": 79
+      },
+      {
+        "name": "Enduring Soul",
+        "level": 80
+      },
+      {
+        "name": "Brave Blade",
+        "level": 82
+      },
+      {
+        "name": "Megidolaon",
+        "level": 84
+      }
+    ],
+    "heartItem": {
+      "name": "Jaw of Death",
+      "level": 85
+    },
+    "unlock": "Max the Death Social Link",
+    "specialRecipe": [
+      "Pisaca",
+      "Pale Rider",
+      "Loa",
+      "Samael",
+      "Mot",
+      "Alice"
+    ]
+  },
+  {
+    "name": "Nigi Mitama",
+    "slug": "nigi-mitama",
+    "arcana": "Temperance",
+    "level": 12,
+    "stats": {
+      "st": 6,
+      "ma": 10,
+      "en": 9,
+      "ag": 10,
+      "lu": 8
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "weak",
+      "wind": "null",
+      "light": "resist",
+      "dark": "resist"
+    },
+    "skills": [
+      {
+        "name": "Media",
+        "level": 0
+      },
+      {
+        "name": "Garu",
+        "level": 0
+      },
+      {
+        "name": "Baisudi",
+        "level": 0
+      },
+      {
+        "name": "Magaru",
+        "level": 14
+      },
+      {
+        "name": "Sharp Student",
+        "level": 15
+      },
+      {
+        "name": "Recarm",
+        "level": 17
+      }
+    ]
+  },
+  {
+    "name": "Mitra",
+    "slug": "mitra",
+    "arcana": "Temperance",
+    "level": 22,
+    "stats": {
+      "st": 13,
+      "ma": 19,
+      "en": 16,
+      "ag": 10,
+      "lu": 15
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "null",
+      "elec": "weak",
+      "wind": "normal",
+      "light": "null",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Bufu",
+        "level": 0
+      },
+      {
+        "name": "Makouha",
+        "level": 0
+      },
+      {
+        "name": "Counter",
+        "level": 23
+      },
+      {
+        "name": "Diarama",
+        "level": 24
+      },
+      {
+        "name": "Kouga",
+        "level": 26
+      },
+      {
+        "name": "Dodge Elec",
+        "level": 27
+      }
+    ]
+  },
+  {
+    "name": "Genbu",
+    "slug": "genbu",
+    "arcana": "Temperance",
+    "level": 30,
+    "stats": {
+      "st": 18,
+      "ma": 17,
+      "en": 30,
+      "ag": 12,
+      "lu": 20
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "null",
+      "elec": "weak",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Dekunda",
+        "level": 0
+      },
+      {
+        "name": "Auto Rakukaja",
+        "level": 0
+      },
+      {
+        "name": "Null Confuse",
+        "level": 0
+      },
+      {
+        "name": "Resist Strike",
+        "level": 31
+      },
+      {
+        "name": "Null Rage",
+        "level": 32
+      },
+      {
+        "name": "Anti-Ice Master",
+        "level": 33
+      },
+      {
+        "name": "Resist Wind",
+        "level": 35
+      }
+    ],
+    "heartItem": {
+      "name": "Soul Sea Driblet",
+      "level": 33
+    }
+  },
+  {
+    "name": "Seiryu",
+    "slug": "seiryu",
+    "arcana": "Temperance",
+    "level": 38,
+    "stats": {
+      "st": 24,
+      "ma": 31,
+      "en": 27,
+      "ag": 21,
+      "lu": 18
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "null",
+      "elec": "weak",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Mabufula",
+        "level": 0
+      },
+      {
+        "name": "Mediarama",
+        "level": 0
+      },
+      {
+        "name": "Matarunda",
+        "level": 39
+      },
+      {
+        "name": "Tetrakarn",
+        "level": 40
+      },
+      {
+        "name": "Amrita Drop",
+        "level": 41
+      },
+      {
+        "name": "Bufudyne",
+        "level": 43
+      }
+    ],
+    "heartItem": {
+      "name": "Soul Sea Droplet",
+      "level": 42
+    }
+  },
+  {
+    "name": "Okuninushi",
+    "slug": "okuninushi",
+    "arcana": "Temperance",
+    "level": 44,
+    "stats": {
+      "st": 35,
+      "ma": 32,
+      "en": 29,
+      "ag": 24,
+      "lu": 19
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "null",
+      "ice": "normal",
+      "elec": "repel",
+      "wind": "weak",
+      "light": "resist",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Getsu-ei",
+        "level": 0
+      },
+      {
+        "name": "Deathbound",
+        "level": 0
+      },
+      {
+        "name": "Maragion",
+        "level": 0
+      },
+      {
+        "name": "Marakukaja",
+        "level": 45
+      },
+      {
+        "name": "Fire Break",
+        "level": 46
+      },
+      {
+        "name": "Agidyne",
+        "level": 47
+      },
+      {
+        "name": "Evade Fire",
+        "level": 49
+      }
+    ]
+  },
+  {
+    "name": "Suzaku",
+    "slug": "suzaku",
+    "arcana": "Temperance",
+    "level": 55,
+    "stats": {
+      "st": 31,
+      "ma": 40,
+      "en": 32,
+      "ag": 42,
+      "lu": 31
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "repel",
+      "ice": "weak",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "resist",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Maragion",
+        "level": 0
+      },
+      {
+        "name": "Diarahan",
+        "level": 0
+      },
+      {
+        "name": "Samarecarm",
+        "level": 0
+      },
+      {
+        "name": "Regenerate 3",
+        "level": 56
+      },
+      {
+        "name": "Agidyne",
+        "level": 57
+      },
+      {
+        "name": "Fast Heal",
+        "level": 59
+      },
+      {
+        "name": "Fire Amp",
+        "level": 61
+      }
+    ],
+    "heartItem": {
+      "name": "Soul Sea Drop",
+      "level": 60
+    }
+  },
+  {
+    "name": "Byakko",
+    "slug": "byakko",
+    "arcana": "Temperance",
+    "level": 63,
+    "stats": {
+      "st": 45,
+      "ma": 44,
+      "en": 50,
+      "ag": 39,
+      "lu": 30
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "weak",
+      "ice": "null",
+      "elec": "repel",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Mabufula",
+        "level": 0
+      },
+      {
+        "name": "Freeze Boost",
+        "level": 0
+      },
+      {
+        "name": "Heat Wave",
+        "level": 0
+      },
+      {
+        "name": "Soul Shift",
+        "level": 64
+      },
+      {
+        "name": "Evade Fire",
+        "level": 66
+      },
+      {
+        "name": "Mabufudyne",
+        "level": 67
+      },
+      {
+        "name": "Enduring Soul",
+        "level": 69
+      }
+    ],
+    "heartItem": {
+      "name": "King of Beasts Fang",
+      "level": 68
+    },
+    "unlock": "Max Koromaru's Link"
+  },
+  {
+    "name": "Yurlungur",
+    "slug": "yurlungur",
+    "arcana": "Temperance",
+    "level": 71,
+    "stats": {
+      "st": 41,
+      "ma": 45,
+      "en": 63,
+      "ag": 42,
+      "lu": 38
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "resist",
+      "ice": "normal",
+      "elec": "resist",
+      "wind": "normal",
+      "light": "resist",
+      "dark": "weak"
+    },
+    "skills": [
+      {
+        "name": "Kougaon",
+        "level": 0
+      },
+      {
+        "name": "Evade Elec",
+        "level": 0
+      },
+      {
+        "name": "Evade Fire",
+        "level": 0
+      },
+      {
+        "name": "Maziodyne",
+        "level": 72
+      },
+      {
+        "name": "Revolution",
+        "level": 74
+      },
+      {
+        "name": "Makougaon",
+        "level": 75
+      },
+      {
+        "name": "Evade Dark",
+        "level": 77
+      }
+    ],
+    "heartItem": {
+      "name": "Rainbow Snake Scale",
+      "level": 77
+    },
+    "unlock": "Max the Temperance Social Link"
+  },
+  {
+    "name": "Lilim",
+    "slug": "lilim",
+    "arcana": "Devil",
+    "level": 8,
+    "stats": {
+      "st": 4,
+      "ma": 10,
+      "en": 4,
+      "ag": 6,
+      "lu": 7
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "resist",
+      "wind": "normal",
+      "light": "weak",
+      "dark": "resist"
+    },
+    "skills": [
+      {
+        "name": "Agi",
+        "level": 0
+      },
+      {
+        "name": "Zio",
+        "level": 0
+      },
+      {
+        "name": "Marin Karin",
+        "level": 9
+      },
+      {
+        "name": "Life Drain",
+        "level": 11
+      },
+      {
+        "name": "Mazio",
+        "level": 13
+      }
+    ]
+  },
+  {
+    "name": "Mokoi",
+    "slug": "mokoi",
+    "arcana": "Devil",
+    "level": 18,
+    "stats": {
+      "st": 7,
+      "ma": 7,
+      "en": 12,
+      "ag": 16,
+      "lu": 22
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "weak",
+      "ice": "null",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "null"
+    },
+    "skills": [
+      {
+        "name": "Evil Touch",
+        "level": 0
+      },
+      {
+        "name": "Marin Karin",
+        "level": 0
+      },
+      {
+        "name": "Sonic Punch",
+        "level": 0
+      },
+      {
+        "name": "Fear Boost",
+        "level": 19
+      },
+      {
+        "name": "Charm Boost",
+        "level": 21
+      },
+      {
+        "name": "Evil Smile",
+        "level": 23
+      }
+    ]
+  },
+  {
+    "name": "Baphomet",
+    "slug": "baphomet",
+    "arcana": "Devil",
+    "level": 30,
+    "stats": {
+      "st": 20,
+      "ma": 25,
+      "en": 22,
+      "ag": 16,
+      "lu": 19
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "resist",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "weak",
+      "light": "weak",
+      "dark": "null"
+    },
+    "skills": [
+      {
+        "name": "Maragi",
+        "level": 0
+      },
+      {
+        "name": "Eiga",
+        "level": 0
+      },
+      {
+        "name": "Dodge Fire",
+        "level": 0
+      },
+      {
+        "name": "Fire Boost",
+        "level": 31
+      },
+      {
+        "name": "Maeiga",
+        "level": 33
+      },
+      {
+        "name": "Dark Boost",
+        "level": 34
+      },
+      {
+        "name": "Endure Light",
+        "level": 36
+      }
+    ]
+  },
+  {
+    "name": "Incubus",
+    "slug": "incubus",
+    "arcana": "Devil",
+    "level": 37,
+    "stats": {
+      "st": 22,
+      "ma": 30,
+      "en": 20,
+      "ag": 21,
+      "lu": 28
+    },
+    "affinities": {
+      "slash": "weak",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "null",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "weak",
+      "dark": "null"
+    },
+    "skills": [
+      {
+        "name": "Life Drain",
+        "level": 0
+      },
+      {
+        "name": "Evil Touch",
+        "level": 0
+      },
+      {
+        "name": "Eiga",
+        "level": 0
+      },
+      {
+        "name": "Stagnant Air",
+        "level": 38
+      },
+      {
+        "name": "Spirit Drain",
+        "level": 39
+      },
+      {
+        "name": "Maragion",
+        "level": 40
+      },
+      {
+        "name": "Drain Ability",
+        "level": 42
+      }
+    ]
+  },
+  {
+    "name": "Succubus",
+    "slug": "succubus",
+    "arcana": "Devil",
+    "level": 47,
+    "stats": {
+      "st": 26,
+      "ma": 41,
+      "en": 28,
+      "ag": 33,
+      "lu": 27
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "weak",
+      "fire": "repel",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "weak",
+      "dark": "absorb"
+    },
+    "skills": [
+      {
+        "name": "Maeiga",
+        "level": 0
+      },
+      {
+        "name": "Sexy Dance",
+        "level": 0
+      },
+      {
+        "name": "Spirit Drain",
+        "level": 0
+      },
+      {
+        "name": "Drain Ability",
+        "level": 48
+      },
+      {
+        "name": "Maragion",
+        "level": 49
+      },
+      {
+        "name": "Eigaon",
+        "level": 51
+      },
+      {
+        "name": "Evade Light",
+        "level": 53
+      }
+    ],
+    "heartItem": {
+      "name": "Soul Sea Droplet",
+      "level": 51
+    }
+  },
+  {
+    "name": "Pazuzu",
+    "slug": "pazuzu",
+    "arcana": "Devil",
+    "level": 56,
+    "stats": {
+      "st": 34,
+      "ma": 42,
+      "en": 35,
+      "ag": 32,
+      "lu": 34
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "repel",
+      "elec": "weak",
+      "wind": "null",
+      "light": "weak",
+      "dark": "resist"
+    },
+    "skills": [
+      {
+        "name": "Eigaon",
+        "level": 0
+      },
+      {
+        "name": "Poison Arrow",
+        "level": 0
+      },
+      {
+        "name": "Poison Mist",
+        "level": 0
+      },
+      {
+        "name": "Infuriate",
+        "level": 57
+      },
+      {
+        "name": "Neuro Slash",
+        "level": 58
+      },
+      {
+        "name": "Masukunda",
+        "level": 59
+      },
+      {
+        "name": "Ailment Boost",
+        "level": 61
+      }
+    ]
+  },
+  {
+    "name": "Lilith",
+    "slug": "lilith",
+    "arcana": "Devil",
+    "level": 65,
+    "stats": {
+      "st": 35,
+      "ma": 56,
+      "en": 38,
+      "ag": 44,
+      "lu": 35
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "weak",
+      "ice": "resist",
+      "elec": "absorb",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "null"
+    },
+    "skills": [
+      {
+        "name": "Mabufudyne",
+        "level": 0
+      },
+      {
+        "name": "Maziodyne",
+        "level": 0
+      },
+      {
+        "name": "Sexy Dance",
+        "level": 0
+      },
+      {
+        "name": "Megidola",
+        "level": 66
+      },
+      {
+        "name": "Makarakarn",
+        "level": 68
+      },
+      {
+        "name": "Demonic Decree",
+        "level": 70
+      },
+      {
+        "name": "Drain Wind",
+        "level": 72
+      }
+    ],
+    "heartItem": {
+      "name": "Soul Sea Drop",
+      "level": 70
+    },
+    "unlock": "Reach Tartarus floor 193 (Harabah I)"
+  },
+  {
+    "name": "Abaddon",
+    "slug": "abaddon",
+    "arcana": "Devil",
+    "level": 76,
+    "stats": {
+      "st": 53,
+      "ma": 61,
+      "en": 48,
+      "ag": 33,
+      "lu": 46
+    },
+    "affinities": {
+      "slash": "absorb",
+      "strike": "absorb",
+      "pierce": "normal",
+      "fire": "null",
+      "ice": "weak",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "weak",
+      "dark": "absorb"
+    },
+    "skills": [
+      {
+        "name": "Virus Breath",
+        "level": 0
+      },
+      {
+        "name": "Evil Smile",
+        "level": 0
+      },
+      {
+        "name": "Deathbound",
+        "level": 0
+      },
+      {
+        "name": "Ailment Boost",
+        "level": 78
+      },
+      {
+        "name": "Vile Assault",
+        "level": 79
+      },
+      {
+        "name": "Maragidyne",
+        "level": 81
+      },
+      {
+        "name": "Drain Ice",
+        "level": 83
+      }
+    ],
+    "heartItem": {
+      "name": "Abyssal King Tooth",
+      "level": 82
+    }
+  },
+  {
+    "name": "Beelzebub",
+    "slug": "beelzebub",
+    "arcana": "Devil",
+    "level": 81,
+    "stats": {
+      "st": 50,
+      "ma": 62,
+      "en": 50,
+      "ag": 60,
+      "lu": 52
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "null",
+      "pierce": "normal",
+      "fire": "weak",
+      "ice": "normal",
+      "elec": "null",
+      "wind": "null",
+      "light": "weak",
+      "dark": "repel"
+    },
+    "skills": [
+      {
+        "name": "Mamudoon",
+        "level": 0
+      },
+      {
+        "name": "Maeigaon",
+        "level": 0
+      },
+      {
+        "name": "Evil Smile",
+        "level": 0
+      },
+      {
+        "name": "Demonic Decree",
+        "level": 82
+      },
+      {
+        "name": "Megidolaon",
+        "level": 84
+      },
+      {
+        "name": "Concentrate",
+        "level": 85
+      },
+      {
+        "name": "Dark Amp",
+        "level": 87
+      }
+    ],
+    "heartItem": {
+      "name": "Lord of Flies Wings",
+      "level": 88
+    },
+    "unlock": "Max the Devil Social Link",
+    "specialRecipe": [
+      "Incubus",
+      "Succubus",
+      "Pazuzu",
+      "Lilith",
+      "Baal Zebul",
+      "Abaddon"
+    ]
+  },
+  {
+    "name": "Eligor",
+    "slug": "eligor",
+    "arcana": "Tower",
+    "level": 31,
+    "stats": {
+      "st": 26,
+      "ma": 21,
+      "en": 24,
+      "ag": 20,
+      "lu": 15
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "resist",
+      "fire": "null",
+      "ice": "normal",
+      "elec": "weak",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "resist"
+    },
+    "skills": [
+      {
+        "name": "Revolution",
+        "level": 0
+      },
+      {
+        "name": "Torrent Shot",
+        "level": 0
+      },
+      {
+        "name": "Cruel Attack",
+        "level": 32
+      },
+      {
+        "name": "Pierce Boost",
+        "level": 33
+      },
+      {
+        "name": "Maragion",
+        "level": 35
+      },
+      {
+        "name": "Life Aid",
+        "level": 36
+      }
+    ]
+  },
+  {
+    "name": "Cu Chulainn",
+    "slug": "cu-chulainn",
+    "arcana": "Tower",
+    "level": 40,
+    "stats": {
+      "st": 33,
+      "ma": 29,
+      "en": 24,
+      "ag": 26,
+      "lu": 21
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "resist",
+      "fire": "normal",
+      "ice": "weak",
+      "elec": "resist",
+      "wind": "repel",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Torrent Shot",
+        "level": 0
+      },
+      {
+        "name": "Matarukaja",
+        "level": 0
+      },
+      {
+        "name": "Dekaja",
+        "level": 0
+      },
+      {
+        "name": "Charge",
+        "level": 41
+      },
+      {
+        "name": "Fast Heal",
+        "level": 42
+      },
+      {
+        "name": "Magarula",
+        "level": 44
+      },
+      {
+        "name": "Myriad Arrows",
+        "level": 45
+      },
+      {
+        "name": "Shift Amp",
+        "level": 46
+      }
+    ],
+    "heartItem": {
+      "name": "Fetching Hero's Comb",
+      "level": 44
+    }
+  },
+  {
+    "name": "Magatsu-Izanagi",
+    "slug": "magatsu-izanagi",
+    "arcana": "Tower",
+    "level": 50,
+    "stats": {
+      "st": 42,
+      "ma": 39,
+      "en": 36,
+      "ag": 28,
+      "lu": 17
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "resist",
+      "fire": "normal",
+      "ice": "weak",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "null",
+      "dark": "null"
+    },
+    "skills": [
+      {
+        "name": "Magatsu Mandala",
+        "level": 0
+      },
+      {
+        "name": "Auto Tarukaja",
+        "level": 0
+      },
+      {
+        "name": "Ghastly Wail",
+        "level": 0
+      },
+      {
+        "name": "Megidola",
+        "level": 51
+      },
+      {
+        "name": "Ailment Boost",
+        "level": 52
+      },
+      {
+        "name": "Maziodyne",
+        "level": 54
+      },
+      {
+        "name": "Heat Riser",
+        "level": 56
+      }
+    ],
+    "dlc": "P4G Persona Set"
+  },
+  {
+    "name": "Bishamonten",
+    "slug": "bishamonten",
+    "arcana": "Tower",
+    "level": 60,
+    "stats": {
+      "st": 50,
+      "ma": 38,
+      "en": 45,
+      "ag": 36,
+      "lu": 30
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "null",
+      "pierce": "normal",
+      "fire": "null",
+      "ice": "weak",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "resist",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Maragidyne",
+        "level": 0
+      },
+      {
+        "name": "Vile Assault",
+        "level": 0
+      },
+      {
+        "name": "Pierce Boost",
+        "level": 0
+      },
+      {
+        "name": "Myriad Arrows",
+        "level": 61
+      },
+      {
+        "name": "Crit Rate Amp",
+        "level": 62
+      },
+      {
+        "name": "Primal Force",
+        "level": 64
+      },
+      {
+        "name": "Pierce Amp",
+        "level": 66
+      }
+    ]
+  },
+  {
+    "name": "Qitian Dasheng",
+    "slug": "qitian-dasheng",
+    "arcana": "Tower",
+    "level": 67,
+    "stats": {
+      "st": 52,
+      "ma": 38,
+      "en": 39,
+      "ag": 50,
+      "lu": 41
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "null",
+      "fire": "weak",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "resist",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Myriad Arrows",
+        "level": 0
+      },
+      {
+        "name": "Apt Pupil",
+        "level": 0
+      },
+      {
+        "name": "Regenerate 3",
+        "level": 0
+      },
+      {
+        "name": "Primal Force",
+        "level": 68
+      },
+      {
+        "name": "Revolution",
+        "level": 70
+      },
+      {
+        "name": "Akasha Arts",
+        "level": 72
+      },
+      {
+        "name": "Evade Strike",
+        "level": 73
+      }
+    ]
+  },
+  {
+    "name": "Mara",
+    "slug": "mara",
+    "arcana": "Tower",
+    "level": 75,
+    "stats": {
+      "st": 60,
+      "ma": 50,
+      "en": 50,
+      "ag": 48,
+      "lu": 39
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "absorb",
+      "pierce": "normal",
+      "fire": "absorb",
+      "ice": "weak",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "weak",
+      "dark": "absorb"
+    },
+    "skills": [
+      {
+        "name": "Maralagidyne",
+        "level": 0
+      },
+      {
+        "name": "Myriad Arrows",
+        "level": 0
+      },
+      {
+        "name": "Spirit Drain",
+        "level": 0
+      },
+      {
+        "name": "Primal Force",
+        "level": 76
+      },
+      {
+        "name": "Charge",
+        "level": 78
+      },
+      {
+        "name": "Pierce Amp",
+        "level": 80
+      },
+      {
+        "name": "Drain Light",
+        "level": 82
+      }
+    ],
+    "heartItem": {
+      "name": "Mara's Head",
+      "level": 81
+    },
+    "specialRecipe": [
+      "Incubus",
+      "Pazuzu",
+      "Mot",
+      "Kumbhanda",
+      "Attis"
+    ]
+  },
+  {
+    "name": "Masakado",
+    "slug": "masakado",
+    "arcana": "Tower",
+    "level": 79,
+    "stats": {
+      "st": 67,
+      "ma": 46,
+      "en": 55,
+      "ag": 43,
+      "lu": 48
+    },
+    "affinities": {
+      "slash": "resist",
+      "strike": "resist",
+      "pierce": "resist",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "weak",
+      "wind": "normal",
+      "light": "repel",
+      "dark": "resist"
+    },
+    "skills": [
+      {
+        "name": "Tempest Slash",
+        "level": 0
+      },
+      {
+        "name": "Myriad Arrows",
+        "level": 0
+      },
+      {
+        "name": "Magarudyne",
+        "level": 0
+      },
+      {
+        "name": "Debilitate",
+        "level": 81
+      },
+      {
+        "name": "Crit Rate Amp",
+        "level": 83
+      },
+      {
+        "name": "Arms Master",
+        "level": 84
+      },
+      {
+        "name": "Unshaken Will",
+        "level": 86
+      }
+    ],
+    "heartItem": {
+      "name": "Emperor's Sake Cup",
+      "level": 86
+    },
+    "unlock": "Clear Elizabeth's Request #87",
+    "specialRecipe": [
+      "Zouchouten",
+      "Jikokuten",
+      "Koumokuten",
+      "Bishamonten"
+    ]
+  },
+  {
+    "name": "Shiva",
+    "slug": "shiva",
+    "arcana": "Tower",
+    "level": 82,
+    "stats": {
+      "st": 63,
+      "ma": 57,
+      "en": 48,
+      "ag": 57,
+      "lu": 55
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "null",
+      "fire": "normal",
+      "ice": "weak",
+      "elec": "absorb",
+      "wind": "normal",
+      "light": "null",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Maziodyne",
+        "level": 0
+      },
+      {
+        "name": "Enduring Soul",
+        "level": 0
+      },
+      {
+        "name": "Invigorate 3",
+        "level": 0
+      },
+      {
+        "name": "Pralaya",
+        "level": 83
+      },
+      {
+        "name": "Life Aid",
+        "level": 84
+      },
+      {
+        "name": "God's Hand",
+        "level": 86
+      },
+      {
+        "name": "Ali Dance",
+        "level": 88
+      }
+    ],
+    "heartItem": {
+      "name": "Destroyer's Drums",
+      "level": 90
+    },
+    "specialRecipe": [
+      "Rangda",
+      "Barong"
+    ]
+  },
+  {
+    "name": "Chi You",
+    "slug": "chi-you",
+    "arcana": "Tower",
+    "level": 86,
+    "stats": {
+      "st": 69,
+      "ma": 50,
+      "en": 63,
+      "ag": 53,
+      "lu": 60
+    },
+    "affinities": {
+      "slash": "resist",
+      "strike": "normal",
+      "pierce": "resist",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "weak",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Primal Force",
+        "level": 0
+      },
+      {
+        "name": "Vorpal Blade",
+        "level": 0
+      },
+      {
+        "name": "Shift Amp",
+        "level": 0
+      },
+      {
+        "name": "Akasha Arts",
+        "level": 88
+      },
+      {
+        "name": "Charge",
+        "level": 89
+      },
+      {
+        "name": "Arms Master",
+        "level": 91
+      },
+      {
+        "name": "Drain Strike",
+        "level": 93
+      }
+    ],
+    "heartItem": {
+      "name": "Bull Warrior Horns",
+      "level": 94
+    },
+    "unlock": "Max the Tower Social Link"
+  },
+  {
+    "name": "Neko Shogun",
+    "slug": "neko-shogun",
+    "arcana": "Star",
+    "level": 17,
+    "stats": {
+      "st": 15,
+      "ma": 12,
+      "en": 10,
+      "ag": 14,
+      "lu": 8
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "resist",
+      "wind": "weak",
+      "light": "null",
+      "dark": "null"
+    },
+    "skills": [
+      {
+        "name": "Regenerate 1",
+        "level": 0
+      },
+      {
+        "name": "Assault Dive",
+        "level": 0
+      },
+      {
+        "name": "Rebellion",
+        "level": 0
+      },
+      {
+        "name": "Sharp Student",
+        "level": 18
+      },
+      {
+        "name": "Swift Strike",
+        "level": 20
+      },
+      {
+        "name": "Resist Dizzy",
+        "level": 22
+      }
+    ]
+  },
+  {
+    "name": "Setanta",
+    "slug": "setanta",
+    "arcana": "Star",
+    "level": 29,
+    "stats": {
+      "st": 26,
+      "ma": 19,
+      "en": 17,
+      "ag": 21,
+      "lu": 15
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "resist",
+      "fire": "weak",
+      "ice": "normal",
+      "elec": "null",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "weak"
+    },
+    "skills": [
+      {
+        "name": "Torrent Shot",
+        "level": 0
+      },
+      {
+        "name": "Auto Tarukaja",
+        "level": 0
+      },
+      {
+        "name": "Sharp Student",
+        "level": 0
+      },
+      {
+        "name": "Zionga",
+        "level": 30
+      },
+      {
+        "name": "Charge",
+        "level": 31
+      },
+      {
+        "name": "Shift Boost",
+        "level": 33
+      },
+      {
+        "name": "Resist Fire",
+        "level": 34
+      }
+    ]
+  },
+  {
+    "name": "Cendrillon",
+    "slug": "cendrillon",
+    "arcana": "Star",
+    "level": 36,
+    "stats": {
+      "st": 25,
+      "ma": 22,
+      "en": 20,
+      "ag": 28,
+      "lu": 20
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "resist",
+      "dark": "weak"
+    },
+    "skills": [
+      {
+        "name": "Neuro Slash",
+        "level": 0
+      },
+      {
+        "name": "Makouga",
+        "level": 0
+      },
+      {
+        "name": "Slash Driver",
+        "level": 0
+      },
+      {
+        "name": "Revolution",
+        "level": 37
+      },
+      {
+        "name": "Null Dizzy",
+        "level": 38
+      },
+      {
+        "name": "Vidyaraja's Blessing",
+        "level": 40
+      },
+      {
+        "name": "Tempest Slash",
+        "level": 42
+      }
+    ],
+    "dlc": "P5R Persona Set 1"
+  },
+  {
+    "name": "Kaiwan",
+    "slug": "kaiwan",
+    "arcana": "Star",
+    "level": 42,
+    "stats": {
+      "st": 23,
+      "ma": 28,
+      "en": 25,
+      "ag": 25,
+      "lu": 32
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "weak",
+      "fire": "resist",
+      "ice": "resist",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "resist"
+    },
+    "skills": [
+      {
+        "name": "Virus Breath",
+        "level": 0
+      },
+      {
+        "name": "Eerie Sound",
+        "level": 0
+      },
+      {
+        "name": "Spirit Drain",
+        "level": 0
+      },
+      {
+        "name": "Vile Assault",
+        "level": 43
+      },
+      {
+        "name": "Evil Smile",
+        "level": 44
+      },
+      {
+        "name": "Invigorate 2",
+        "level": 46
+      },
+      {
+        "name": "Evade Pierce",
+        "level": 47
+      }
+    ]
+  },
+  {
+    "name": "Ganesha",
+    "slug": "ganesha",
+    "arcana": "Star",
+    "level": 51,
+    "stats": {
+      "st": 39,
+      "ma": 31,
+      "en": 34,
+      "ag": 20,
+      "lu": 40
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "null",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "absorb",
+      "light": "normal",
+      "dark": "weak"
+    },
+    "skills": [
+      {
+        "name": "Deathbound",
+        "level": 0
+      },
+      {
+        "name": "Garudyne",
+        "level": 0
+      },
+      {
+        "name": "Revolution",
+        "level": 0
+      },
+      {
+        "name": "Gigantic Fist",
+        "level": 52
+      },
+      {
+        "name": "Charge",
+        "level": 54
+      },
+      {
+        "name": "Endure",
+        "level": 55
+      },
+      {
+        "name": "Repel Pierce",
+        "level": 57
+      }
+    ]
+  },
+  {
+    "name": "Vanadis",
+    "slug": "vanadis",
+    "arcana": "Star",
+    "level": 58,
+    "stats": {
+      "st": 43,
+      "ma": 38,
+      "en": 30,
+      "ag": 42,
+      "lu": 33
+    },
+    "affinities": {
+      "slash": "resist",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "null",
+      "dark": "weak"
+    },
+    "skills": [
+      {
+        "name": "Masquerade",
+        "level": 0
+      },
+      {
+        "name": "Kougaon",
+        "level": 0
+      },
+      {
+        "name": "Revolution",
+        "level": 0
+      },
+      {
+        "name": "Soul Chain",
+        "level": 59
+      },
+      {
+        "name": "Makougaon",
+        "level": 61
+      },
+      {
+        "name": "Brave Blade",
+        "level": 62
+      },
+      {
+        "name": "Ali Dance",
+        "level": 64
+      }
+    ],
+    "dlc": "P5R Persona Set 2"
+  },
+  {
+    "name": "Garuda",
+    "slug": "garuda",
+    "arcana": "Star",
+    "level": 64,
+    "stats": {
+      "st": 45,
+      "ma": 41,
+      "en": 35,
+      "ag": 51,
+      "lu": 36
+    },
+    "affinities": {
+      "slash": "resist",
+      "strike": "resist",
+      "pierce": "normal",
+      "fire": "resist",
+      "ice": "weak",
+      "elec": "weak",
+      "wind": "resist",
+      "light": "null",
+      "dark": "weak"
+    },
+    "skills": [
+      {
+        "name": "Garudyne",
+        "level": 0
+      },
+      {
+        "name": "Tentarafoo",
+        "level": 0
+      },
+      {
+        "name": "Masukukaja",
+        "level": 0
+      },
+      {
+        "name": "Amrita Shower",
+        "level": 65
+      },
+      {
+        "name": "Magarudyne",
+        "level": 67
+      },
+      {
+        "name": "Panta Rhei",
+        "level": 70
+      }
+    ]
+  },
+  {
+    "name": "Houou",
+    "slug": "houou",
+    "arcana": "Star",
+    "level": 70,
+    "stats": {
+      "st": 35,
+      "ma": 57,
+      "en": 39,
+      "ag": 54,
+      "lu": 41
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "weak",
+      "fire": "absorb",
+      "ice": "resist",
+      "elec": "weak",
+      "wind": "null",
+      "light": "absorb",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Maragidyne",
+        "level": 0
+      },
+      {
+        "name": "Samarecarm",
+        "level": 0
+      },
+      {
+        "name": "Mediarama",
+        "level": 0
+      },
+      {
+        "name": "Divine Grace",
+        "level": 71
+      },
+      {
+        "name": "Regenerate 3",
+        "level": 72
+      },
+      {
+        "name": "Null Pierce",
+        "level": 74
+      },
+      {
+        "name": "Salvation",
+        "level": 77
+      }
+    ],
+    "heartItem": {
+      "name": "Soul Sea Drop",
+      "level": 75
+    },
+    "unlock": "Reach Tartarus floor 225 (Harabah II)"
+  },
+  {
+    "name": "Saturnus",
+    "slug": "saturnus",
+    "arcana": "Star",
+    "level": 76,
+    "stats": {
+      "st": 43,
+      "ma": 70,
+      "en": 45,
+      "ag": 51,
+      "lu": 41
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "absorb",
+      "ice": "weak",
+      "elec": "normal",
+      "wind": "null",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Inferno",
+        "level": 0
+      },
+      {
+        "name": "Maragidyne",
+        "level": 0
+      },
+      {
+        "name": "Concentrate",
+        "level": 0
+      },
+      {
+        "name": "Fire Amp",
+        "level": 77
+      },
+      {
+        "name": "Primal Force",
+        "level": 78
+      },
+      {
+        "name": "Heat Riser",
+        "level": 80
+      },
+      {
+        "name": "Repel Ice",
+        "level": 82
+      }
+    ],
+    "heartItem": {
+      "name": "Black Sun Candle",
+      "level": 82
+    },
+    "unlock": "Max Ryoji's Link"
+  },
+  {
+    "name": "Helel",
+    "slug": "helel",
+    "arcana": "Star",
+    "level": 88,
+    "stats": {
+      "st": 63,
+      "ma": 63,
+      "en": 62,
+      "ag": 58,
+      "lu": 58
+    },
+    "affinities": {
+      "slash": "resist",
+      "strike": "resist",
+      "pierce": "resist",
+      "fire": "normal",
+      "ice": "weak",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "absorb",
+      "dark": "absorb"
+    },
+    "skills": [
+      {
+        "name": "Makougaon",
+        "level": 0
+      },
+      {
+        "name": "Heat Riser",
+        "level": 0
+      },
+      {
+        "name": "Salvation",
+        "level": 0
+      },
+      {
+        "name": "Morning Star",
+        "level": 90
+      },
+      {
+        "name": "Life Aid",
+        "level": 92
+      },
+      {
+        "name": "Spell Master",
+        "level": 94
+      },
+      {
+        "name": "Almighty Boost",
+        "level": 95
+      },
+      {
+        "name": "Armageddon",
+        "level": 0,
+        "fusionSpell": true
+      }
+    ],
+    "unlock": "Max the Star Social Link"
+  },
+  {
+    "name": "Gurulu",
+    "slug": "gurulu",
+    "arcana": "Moon",
+    "level": 14,
+    "stats": {
+      "st": 13,
+      "ma": 8,
+      "en": 10,
+      "ag": 12,
+      "lu": 6
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "weak",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "resist",
+      "light": "weak",
+      "dark": "null"
+    },
+    "skills": [
+      {
+        "name": "Eiha",
+        "level": 0
+      },
+      {
+        "name": "Power Slash",
+        "level": 0
+      },
+      {
+        "name": "Growth 1",
+        "level": 0
+      },
+      {
+        "name": "Raging Tiger",
+        "level": 15
+      },
+      {
+        "name": "Auto Sukukaja",
+        "level": 16
+      },
+      {
+        "name": "Poison Mist",
+        "level": 18
+      },
+      {
+        "name": "Poison Boost",
+        "level": 19
+      }
+    ]
+  },
+  {
+    "name": "Yamata-no-Orochi",
+    "slug": "yamata-no-orochi",
+    "arcana": "Moon",
+    "level": 25,
+    "stats": {
+      "st": 19,
+      "ma": 19,
+      "en": 17,
+      "ag": 13,
+      "lu": 14
+    },
+    "affinities": {
+      "slash": "weak",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "null",
+      "elec": "null",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Bufula",
+        "level": 0
+      },
+      {
+        "name": "Zio",
+        "level": 0
+      },
+      {
+        "name": "Single Shot",
+        "level": 0
+      },
+      {
+        "name": "Single-Target Boost",
+        "level": 26
+      },
+      {
+        "name": "Null Freeze",
+        "level": 27
+      },
+      {
+        "name": "Marakukaja",
+        "level": 29
+      },
+      {
+        "name": "Cruel Attack",
+        "level": 30
+      }
+    ],
+    "heartItem": {
+      "name": "Soul Sea Driblet",
+      "level": 28
+    }
+  },
+  {
+    "name": "Kaguya",
+    "slug": "kaguya",
+    "arcana": "Moon",
+    "level": 34,
+    "stats": {
+      "st": 19,
+      "ma": 32,
+      "en": 28,
+      "ag": 19,
+      "lu": 11
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "weak",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "resist",
+      "light": "null",
+      "dark": "null"
+    },
+    "skills": [
+      {
+        "name": "Shining Arrows",
+        "level": 0
+      },
+      {
+        "name": "Mediarama",
+        "level": 0
+      },
+      {
+        "name": "Divine Grace",
+        "level": 0
+      },
+      {
+        "name": "Multi-Target Boost",
+        "level": 35
+      },
+      {
+        "name": "High Counter",
+        "level": 37
+      },
+      {
+        "name": "Amrita Shower",
+        "level": 38
+      },
+      {
+        "name": "Diarahan",
+        "level": 39
+      }
+    ],
+    "dlc": "P4G Persona Set"
+  },
+  {
+    "name": "Girimekhala",
+    "slug": "girimekhala",
+    "arcana": "Moon",
+    "level": 39,
+    "stats": {
+      "st": 36,
+      "ma": 26,
+      "en": 28,
+      "ag": 20,
+      "lu": 20
+    },
+    "affinities": {
+      "slash": "repel",
+      "strike": "normal",
+      "pierce": "repel",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "weak",
+      "light": "weak",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Cruel Attack",
+        "level": 0
+      },
+      {
+        "name": "Mudoon",
+        "level": 0
+      },
+      {
+        "name": "Marakunda",
+        "level": 0
+      },
+      {
+        "name": "Virus Breath",
+        "level": 40
+      },
+      {
+        "name": "Heat Wave",
+        "level": 42
+      },
+      {
+        "name": "Mamudoon",
+        "level": 44
+      },
+      {
+        "name": "Repel Slash",
+        "level": 46
+      }
+    ]
+  },
+  {
+    "name": "Dionysus",
+    "slug": "dionysus",
+    "arcana": "Moon",
+    "level": 49,
+    "stats": {
+      "st": 30,
+      "ma": 38,
+      "en": 26,
+      "ag": 30,
+      "lu": 33
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "resist",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "repel",
+      "wind": "weak",
+      "light": "normal",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Ziodyne",
+        "level": 0
+      },
+      {
+        "name": "Marakukaja",
+        "level": 0
+      },
+      {
+        "name": "Makarakarn",
+        "level": 0
+      },
+      {
+        "name": "Resist Slash",
+        "level": 50
+      },
+      {
+        "name": "Mazionga",
+        "level": 51
+      },
+      {
+        "name": "Heat Wave",
+        "level": 52
+      },
+      {
+        "name": "Regenerate 3",
+        "level": 54
+      }
+    ]
+  },
+  {
+    "name": "Chernobog",
+    "slug": "chernobog",
+    "arcana": "Moon",
+    "level": 56,
+    "stats": {
+      "st": 48,
+      "ma": 41,
+      "en": 31,
+      "ag": 35,
+      "lu": 32
+    },
+    "affinities": {
+      "slash": "null",
+      "strike": "normal",
+      "pierce": "resist",
+      "fire": "weak",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "absorb"
+    },
+    "skills": [
+      {
+        "name": "Tempest Slash",
+        "level": 0
+      },
+      {
+        "name": "Maeiga",
+        "level": 0
+      },
+      {
+        "name": "Apt Pupil",
+        "level": 0
+      },
+      {
+        "name": "Eigaon",
+        "level": 57
+      },
+      {
+        "name": "Poison Mist",
+        "level": 58
+      },
+      {
+        "name": "Shift Amp",
+        "level": 60
+      },
+      {
+        "name": "Brave Blade",
+        "level": 61
+      }
+    ],
+    "heartItem": {
+      "name": "Soul Sea Drop",
+      "level": 61
+    }
+  },
+  {
+    "name": "Seth",
+    "slug": "seth",
+    "arcana": "Moon",
+    "level": 62,
+    "stats": {
+      "st": 47,
+      "ma": 49,
+      "en": 42,
+      "ag": 29,
+      "lu": 35
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "repel",
+      "ice": "weak",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "weak",
+      "dark": "resist"
+    },
+    "skills": [
+      {
+        "name": "Agidyne",
+        "level": 0
+      },
+      {
+        "name": "Garudyne",
+        "level": 0
+      },
+      {
+        "name": "Tetrakarn",
+        "level": 0
+      },
+      {
+        "name": "Makarakarn",
+        "level": 63
+      },
+      {
+        "name": "Fire Break",
+        "level": 64
+      },
+      {
+        "name": "Maragidyne",
+        "level": 66
+      },
+      {
+        "name": "Repel Ice",
+        "level": 68
+      }
+    ]
+  },
+  {
+    "name": "Baal Zebul",
+    "slug": "baal-zebul",
+    "arcana": "Moon",
+    "level": 72,
+    "stats": {
+      "st": 51,
+      "ma": 56,
+      "en": 45,
+      "ag": 42,
+      "lu": 41
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "weak",
+      "ice": "resist",
+      "elec": "resist",
+      "wind": "resist",
+      "light": "weak",
+      "dark": "repel"
+    },
+    "skills": [
+      {
+        "name": "Magarudyne",
+        "level": 0
+      },
+      {
+        "name": "Eigaon",
+        "level": 0
+      },
+      {
+        "name": "Megidola",
+        "level": 0
+      },
+      {
+        "name": "Matarukaja",
+        "level": 73
+      },
+      {
+        "name": "Ziodyne",
+        "level": 74
+      },
+      {
+        "name": "Maeigaon",
+        "level": 76
+      },
+      {
+        "name": "Panta Rhei",
+        "level": 78
+      }
+    ]
+  },
+  {
+    "name": "Sandalphon",
+    "slug": "sandalphon",
+    "arcana": "Moon",
+    "level": 80,
+    "stats": {
+      "st": 53,
+      "ma": 53,
+      "en": 67,
+      "ag": 46,
+      "lu": 49
+    },
+    "affinities": {
+      "slash": "null",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "resist",
+      "wind": "normal",
+      "light": "repel",
+      "dark": "weak"
+    },
+    "skills": [
+      {
+        "name": "Divine Judgment",
+        "level": 0
+      },
+      {
+        "name": "Mediarahan",
+        "level": 0
+      },
+      {
+        "name": "Akasha Arts",
+        "level": 0
+      },
+      {
+        "name": "Angelic Grace",
+        "level": 81
+      },
+      {
+        "name": "Makougaon",
+        "level": 83
+      },
+      {
+        "name": "Salvation",
+        "level": 84
+      },
+      {
+        "name": "Drain Dark",
+        "level": 87
+      }
+    ],
+    "heartItem": {
+      "name": "Prayer Angel Garland",
+      "level": 87
+    },
+    "unlock": "Max the Moon Social Link"
+  },
+  {
+    "name": "Yatagarasu",
+    "slug": "yatagarasu",
+    "arcana": "Sun",
+    "level": 24,
+    "stats": {
+      "st": 16,
+      "ma": 16,
+      "en": 14,
+      "ag": 24,
+      "lu": 13
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "weak",
+      "elec": "normal",
+      "wind": "resist",
+      "light": "null",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Growth 1",
+        "level": 0
+      },
+      {
+        "name": "Sukunda",
+        "level": 0
+      },
+      {
+        "name": "Zan-ei",
+        "level": 0
+      },
+      {
+        "name": "Sukukaja",
+        "level": 25
+      },
+      {
+        "name": "Diarama",
+        "level": 26
+      },
+      {
+        "name": "Infuriate",
+        "level": 28
+      },
+      {
+        "name": "Masukunda",
+        "level": 30
+      }
+    ]
+  },
+  {
+    "name": "Thunderbird",
+    "slug": "thunderbird",
+    "arcana": "Sun",
+    "level": 35,
+    "stats": {
+      "st": 18,
+      "ma": 28,
+      "en": 18,
+      "ag": 32,
+      "lu": 21
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "weak",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "absorb",
+      "wind": "normal",
+      "light": "null",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Mazionga",
+        "level": 0
+      },
+      {
+        "name": "Shock Boost",
+        "level": 0
+      },
+      {
+        "name": "Counterstrike",
+        "level": 36
+      },
+      {
+        "name": "Rebellion",
+        "level": 37
+      },
+      {
+        "name": "Ziodyne",
+        "level": 39
+      },
+      {
+        "name": "Null Elec",
+        "level": 41
+      }
+    ]
+  },
+  {
+    "name": "Quetzalcoatl",
+    "slug": "quetzalcoatl",
+    "arcana": "Sun",
+    "level": 45,
+    "stats": {
+      "st": 25,
+      "ma": 35,
+      "en": 33,
+      "ag": 30,
+      "lu": 25
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "null",
+      "elec": "normal",
+      "wind": "resist",
+      "light": "null",
+      "dark": "weak"
+    },
+    "skills": [
+      {
+        "name": "Bufula",
+        "level": 0
+      },
+      {
+        "name": "Garudyne",
+        "level": 0
+      },
+      {
+        "name": "Growth 3",
+        "level": 0
+      },
+      {
+        "name": "Single-Target Boost",
+        "level": 46
+      },
+      {
+        "name": "Bufudyne",
+        "level": 48
+      },
+      {
+        "name": "Resist Ailments",
+        "level": 50
+      },
+      {
+        "name": "Ice Amp",
+        "level": 51
+      }
+    ]
+  },
+  {
+    "name": "Jatayu",
+    "slug": "jatayu",
+    "arcana": "Sun",
+    "level": 55,
+    "stats": {
+      "st": 33,
+      "ma": 40,
+      "en": 30,
+      "ag": 50,
+      "lu": 28
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "weak",
+      "fire": "resist",
+      "ice": "resist",
+      "elec": "weak",
+      "wind": "absorb",
+      "light": "resist",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Garudyne",
+        "level": 0
+      },
+      {
+        "name": "Magarula",
+        "level": 0
+      },
+      {
+        "name": "Growth 3",
+        "level": 0
+      },
+      {
+        "name": "Masukunda",
+        "level": 56
+      },
+      {
+        "name": "Evade Pierce",
+        "level": 58
+      },
+      {
+        "name": "Amrita Shower",
+        "level": 59
+      },
+      {
+        "name": "Magarudyne",
+        "level": 61
+      }
+    ],
+    "heartItem": {
+      "name": "Soul Sea Drop",
+      "level": 60
+    }
+  },
+  {
+    "name": "Horus",
+    "slug": "horus",
+    "arcana": "Sun",
+    "level": 67,
+    "stats": {
+      "st": 42,
+      "ma": 53,
+      "en": 34,
+      "ag": 48,
+      "lu": 40
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "resist",
+      "elec": "null",
+      "wind": "normal",
+      "light": "repel",
+      "dark": "weak"
+    },
+    "skills": [
+      {
+        "name": "Mahamaon",
+        "level": 0
+      },
+      {
+        "name": "Growth 3",
+        "level": 0
+      },
+      {
+        "name": "Auto Masuku",
+        "level": 0
+      },
+      {
+        "name": "Samarecarm",
+        "level": 68
+      },
+      {
+        "name": "Kougaon",
+        "level": 70
+      },
+      {
+        "name": "Amrita Shower",
+        "level": 71
+      },
+      {
+        "name": "Evade Dark",
+        "level": 73
+      }
+    ],
+    "heartItem": {
+      "name": "Eye of Wadjet",
+      "level": 72
+    },
+    "unlock": "Max Akihiko's Link"
+  },
+  {
+    "name": "Vishnu",
+    "slug": "vishnu",
+    "arcana": "Sun",
+    "level": 78,
+    "stats": {
+      "st": 65,
+      "ma": 55,
+      "en": 50,
+      "ag": 53,
+      "lu": 42
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "null",
+      "elec": "null",
+      "wind": "normal",
+      "light": "absorb",
+      "dark": "weak"
+    },
+    "skills": [
+      {
+        "name": "Akasha Arts",
+        "level": 0
+      },
+      {
+        "name": "Bufudyne",
+        "level": 0
+      },
+      {
+        "name": "Ziodyne",
+        "level": 0
+      },
+      {
+        "name": "Panta Rhei",
+        "level": 79
+      },
+      {
+        "name": "Concentrate",
+        "level": 80
+      },
+      {
+        "name": "Ali Dance",
+        "level": 82
+      },
+      {
+        "name": "Salvation",
+        "level": 84
+      }
+    ],
+    "heartItem": {
+      "name": "Preservation Conch",
+      "level": 85
+    }
+  },
+  {
+    "name": "Asura",
+    "slug": "asura",
+    "arcana": "Sun",
+    "level": 85,
+    "stats": {
+      "st": 75,
+      "ma": 55,
+      "en": 58,
+      "ag": 50,
+      "lu": 54
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "null",
+      "pierce": "normal",
+      "fire": "absorb",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "weak",
+      "light": "null",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Agidyne",
+        "level": 0
+      },
+      {
+        "name": "Akasha Arts",
+        "level": 0
+      },
+      {
+        "name": "Unshaken Will",
+        "level": 0
+      },
+      {
+        "name": "Heat Riser",
+        "level": 86
+      },
+      {
+        "name": "Strike Amp",
+        "level": 88
+      },
+      {
+        "name": "God's Hand",
+        "level": 90
+      },
+      {
+        "name": "Firm Stance",
+        "level": 91
+      }
+    ],
+    "heartItem": {
+      "name": "Carnage King's Gear",
+      "level": 92
+    },
+    "unlock": "Max the Sun Social Link",
+    "specialRecipe": [
+      "Rakshasa",
+      "Girimekhala",
+      "Bishamonten",
+      "Qitian Dasheng",
+      "Atavaka",
+      "Vishnu"
+    ]
+  },
+  {
+    "name": "Anubis",
+    "slug": "anubis",
+    "arcana": "Judgement",
+    "level": 40,
+    "stats": {
+      "st": 27,
+      "ma": 35,
+      "en": 30,
+      "ag": 21,
+      "lu": 26
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "normal",
+      "light": "null",
+      "dark": "null"
+    },
+    "skills": [
+      {
+        "name": "Hamaon",
+        "level": 0
+      },
+      {
+        "name": "Mudoon",
+        "level": 0
+      },
+      {
+        "name": "Maeiga",
+        "level": 0
+      },
+      {
+        "name": "Makouga",
+        "level": 41
+      },
+      {
+        "name": "Makarakarn",
+        "level": 43
+      },
+      {
+        "name": "Growth 2",
+        "level": 44
+      },
+      {
+        "name": "Resist Dark",
+        "level": 45
+      }
+    ]
+  },
+  {
+    "name": "Trumpeter",
+    "slug": "trumpeter",
+    "arcana": "Judgement",
+    "level": 59,
+    "stats": {
+      "st": 44,
+      "ma": 44,
+      "en": 37,
+      "ag": 35,
+      "lu": 33
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "normal",
+      "ice": "null",
+      "elec": "normal",
+      "wind": "weak",
+      "light": "repel",
+      "dark": "null"
+    },
+    "skills": [
+      {
+        "name": "Hamaon",
+        "level": 0
+      },
+      {
+        "name": "Mudoon",
+        "level": 0
+      },
+      {
+        "name": "High Counter",
+        "level": 0
+      },
+      {
+        "name": "Makougaon",
+        "level": 60
+      },
+      {
+        "name": "Resist Ailments",
+        "level": 62
+      },
+      {
+        "name": "Mediarahan",
+        "level": 63
+      },
+      {
+        "name": "Debilitate",
+        "level": 65
+      }
+    ]
+  },
+  {
+    "name": "Michael",
+    "slug": "michael",
+    "arcana": "Judgement",
+    "level": 70,
+    "stats": {
+      "st": 56,
+      "ma": 48,
+      "en": 46,
+      "ag": 37,
+      "lu": 42
+    },
+    "affinities": {
+      "slash": "resist",
+      "strike": "normal",
+      "pierce": "resist",
+      "fire": "normal",
+      "ice": "normal",
+      "elec": "normal",
+      "wind": "weak",
+      "light": "repel",
+      "dark": "resist"
+    },
+    "skills": [
+      {
+        "name": "Heaven's Blade",
+        "level": 0
+      },
+      {
+        "name": "Divine Judgment",
+        "level": 0
+      },
+      {
+        "name": "Angelic Grace",
+        "level": 0
+      },
+      {
+        "name": "Makougaon",
+        "level": 72
+      },
+      {
+        "name": "Maziodyne",
+        "level": 73
+      },
+      {
+        "name": "Heat Riser",
+        "level": 75
+      },
+      {
+        "name": "Drain Pierce",
+        "level": 77
+      }
+    ],
+    "heartItem": {
+      "name": "Archangel Wings",
+      "level": 75
+    },
+    "unlock": "Max Ken's Link"
+  },
+  {
+    "name": "Satan",
+    "slug": "satan",
+    "arcana": "Judgement",
+    "level": 82,
+    "stats": {
+      "st": 55,
+      "ma": 68,
+      "en": 52,
+      "ag": 43,
+      "lu": 53
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "resist",
+      "ice": "repel",
+      "elec": "normal",
+      "wind": "weak",
+      "light": "normal",
+      "dark": "absorb"
+    },
+    "skills": [
+      {
+        "name": "Diamond Dust",
+        "level": 0
+      },
+      {
+        "name": "Maeigaon",
+        "level": 0
+      },
+      {
+        "name": "Resist Ailments",
+        "level": 0
+      },
+      {
+        "name": "Megidolaon",
+        "level": 83
+      },
+      {
+        "name": "Concentrate",
+        "level": 84
+      },
+      {
+        "name": "Debilitate",
+        "level": 86
+      },
+      {
+        "name": "Repel Wind",
+        "level": 88
+      },
+      {
+        "name": "Black Viper",
+        "level": 89
+      },
+      {
+        "name": "Armageddon",
+        "level": 0,
+        "fusionSpell": true
+      }
+    ]
+  },
+  {
+    "name": "Lucifer",
+    "slug": "lucifer",
+    "arcana": "Judgement",
+    "level": 89,
+    "stats": {
+      "st": 70,
+      "ma": 70,
+      "en": 61,
+      "ag": 51,
+      "lu": 55
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "absorb",
+      "ice": "normal",
+      "elec": "absorb",
+      "wind": "normal",
+      "light": "normal",
+      "dark": "repel"
+    },
+    "skills": [
+      {
+        "name": "Megidolaon",
+        "level": 0
+      },
+      {
+        "name": "Debilitate",
+        "level": 0
+      },
+      {
+        "name": "Brave Blade",
+        "level": 0
+      },
+      {
+        "name": "Inferno",
+        "level": 90
+      },
+      {
+        "name": "Panta Rhei",
+        "level": 92
+      },
+      {
+        "name": "Diamond Dust",
+        "level": 94
+      },
+      {
+        "name": "Resist Phys",
+        "level": 96
+      }
+    ],
+    "heartItem": {
+      "name": "Fallen Angel Wing",
+      "level": 97
+    },
+    "unlock": "Clear Elizabeth's Request #81",
+    "specialRecipe": [
+      "Samael",
+      "Abaddon",
+      "Beelzebub",
+      "Satan",
+      "Helel"
+    ]
+  },
+  {
+    "name": "Messiah",
+    "slug": "messiah",
+    "arcana": "Judgement",
+    "level": 91,
+    "stats": {
+      "st": 65,
+      "ma": 70,
+      "en": 62,
+      "ag": 59,
+      "lu": 59
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "resist",
+      "ice": "resist",
+      "elec": "resist",
+      "wind": "resist",
+      "light": "repel",
+      "dark": "repel"
+    },
+    "skills": [
+      {
+        "name": "Megidolaon",
+        "level": 0
+      },
+      {
+        "name": "God's Hand",
+        "level": 0
+      },
+      {
+        "name": "Salvation",
+        "level": 0
+      },
+      {
+        "name": "Enduring Soul",
+        "level": 92
+      },
+      {
+        "name": "Regenerate 3",
+        "level": 93
+      },
+      {
+        "name": "Invigorate 3",
+        "level": 94
+      },
+      {
+        "name": "Null Phys",
+        "level": 96
+      },
+      {
+        "name": "Magic Ability",
+        "level": 98
+      }
+    ],
+    "heartItem": {
+      "name": "Savior's Augite",
+      "level": 99
+    },
+    "unlock": "Max the Judgement Social Link",
+    "specialRecipe": [
+      "Orpheus",
+      "Thanatos"
+    ]
+  },
+  {
+    "name": "Nidhoggr",
+    "slug": "nidhoggr",
+    "arcana": "Aeon",
+    "level": 47,
+    "stats": {
+      "st": 36,
+      "ma": 29,
+      "en": 43,
+      "ag": 21,
+      "lu": 28
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "resist",
+      "fire": "normal",
+      "ice": "null",
+      "elec": "null",
+      "wind": "weak",
+      "light": "weak",
+      "dark": "resist"
+    },
+    "skills": [
+      {
+        "name": "Matarunda",
+        "level": 0
+      },
+      {
+        "name": "Mudoon",
+        "level": 0
+      },
+      {
+        "name": "Heat Wave",
+        "level": 0
+      },
+      {
+        "name": "Virus Breath",
+        "level": 48
+      },
+      {
+        "name": "Stagnant Air",
+        "level": 49
+      },
+      {
+        "name": "Ailment Boost",
+        "level": 51
+      },
+      {
+        "name": "Null Light",
+        "level": 53
+      }
+    ]
+  },
+  {
+    "name": "Uriel",
+    "slug": "uriel",
+    "arcana": "Aeon",
+    "level": 57,
+    "stats": {
+      "st": 47,
+      "ma": 42,
+      "en": 35,
+      "ag": 36,
+      "lu": 30
+    },
+    "affinities": {
+      "slash": "resist",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "absorb",
+      "ice": "weak",
+      "elec": "null",
+      "wind": "normal",
+      "light": "null",
+      "dark": "weak"
+    },
+    "skills": [
+      {
+        "name": "Vorpal Blade",
+        "level": 0
+      },
+      {
+        "name": "Kougaon",
+        "level": 0
+      },
+      {
+        "name": "Sharp Student",
+        "level": 0
+      },
+      {
+        "name": "Agidyne",
+        "level": 58
+      },
+      {
+        "name": "Angelic Grace",
+        "level": 60
+      },
+      {
+        "name": "Mahamaon",
+        "level": 61
+      },
+      {
+        "name": "Heaven's Blade",
+        "level": 63
+      }
+    ]
+  },
+  {
+    "name": "Ananta",
+    "slug": "ananta",
+    "arcana": "Aeon",
+    "level": 73,
+    "stats": {
+      "st": 51,
+      "ma": 51,
+      "en": 68,
+      "ag": 35,
+      "lu": 42
+    },
+    "affinities": {
+      "slash": "weak",
+      "strike": "normal",
+      "pierce": "resist",
+      "fire": "normal",
+      "ice": "absorb",
+      "elec": "weak",
+      "wind": "normal",
+      "light": "null",
+      "dark": "normal"
+    },
+    "skills": [
+      {
+        "name": "Vile Assault",
+        "level": 0
+      },
+      {
+        "name": "Dekunda",
+        "level": 0
+      },
+      {
+        "name": "Auto Maraku",
+        "level": 0
+      },
+      {
+        "name": "Evade Slash",
+        "level": 74
+      },
+      {
+        "name": "Resist Ailments",
+        "level": 75
+      },
+      {
+        "name": "Growth 3",
+        "level": 77
+      },
+      {
+        "name": "Drain Slash",
+        "level": 80
+      }
+    ],
+    "heartItem": {
+      "name": "Soul Sea Drop",
+      "level": 78
+    }
+  },
+  {
+    "name": "Metatron",
+    "slug": "metatron",
+    "arcana": "Aeon",
+    "level": 87,
+    "stats": {
+      "st": 60,
+      "ma": 65,
+      "en": 65,
+      "ag": 55,
+      "lu": 53
+    },
+    "affinities": {
+      "slash": "normal",
+      "strike": "normal",
+      "pierce": "normal",
+      "fire": "repel",
+      "ice": "resist",
+      "elec": "weak",
+      "wind": "repel",
+      "light": "repel",
+      "dark": "weak"
+    },
+    "skills": [
+      {
+        "name": "Makougaon",
+        "level": 0
+      },
+      {
+        "name": "Divine Judgment",
+        "level": 0
+      },
+      {
+        "name": "God's Hand",
+        "level": 0
+      },
+      {
+        "name": "Megidolaon",
+        "level": 89
+      },
+      {
+        "name": "Salvation",
+        "level": 90
+      },
+      {
+        "name": "Light Amp",
+        "level": 92
+      },
+      {
+        "name": "Repel Elec",
+        "level": 94
+      }
+    ],
+    "heartItem": {
+      "name": "Contract Angel Wing",
+      "level": 94
+    },
+    "unlock": "Max the Aeon Social Link",
+    "specialRecipe": [
+      "Uriel",
+      "Raphael",
+      "Gabriel",
+      "Michael"
+    ]
+  }
+]
