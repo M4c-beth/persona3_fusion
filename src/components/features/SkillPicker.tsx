@@ -117,7 +117,7 @@ export function SkillPicker({ target, available, value, onChange }: Props) {
         <ComboboxList className="max-h-[min(24rem,var(--available-height))]">
           {(group: Group) => (
             <ComboboxGroup key={group.value} items={group.items}>
-              <ComboboxLabel className="sticky top-0 z-10 bg-popover font-heading text-xs font-bold uppercase tracking-wider text-p3r-blue-light">
+              <ComboboxLabel className="sticky top-0 z-10 bg-popover font-heading text-xs font-bold uppercase tracking-wider text-p3r-cyan">
                 {group.value}
               </ComboboxLabel>
               <ComboboxCollection>
