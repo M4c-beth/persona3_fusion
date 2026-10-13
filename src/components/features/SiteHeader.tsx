@@ -20,13 +20,13 @@ export function SiteHeader() {
   const pathname = usePathname();
 
   return (
-    <header className="sticky top-0 z-40 border-b bg-background/80 backdrop-blur-md">
-      <div className="mx-auto flex h-14 max-w-6xl items-center gap-4 px-4 sm:gap-8">
-        <Link href="/" className="flex items-baseline gap-1.5 font-heading text-xl font-extrabold italic tracking-tight">
-          <span className="text-p3r-yellow">P3R</span>
-          <span className="hidden sm:inline">Fusion</span>
+    <header className="sticky top-0 z-40 border-b border-p3r-cyan/20 bg-p3r-deep/75 backdrop-blur-md">
+      <div className="mx-auto flex h-14 max-w-6xl items-center gap-2 px-4 sm:gap-8">
+        <Link href="/" className="flex items-baseline gap-2 max-[379px]:hidden">
+          <span className="display text-2xl text-p3r-white">P3R</span>
+          <span className="hidden text-xs font-semibold uppercase tracking-[0.2em] text-p3r-cyan sm:inline">Fusion</span>
         </Link>
-        <nav className="flex flex-1 items-center gap-1" aria-label="Main">
+        <nav className="flex min-w-0 flex-1 items-center sm:gap-1" aria-label="Main">
           {NAV.map(({ href, label }) => {
             const active = isActive(pathname, href);
             return (
@@ -35,8 +35,8 @@ export function SiteHeader() {
                 href={href}
                 aria-current={active ? "page" : undefined}
                 className={cn(
-                  "clip-slant px-3 py-1.5 font-heading text-sm font-bold uppercase tracking-wider transition-colors",
-                  active ? "bg-p3r-blue text-foreground" : "text-muted-foreground hover:text-foreground",
+                  "clip-slant px-2 py-1.5 font-heading text-xs font-bold uppercase tracking-wider transition-colors sm:px-3 sm:text-sm",
+                  active ? "bg-p3r-white text-p3r-navy" : "text-muted-foreground hover:text-p3r-white",
                 )}
               >
                 {label}
