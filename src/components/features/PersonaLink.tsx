@@ -7,11 +7,11 @@ export function PersonaLink({ persona, className }: { persona: Persona; classNam
   return (
     <Link
       href={`/persona/${persona.slug}/`}
-      className={cn("group inline-flex min-w-0 items-baseline gap-2 hover:text-p3r-yellow", className)}
+      className={cn("group inline-flex min-w-0 items-baseline gap-2 hover:text-p3r-cyan", className)}
     >
       <span className="w-6 shrink-0 text-right font-mono text-xs tabular-nums text-muted-foreground">{persona.level}</span>
       <span className="truncate font-medium">{persona.name}</span>
-      <span className="hidden shrink-0 text-xs text-muted-foreground group-hover:text-p3r-yellow/70 sm:inline">
+      <span className="hidden shrink-0 text-xs text-muted-foreground group-hover:text-p3r-cyan/70 sm:inline">
         {persona.arcana}
       </span>
     </Link>
