@@ -21,15 +21,15 @@ export function DlcToggle() {
     <Popover>
       <PopoverTrigger
         className={cn(
-          "clip-slant flex h-8 items-center gap-2 px-3.5 font-heading text-sm font-bold uppercase tracking-wider transition-colors",
+          "clip-slant flex h-8 shrink-0 items-center gap-1.5 px-2.5 font-heading sm:gap-2 sm:px-3.5 text-sm font-bold uppercase tracking-wider transition-colors",
           count
-            ? "bg-p3r-yellow text-p3r-black hover:bg-p3r-yellow/90"
+            ? "bg-p3r-white text-p3r-navy hover:bg-p3r-white/90"
             : "bg-secondary text-muted-foreground hover:text-foreground",
         )}
         aria-label={`DLC personas: ${count ? `${count} of ${DLC_PACKS.length} packs on` : "off"}`}
       >
         DLC
-        <span className={cn("text-xs", count ? "text-p3r-black/70" : "text-muted-foreground/70")}>
+        <span className={cn("text-xs", count ? "text-p3r-navy/70" : "text-muted-foreground/70")}>
           {count ? (allOn ? "On" : `${count}/${DLC_PACKS.length}`) : "Off"}
         </span>
       </PopoverTrigger>
