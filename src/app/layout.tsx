@@ -1,5 +1,9 @@
 import type { Metadata } from "next";
 import { Barlow_Condensed, Geist, Geist_Mono } from "next/font/google";
+import { DlcProvider } from "@/components/features/DlcProvider";
+import { SiteFooter } from "@/components/features/SiteFooter";
+import { SiteHeader } from "@/components/features/SiteHeader";
+import { TooltipProvider } from "@/components/ui/tooltip";
 import "./globals.css";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
@@ -12,15 +16,21 @@ const display = Barlow_Condensed({
 });
 
 export const metadata: Metadata = {
-  title: "P3R Fusion",
-  description: "Persona 3 Reload persona compendium and fusion calculator.",
+  title: { default: "P3R Fusion", template: "%s · P3R Fusion" },
+  description: "Persona 3 Reload persona compendium and fusion calculator, with DLC persona support.",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={`dark ${geistSans.variable} ${geistMono.variable} ${display.variable}`}>
-      <body className="antialiased">
-        {children}
+      <body className="flex min-h-dvh flex-col antialiased">
+        <DlcProvider>
+          <TooltipProvider>
+            <SiteHeader />
+            <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-8">{children}</main>
+            <SiteFooter />
+          </TooltipProvider>
+        </DlcProvider>
       </body>
     </html>
   );
