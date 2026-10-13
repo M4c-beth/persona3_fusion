@@ -146,3 +146,40 @@ export interface ElizabethRequest {
   link?: { persona?: string; skills?: string[]; level?: number };
   note?: string;
 }
+
+export interface DialogueOption {
+  text: string;
+  /** Points with a Persona of the link's arcana in stock, e.g. "+3", "0", or an outcome like "Romance". */
+  with: string;
+  /** Points without one. */
+  without: string;
+}
+
+export interface DialoguePrompt {
+  line: string;
+  options: DialogueOption[];
+}
+
+export interface SocialLinkRank {
+  /** "Rank 1", "Rank 9 (Romance)", "Phone Invite (4/26)", ... */
+  label: string;
+  prompts: DialoguePrompt[];
+  /** Item the character hands you at this rank. */
+  bonus?: string;
+}
+
+export interface SocialLinkDialogue {
+  /** Source page on the Megami Tensei Wiki. */
+  page: string;
+  revision: number;
+  ranks: SocialLinkRank[];
+  /** Phone invites and other scenes outside the rank-ups. */
+  extras: SocialLinkRank[];
+}
+
+export interface Gift {
+  name: string;
+  where: string;
+  loves: Arcana[];
+  likes: Arcana[];
+}
