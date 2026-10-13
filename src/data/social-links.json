@@ -1,0 +1,181 @@
+[
+  {
+    "arcana": "Fool",
+    "name": "S.E.E.S.",
+    "start": "4/18",
+    "howToStart": "Starts on its own and ranks up with the story.",
+    "automatic": true
+  },
+  {
+    "arcana": "Magician",
+    "name": "Kenji Tomochika",
+    "start": "4/22",
+    "howToStart": "Starts on its own. Hang out with Kenji after school to rank it up.",
+    "days": ["Tue", "Thu", "Fri"],
+    "location": "Your classroom"
+  },
+  {
+    "arcana": "Priestess",
+    "name": "Fuuka Yamagishi",
+    "start": "6/19",
+    "howToStart": "Needs max Courage and the Fortune link already started.",
+    "days": ["Mon", "Fri", "Sat"],
+    "location": "School, 2F hallway"
+  },
+  {
+    "arcana": "Empress",
+    "name": "Mitsuru Kirijo",
+    "start": "11/21",
+    "howToStart": "Needs max Academics (Genius).",
+    "days": ["Tue", "Thu", "Sat"],
+    "location": "School, outside the faculty office"
+  },
+  {
+    "arcana": "Emperor",
+    "name": "Hidetoshi Odagiri",
+    "start": "4/27",
+    "howToStart": "Join the student council when Mitsuru asks you.",
+    "days": ["Mon", "Wed", "Fri"],
+    "location": "Student council room"
+  },
+  {
+    "arcana": "Hierophant",
+    "name": "Bunkichi & Mitsuko",
+    "start": "4/25",
+    "howToStart": "Find the persimmon leaf at the tree by the school's 1F corridor and bring it to the old couple.",
+    "days": ["Tue", "Wed", "Thu", "Fri", "Sat"],
+    "location": "Bookworms used books, Iwatodai Strip Mall"
+  },
+  {
+    "arcana": "Lovers",
+    "name": "Yukari Takeba",
+    "start": "Late July",
+    "howToStart": "Needs max Charm. Opens after the Yakushima trip.",
+    "days": ["Mon", "Wed", "Thu", "Sat"],
+    "location": "Your classroom"
+  },
+  {
+    "arcana": "Chariot",
+    "name": "Kazushi Miyamoto",
+    "start": "4/23",
+    "howToStart": "Join a sports team (the track team).",
+    "days": ["Mon", "Tue", "Thu", "Fri"],
+    "location": "School, after class"
+  },
+  {
+    "arcana": "Justice",
+    "name": "Chihiro Fushimi",
+    "start": "May",
+    "howToStart": "Start the Emperor link, then speak to Chihiro on three different days.",
+    "days": ["Tue", "Thu", "Sat"],
+    "location": "Student council room",
+    "note": "Guides list start dates from early to late May."
+  },
+  {
+    "arcana": "Hermit",
+    "name": "Maya",
+    "start": "4/29",
+    "howToStart": "Play the MMORPG Junpei gives you on the computer in your room.",
+    "days": ["Sun", "Holidays"],
+    "location": "The computer in your room"
+  },
+  {
+    "arcana": "Fortune",
+    "name": "Keisuke Hiraga",
+    "start": "6/17",
+    "howToStart": "Join a culture club (the art club).",
+    "days": ["Tue", "Wed", "Thu"],
+    "location": "Club room, after class"
+  },
+  {
+    "arcana": "Strength",
+    "name": "Yuko Nishiwaki",
+    "start": "Late April",
+    "howToStart": "Walk Yuko home when the Chariot link offers it at its early ranks.",
+    "days": ["Wed", "Sat"],
+    "location": "School, 2F hallway"
+  },
+  {
+    "arcana": "Hanged Man",
+    "name": "Maiko Oohashi",
+    "start": "May",
+    "howToStart": "Give Maiko a Weird Takoyaki (Octopia, Iwatodai Strip Mall) and a Mad Bull (dorm vending machine), then come back another day.",
+    "days": ["Mon", "Wed", "Sat"],
+    "location": "Naganaki Shrine playground"
+  },
+  {
+    "arcana": "Death",
+    "name": "Pharos",
+    "start": "6/12",
+    "howToStart": "Starts on its own and ranks up with the story.",
+    "automatic": true
+  },
+  {
+    "arcana": "Temperance",
+    "name": "Bebe",
+    "start": "5/29",
+    "howToStart": "Needs Hierophant rank 3 and Academics rank 2 or higher.",
+    "days": ["Tue", "Wed", "Fri"],
+    "location": "School, home economics room"
+  },
+  {
+    "arcana": "Devil",
+    "name": "President Tanaka",
+    "start": "Summer",
+    "howToStart": "Needs Charm rank 4. Give him ¥20,000, then ¥10,000 on two later nights (¥40,000 in total).",
+    "days": ["Tue", "Sat"],
+    "time": "Night",
+    "location": "Paulownia Mall",
+    "note": "Some guides tie the start to Hermit rank 4 rather than a date."
+  },
+  {
+    "arcana": "Tower",
+    "name": "Mutatsu",
+    "start": "After Strength rank 4",
+    "howToStart": "Needs Strength rank 4 and Courage rank 4. Ask Yuko about the monk, then find him at Club Escapade.",
+    "days": ["Thu", "Fri", "Sat", "Sun"],
+    "time": "Night",
+    "location": "Club Escapade, Paulownia Mall"
+  },
+  {
+    "arcana": "Star",
+    "name": "Mamoru Hayase",
+    "start": "August",
+    "howToStart": "Talk to Mamoru after meeting him at the 8/2 sports meet.",
+    "days": ["Wed", "Fri", "Sun"],
+    "location": "Iwatodai Strip Mall",
+    "note": "Some guides also list Tuesday."
+  },
+  {
+    "arcana": "Moon",
+    "name": "Nozomi Suemitsu",
+    "start": "After Kenji mentions the Gourmet King",
+    "howToStart": "Needs Charm rank 2. Pass Nozomi's gourmet quiz, then give him an Odd Morsel (found in Tartarus).",
+    "days": ["Every day"],
+    "location": "Paulownia Mall"
+  },
+  {
+    "arcana": "Sun",
+    "name": "Akinari Kamiki",
+    "start": "From August",
+    "howToStart": "Needs Academics rank 4 and Hanged Man rank 3. Meet Akinari at the shrine, then bring him the Red Fountain Pen.",
+    "days": ["Sun"],
+    "location": "Naganaki Shrine",
+    "note": "Guides list start dates from early August to early September."
+  },
+  {
+    "arcana": "Judgement",
+    "name": "Nyx Annihilation Team",
+    "start": "12/31",
+    "howToStart": "Starts on its own if the Fool link is maxed by 12/31, and ranks up with the story.",
+    "automatic": true
+  },
+  {
+    "arcana": "Aeon",
+    "name": "Aigis",
+    "start": "1/8",
+    "howToStart": "Starts on its own on 1/8.",
+    "days": ["Mon", "Wed", "Fri", "Sat"],
+    "location": "Your classroom"
+  }
+]
