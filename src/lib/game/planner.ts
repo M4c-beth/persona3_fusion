@@ -1,6 +1,6 @@
 import type { Persona } from "@/types/game";
 import { getSkill } from "./data";
-import { recipesFor, type FusionPool } from "./fusion";
+import { fusionsFrom, recipesFor, type FusionPool } from "./fusion";
 import { inheritBlock, inheritLimit, MAX_SKILLS, type InheritBlock } from "./inheritance";
 
 export interface SkillAssignment {
@@ -28,204 +28,243 @@ export type PlanFailure =
 export type PlanResult = { paths: PlanStep[]; failure?: undefined } | { paths: []; failure: PlanFailure };
 
 export interface PlanOptions {
-  /** How many fusions deep a skill may be carried. */
-  maxDepth?: number;
   maxPaths?: number;
-  /** Recipes tried per persona. */
-  branch?: number;
-  /** Hard cap on recipe expansions per search. */
-  budget?: number;
+  /** Longest chain of fusions used to carry skills into one ingredient. */
+  maxChain?: number;
 }
 
 const MAX_INHERITED = 6;
 
-interface Context {
+/**
+ * A persona holding a set of the wanted skills (bitmask), reached after `dist` fusions.
+ * `prev` is the fusion that made it: a carrier state plus leaf partners.
+ */
+interface State {
+  persona: Persona;
+  mask: number;
+  dist: number;
+  prev?: { carrier: State; partners: Persona[]; special: boolean };
+}
+
+interface Search {
   pool: FusionPool;
-  branch: number;
-  budget: number;
-  memo: Map<string, PlanStep | null>;
+  skills: string[];
+  nativeMask: (p: Persona) => number;
+  holdable: (p: Persona) => number;
+  knownCount: (p: Persona, mask: number) => number;
 }
 
-function nativeLevels(persona: Persona): Map<string, number> {
-  return new Map(persona.skills.filter((s) => !s.fusionSpell).map((s) => [s.name, s.level]));
+const popcount = (n: number) => {
+  let c = 0;
+  for (let x = n; x; x &= x - 1) c++;
+  return c;
+};
+
+const partnerCache = new WeakMap<FusionPool, Map<string, { partner: Persona; result: Persona }[]>>();
+
+function partnersOf(pool: FusionPool, persona: Persona) {
+  let cache = partnerCache.get(pool);
+  if (!cache) partnerCache.set(pool, (cache = new Map()));
+  let list = cache.get(persona.name);
+  if (!list) cache.set(persona.name, (list = fusionsFrom(pool, persona)));
+  return list;
 }
 
-function canPersonaInherit(persona: Persona, skillName: string): boolean {
-  const skill = getSkill(skillName);
-  return !!skill && inheritBlock(persona, skill) === null;
-}
-
-/** A persona used as-is; every skill in `skills` is one it learns. */
-function leaf(persona: Persona, skills: string[]): PlanStep {
+function createSearch(pool: FusionPool, skills: string[]): Search {
+  const bits = new Map(skills.map((s, i) => [s, 1 << i]));
+  const memo = new Map<string, { native: number; holdable: number }>();
+  const masks = (p: Persona) => {
+    let m = memo.get(p.name);
+    if (!m) {
+      let native = 0;
+      let holdable = 0;
+      for (const s of p.skills) if (!s.fusionSpell && bits.has(s.name)) native |= bits.get(s.name)!;
+      skills.forEach((name, i) => {
+        const skill = getSkill(name)!;
+        if (native & (1 << i) || inheritBlock(p, skill) === null) holdable |= 1 << i;
+      });
+      memo.set(p.name, (m = { native, holdable }));
+    }
+    return m;
+  };
   return {
-    persona,
-    skills: persona.skills
-      .filter((s) => !s.fusionSpell && skills.includes(s.name))
-      .map((s) => ({ name: s.name, source: "native", level: s.level })),
+    pool,
+    skills,
+    nativeMask: (p) => masks(p).native,
+    holdable: (p) => masks(p).holdable,
+    /** Skills the persona knows when used: its own up to the levels it must reach, plus inherited ones. */
+    knownCount: (p, mask) => {
+      const native = masks(p).native;
+      const learnTo = Math.max(
+        p.level,
+        ...p.skills.filter((s) => !s.fusionSpell && bits.has(s.name) && mask & bits.get(s.name)!).map((s) => s.level),
+      );
+      return p.skills.filter((s) => !s.fusionSpell && s.level <= learnTo).length + popcount(mask & ~native);
+    },
   };
 }
 
-/** Skills a persona knows when used as an ingredient in this plan. */
-function knownSkillCount(step: PlanStep): number {
-  const inherited = step.skills.filter((s) => s.source === "inherited").length;
-  const learnedBy = Math.max(step.persona.level, ...step.skills.map((s) => s.level ?? 0));
-  const native = step.persona.skills.filter((s) => !s.fusionSpell && s.level <= learnedBy).length;
-  return native + inherited;
-}
+/** Breadth-first: shortest fusion chains that put each combination of skills on each persona. */
+function exploreChains(search: Search, maxChain: number): Map<string, State[]> {
+  const { pool, nativeMask, holdable, knownCount } = search;
+  const byPersona = new Map<string, State[]>();
+  const queue: State[] = [];
 
-function ingredientSets(ctx: Context, persona: Persona, need: string[]): Persona[][] {
-  let sets: Persona[][];
-  if (persona.specialRecipe) {
-    const ingredients = persona.specialRecipe.map((n) => ctx.pool.byName.get(n));
-    sets = ingredients.every((p) => p !== undefined) ? [ingredients as Persona[]] : [];
-  } else {
-    sets = recipesFor(ctx.pool, persona).map(({ a, b }) => [a, b]);
-  }
-  if (need.length === 0) return sets;
-  const coverage = (set: Persona[]) => need.filter((s) => set.some((p) => nativeLevels(p).has(s))).length;
-  // Stable sort keeps the cheapest recipes first among equal coverage.
-  return sets
-    .map((set) => ({ set, score: coverage(set) }))
-    .sort((x, y) => y.score - x.score)
-    .map(({ set }) => set);
-}
-
-const MAX_SPLITS = 64;
-
-/**
- * Ways to hand `rest` to ingredients that can inherit them: one carrier first,
- * then splits across several. Large special recipes only try single carriers.
- */
-function splitCarried(ingredients: Persona[], rest: string[]): Map<Persona, string[]>[] {
-  if (rest.length === 0) return [new Map()];
-  const options = rest.map((s) => ingredients.filter((p) => canPersonaInherit(p, s)));
-  if (options.some((o) => o.length === 0)) return [];
-
-  const singles = ingredients
-    .filter((p) => options.every((o) => o.includes(p)))
-    .map((p) => new Map([[p, [...rest]]]));
-  if (ingredients.length ** rest.length > MAX_SPLITS) return singles;
-
-  const splits: Map<Persona, string[]>[] = [];
-  const walk = (i: number, current: Map<Persona, string[]>) => {
-    if (i === rest.length) {
-      if (current.size > 1) splits.push(new Map([...current].map(([p, s]) => [p, [...s]])));
-      return;
-    }
-    for (const p of options[i]) {
-      current.set(p, [...(current.get(p) ?? []), rest[i]]);
-      walk(i + 1, current);
-      const left = current.get(p)!.slice(0, -1);
-      if (left.length) current.set(p, left);
-      else current.delete(p);
-    }
+  const add = (state: State) => {
+    const list = byPersona.get(state.persona.name) ?? [];
+    // Skip if this persona already holds a superset of these skills in as few fusions.
+    if (list.some((s) => (s.mask & state.mask) === state.mask)) return;
+    list.push(state);
+    byPersona.set(state.persona.name, list);
+    queue.push(state);
   };
-  walk(0, new Map());
-  return [...singles, ...splits];
-}
 
-/** Fuse `persona` from `ingredients` so it ends up holding `skills`. */
-function expand(ctx: Context, persona: Persona, skills: string[], ingredients: Persona[], depth: number): PlanStep | null {
-  if (ctx.budget-- <= 0) return null;
-  const native = nativeLevels(persona);
-  // Callers have already checked `persona` can inherit every skill in `need`.
-  const need = skills.filter((s) => !native.has(s));
-
-  const assigned = new Map<Persona, string[]>(ingredients.map((p) => [p, []]));
-  const rest: string[] = [];
-  for (const skill of need) {
-    const holder = ingredients
-      .filter((p) => nativeLevels(p).has(skill))
-      .sort((x, y) => nativeLevels(x).get(skill)! - nativeLevels(y).get(skill)!)[0];
-    if (holder) assigned.get(holder)!.push(skill);
-    else rest.push(skill);
+  for (const persona of pool.personas) {
+    const mask = nativeMask(persona);
+    if (mask) add({ persona, mask, dist: 0 });
   }
 
-  // Skills no ingredient learns are carried in by ingredients that are themselves fused.
-  for (const split of splitCarried(ingredients, rest)) {
-    const children: PlanStep[] = [];
-    for (const p of ingredients) {
-      const own = assigned.get(p)!;
-      const extra = split.get(p);
-      const child = extra ? carry(ctx, p, [...own, ...extra], depth - 1) : leaf(p, own);
-      if (!child) break;
-      children.push(child);
+  const specials = pool.personas.filter((p) => p.specialRecipe?.every((n) => pool.byName.has(n)));
+
+  const step = (carrier: State, partners: Persona[], result: Persona, special: boolean) => {
+    const carried = partners.reduce((m, p) => m | nativeMask(p), carrier.mask);
+    if ((carried & ~holdable(result)) !== 0) return;
+    const inherited = popcount(carried & ~nativeMask(result));
+    const total = partners.reduce((n, p) => n + knownCount(p, nativeMask(p)), knownCount(carrier.persona, carrier.mask));
+    if (inherited > inheritLimit(total)) return;
+    add({
+      persona: result,
+      mask: carried | nativeMask(result),
+      dist: carrier.dist + 1,
+      prev: { carrier, partners, special },
+    });
+  };
+
+  for (let i = 0; i < queue.length; i++) {
+    const state = queue[i];
+    if (state.dist >= maxChain) continue;
+    for (const { partner, result } of partnersOf(pool, state.persona)) step(state, [partner], result, false);
+    for (const special of specials) {
+      const recipe = special.specialRecipe!;
+      if (!recipe.includes(state.persona.name)) continue;
+      const others = recipe.filter((n) => n !== state.persona.name).map((n) => pool.byName.get(n)!);
+      step(state, others, special, true);
     }
-    if (children.length !== ingredients.length) continue;
-    const total = children.reduce((sum, c) => sum + knownSkillCount(c), 0);
-    if (inheritLimit(total) < need.length) continue;
-
-    return {
-      persona,
-      skills: skills.map((name) =>
-        native.has(name) ? { name, source: "native", level: native.get(name) } : { name, source: "inherited" },
-      ),
-      ingredients: children,
-      special: !!persona.specialRecipe,
-    };
   }
-  return null;
+  return byPersona;
+}
+
+function skillList(search: Search, persona: Persona, mask: number): SkillAssignment[] {
+  const levels = new Map(persona.skills.filter((s) => !s.fusionSpell).map((s) => [s.name, s.level]));
+  return search.skills
+    .filter((_, i) => mask & (1 << i))
+    .map((name) =>
+      levels.has(name) ? { name, source: "native", level: levels.get(name) } : { name, source: "inherited" },
+    );
+}
+
+function toStep(search: Search, state: State): PlanStep {
+  const skills = skillList(search, state.persona, state.mask);
+  if (!state.prev) return { persona: state.persona, skills };
+  const { carrier, partners, special } = state.prev;
+  const steps = [toStep(search, carrier), ...partners.map((p) => toStep(search, { persona: p, mask: search.nativeMask(p), dist: 0 }))];
+  const order = special ? state.persona.specialRecipe! : null;
+  const ingredients = order
+    ? order.map((name) => steps.find((s) => s.persona.name === name)!)
+    : steps.sort((a, b) => a.persona.level - b.persona.level);
+  return { persona: state.persona, skills, ingredients, special };
+}
+
+interface Candidate {
+  ingredients: State[];
+  fusions: number;
+}
+
+/** Cheapest pick of chain states per ingredient that together carry every wanted skill. */
+function bestPick(search: Search, chains: Map<string, State[]>, ingredients: Persona[], full: number): Candidate | null {
+  type Entry = { fusions: number; picks: State[] };
+  let combos = new Map<number, Entry>([[0, { fusions: 0, picks: [] }]]);
+  for (const ingredient of ingredients) {
+    const leaf: State = { persona: ingredient, mask: search.nativeMask(ingredient), dist: 0 };
+    const options = [leaf, ...(chains.get(ingredient.name) ?? []).filter((s) => s.dist > 0)];
+    const next = new Map<number, Entry>();
+    for (const [mask, entry] of combos) {
+      for (const option of options) {
+        const m = (mask | option.mask) & full;
+        const fusions = entry.fusions + option.dist;
+        const existing = next.get(m);
+        if (!existing || fusions < existing.fusions) next.set(m, { fusions, picks: [...entry.picks, option] });
+      }
+    }
+    combos = next;
+  }
+  const best = combos.get(full);
+  return best ? { ingredients: best.picks, fusions: best.fusions + 1 } : null;
 }
 
 /**
- * Cheapest way to fuse `persona` holding `skills` (at least one of which it doesn't learn),
- * or null within the depth/budget.
- */
-function carry(ctx: Context, persona: Persona, skills: string[], depth: number): PlanStep | null {
-  const native = nativeLevels(persona);
-  const need = skills.filter((s) => !native.has(s));
-  if (depth <= 0 || !need.every((s) => canPersonaInherit(persona, s))) return null;
-
-  const key = `${persona.name}|${[...skills].sort().join(",")}|${depth}`;
-  const cached = ctx.memo.get(key);
-  if (cached !== undefined) return cached;
-
-  let found: PlanStep | null = null;
-  for (const set of ingredientSets(ctx, persona, need).slice(0, ctx.branch)) {
-    found = expand(ctx, persona, skills, set, depth);
-    if (found) break;
-  }
-  ctx.memo.set(key, found);
-  return found;
-}
-
-/**
- * Fusion paths that create `target` holding every skill in `desired`.
- * Each path is a tree: the target, its ingredients, and how each carried skill reaches it.
+ * Fusion paths that create `target` holding every skill in `desired`, fewest fusions first.
+ * Skills the target doesn't learn are carried in through chains of fusions, each of which
+ * must be able to inherit them, within the inheritance limit.
  */
 export function findFusionPaths(
   pool: FusionPool,
   target: Persona,
   desired: string[],
-  { maxDepth = 3, maxPaths = 5, branch = 16, budget = 8_000 }: PlanOptions = {},
+  { maxPaths = 5, maxChain = 8 }: PlanOptions = {},
 ): PlanResult {
-  const skills = [...new Set(desired)];
-  if (skills.length > MAX_SKILLS) return { paths: [], failure: { kind: "too-many-skills", count: skills.length } };
+  const wanted = [...new Set(desired)];
+  if (wanted.length > MAX_SKILLS) return { paths: [], failure: { kind: "too-many-skills", count: wanted.length } };
 
-  const native = nativeLevels(target);
-  for (const name of skills) {
+  const targetNative = new Map(target.skills.filter((s) => !s.fusionSpell).map((s) => [s.name, s.level]));
+  for (const name of wanted) {
     const skill = getSkill(name);
-    const reason = !skill ? "exclusive" : native.has(name) ? null : inheritBlock(target, skill);
+    const reason = !skill ? "exclusive" : targetNative.has(name) ? null : inheritBlock(target, skill);
     if (reason) return { paths: [], failure: { kind: "blocked", skill: name, reason } };
   }
 
-  const need = skills.filter((s) => !native.has(s));
+  const need = wanted.filter((s) => !targetNative.has(s));
   if (need.length > MAX_INHERITED) {
     return { paths: [], failure: { kind: "too-many-inherited", count: need.length, max: MAX_INHERITED } };
   }
 
-  const ctx: Context = { pool, branch, budget, memo: new Map() };
-  const sets = ingredientSets(ctx, target, need);
-  if (sets.length === 0) return { paths: [], failure: { kind: "no-recipe" } };
+  const recipes: Persona[][] = target.specialRecipe
+    ? target.specialRecipe.every((n) => pool.byName.has(n))
+      ? [target.specialRecipe.map((n) => pool.byName.get(n)!)]
+      : []
+    : recipesFor(pool, target).map(({ a, b }) => [a, b]);
+  if (recipes.length === 0) return { paths: [], failure: { kind: "no-recipe" } };
 
-  // Each recipe is a different ingredient set, so the paths are distinct.
-  const paths: PlanStep[] = [];
-  for (const set of sets.slice(0, branch * 2)) {
-    const path = expand(ctx, target, skills, set, maxDepth);
-    if (path) paths.push(path);
-    if (paths.length >= maxPaths) break;
+  const search = createSearch(pool, need);
+  const chains = need.length ? exploreChains(search, maxChain) : new Map<string, State[]>();
+  const full = (1 << need.length) - 1;
+
+  const candidates: Candidate[] = [];
+  for (const ingredients of recipes) {
+    const pick = bestPick(search, chains, ingredients, full);
+    if (!pick) continue;
+    const total = pick.ingredients.reduce((n, s) => n + search.knownCount(s.persona, s.mask), 0);
+    if (inheritLimit(total) < need.length) continue;
+    candidates.push(pick);
   }
-  return paths.length ? { paths } : { paths: [], failure: { kind: "not-found" } };
+  if (candidates.length === 0) return { paths: [], failure: { kind: "not-found" } };
+
+  // Recipes arrive cheapest first; a stable sort keeps that order among equal fusion counts.
+  candidates.sort((a, b) => a.fusions - b.fusions);
+  const paths = candidates.slice(0, maxPaths).map(({ ingredients }) => {
+    const steps = ingredients.map((s) => toStep(search, s));
+    return {
+      persona: target,
+      skills: wanted.map((name): SkillAssignment =>
+        targetNative.has(name)
+          ? { name, source: "native", level: targetNative.get(name) }
+          : { name, source: "inherited" },
+      ),
+      ingredients: steps,
+      special: !!target.specialRecipe,
+    };
+  });
+  return { paths };
 }
 
 /** A path as ordered steps: personas to get first, then each fusion bottom-up. */
