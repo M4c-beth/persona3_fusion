@@ -28,7 +28,7 @@ function describeFailure(failure: PlanFailure, target: Persona): string {
     case "no-recipe":
       return `${target.name} can't be fused with the personas currently available. Check the DLC menu.`;
     case "not-found":
-      return "No fusion path found for this skill set within 3 fusions. Try fewer skills, or use skill cards for the rest.";
+      return "No fusion path can carry all of these skills. Try fewer skills, or use skill cards for the rest.";
   }
 }
 
