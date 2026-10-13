@@ -1,0 +1,1033 @@
+[
+  {
+    "number": 1,
+    "title": "Bring me a Muscle Drink.",
+    "available": "5/10",
+    "category": "item",
+    "task": "Buy a Muscle Drink at the pharmacy in Paulownia Mall and hand it over.",
+    "reward": "Soul Drop ×5"
+  },
+  {
+    "number": 2,
+    "title": "Retrieve the first old document.",
+    "available": "5/10",
+    "category": "tartarus",
+    "task": "Open the purple chest on Tartarus floor 22 for Old Document 01.",
+    "reward": "¥10,000"
+  },
+  {
+    "number": 3,
+    "title": "Shadow hunting milestone.",
+    "available": "5/10",
+    "category": "milestone",
+    "task": "Defeat 100 Shadows in total.",
+    "reward": "Cure Water ×3"
+  },
+  {
+    "number": 4,
+    "title": "Treasure hunting milestone.",
+    "available": "5/10",
+    "category": "milestone",
+    "task": "Open 50 treasure chests in total.",
+    "reward": "Snuff Soul ×2"
+  },
+  {
+    "number": 5,
+    "title": "Create a Persona that's level 13 or above.",
+    "available": "5/10",
+    "category": "fusion",
+    "task": "Have any Persona at level 13 or higher, then report.",
+    "reward": "Bufula Gem ×3"
+  },
+  {
+    "number": 6,
+    "title": "Create a Persona with Kouha.",
+    "available": "5/10",
+    "category": "fusion",
+    "task": "Have a Persona that knows Kouha (fuse one that learns it, or use a skill card).",
+    "reward": "Fierce Sutra ×2",
+    "requires": [
+      5
+    ],
+    "link": {
+      "skills": [
+        "Kouha"
+      ]
+    }
+  },
+  {
+    "number": 7,
+    "title": "Bring me a Juzumaru.",
+    "available": "5/10",
+    "category": "tartarus",
+    "task": "Find a Juzumaru in a Tartarus chest, usually on a boss floor.",
+    "reward": "Makouha Skill Card"
+  },
+  {
+    "number": 8,
+    "title": "Experiment with fortune telling.",
+    "available": "5/10",
+    "category": "errand",
+    "task": "Get a Rarity Fortune from the fortune teller at Club Escapade, then explore Tartarus that night.",
+    "reward": "Speed Incense I ×3"
+  },
+  {
+    "number": 9,
+    "title": "I'd like to try all kinds of drinks.",
+    "available": "5/10",
+    "category": "item",
+    "task": "Buy every drink from the vending machines: two at the dorm, one at Port Island Station, one at the Strip Mall.",
+    "reward": "Media Skill Card"
+  },
+  {
+    "number": 10,
+    "title": "I'd like to try a beef bowl.",
+    "available": "5/10",
+    "category": "item",
+    "task": "Use the Umiushi Fan Book on the dorm computer, then order an Umiushi Beef Bowl on the Strip Mall's 3rd floor the next day.",
+    "reward": "Male Uniforms (W)"
+  },
+  {
+    "number": 11,
+    "title": "Please prevail in the Big Eater Challenge.",
+    "available": "5/10",
+    "category": "errand",
+    "task": "Clear the Big Eater Challenge at Wild Duck Burger.",
+    "reward": "Twilight Fragment ×3",
+    "requires": [
+      9
+    ]
+  },
+  {
+    "number": 12,
+    "title": "Bring me pine resin.",
+    "available": "5/10",
+    "category": "item",
+    "task": "Ask Yukari for Pine Resin at the dorm.",
+    "reward": "Toy Bow",
+    "deadline": "6/6"
+  },
+  {
+    "number": 13,
+    "title": "Bring me a handheld game console.",
+    "available": "5/10",
+    "category": "item",
+    "task": "Ask Junpei for a handheld game console at the dorm.",
+    "reward": "Pixel Vest",
+    "deadline": "6/6",
+    "requires": [
+      12
+    ]
+  },
+  {
+    "number": 14,
+    "title": "Retrieve the second old document.",
+    "available": "5/10",
+    "category": "tartarus",
+    "task": "Open the purple chest on Tartarus floor 43 for Old Document 02.",
+    "reward": "¥20,000"
+  },
+  {
+    "number": 15,
+    "title": "Shadow hunting milestone #2.",
+    "available": "5/10",
+    "category": "milestone",
+    "task": "Defeat 200 Shadows in total.",
+    "reward": "Umugi Water ×3",
+    "requires": [
+      3
+    ]
+  },
+  {
+    "number": 16,
+    "title": "Treasure hunting milestone #2.",
+    "available": "5/10",
+    "category": "milestone",
+    "task": "Open 100 treasure chests in total.",
+    "reward": "Chewing Soul ×2",
+    "requires": [
+      4
+    ]
+  },
+  {
+    "number": 17,
+    "title": "Fusion Series #1: Emperor, Oberon.",
+    "available": "5/10",
+    "category": "fusion",
+    "task": "Have an Oberon that knows Mazio. Oberon learns it by levelling up.",
+    "reward": "Female Uniforms (W)",
+    "requires": [
+      5
+    ],
+    "link": {
+      "persona": "Oberon",
+      "skills": [
+        "Mazio"
+      ]
+    }
+  },
+  {
+    "number": 18,
+    "title": "I'd like to be gifted a bouquet of flowers.",
+    "available": "6/13",
+    "category": "item",
+    "task": "Buy a Rose Bouquet at the flower shop in Port Island Station.",
+    "reward": "Female Winter Garb"
+  },
+  {
+    "number": 19,
+    "title": "I want Jack Frost dolls.",
+    "available": "6/13",
+    "category": "item",
+    "task": "Win three Jack Frost Dolls from the crane game outside the Paulownia Mall arcade.",
+    "reward": "Twilight Fragment ×3"
+  },
+  {
+    "number": 20,
+    "title": "Bring me some potent medicine.",
+    "available": "6/13",
+    "category": "item",
+    "task": "Visit the nurse's office at school on a day after exploring Tartarus to get Potent Medicine.",
+    "reward": "Steel Pipe"
+  },
+  {
+    "number": 21,
+    "title": "Retrieve the third old document.",
+    "available": "6/13",
+    "category": "tartarus",
+    "task": "Open the purple chest on Tartarus floor 69 for Old Document 03.",
+    "reward": "¥30,000",
+    "requires": [
+      14
+    ]
+  },
+  {
+    "number": 22,
+    "title": "Shadow hunting milestone #3.",
+    "available": "5/10",
+    "category": "milestone",
+    "task": "Defeat 300 Shadows in total.",
+    "reward": "Bead ×3",
+    "requires": [
+      15
+    ]
+  },
+  {
+    "number": 23,
+    "title": "Persona fusion milestone.",
+    "available": "6/13",
+    "category": "milestone",
+    "task": "Fuse Personas 20 times in total.",
+    "reward": "Twilight Fragment ×5"
+  },
+  {
+    "number": 24,
+    "title": "Create a Persona that's level 23 or above.",
+    "available": "6/13",
+    "category": "fusion",
+    "task": "Have any Persona at level 23 or higher, then report.",
+    "reward": "Sugar Key"
+  },
+  {
+    "number": 25,
+    "title": "Fusion Series #2: Chariot, Mithras.",
+    "available": "5/10",
+    "category": "fusion",
+    "task": "Have a Mithras at level 26 or higher.",
+    "reward": "Male Winter Garb",
+    "requires": [
+      17
+    ],
+    "link": {
+      "persona": "Mithras",
+      "level": 26
+    }
+  },
+  {
+    "number": 26,
+    "title": "Bring me an Onimaru Kunitsuna.",
+    "available": "6/13",
+    "category": "tartarus",
+    "task": "Find an Onimaru Kunitsuna in a Tartarus chest, usually on a boss floor.",
+    "reward": "Crit Rate Boost Skill Card"
+  },
+  {
+    "number": 27,
+    "title": "Bring me a triangular sword.",
+    "available": "6/13",
+    "category": "item",
+    "task": "Ask Mitsuru for a Triangular Sword at the dorm.",
+    "reward": "Gallant Sneakers",
+    "deadline": "7/5"
+  },
+  {
+    "number": 28,
+    "title": "Bring me a protein not for pros.",
+    "available": "6/13",
+    "category": "item",
+    "task": "Ask Akihiko for protein at the dorm.",
+    "reward": "Spiked Bat",
+    "deadline": "7/5",
+    "requires": [
+      27
+    ]
+  },
+  {
+    "number": 29,
+    "title": "I want to look fashionable.",
+    "available": "6/13",
+    "category": "item",
+    "task": "Buy the fashionable item from the bartender at Club Escapade: ¥100,000, or ¥10,000 if you trade in a Black Quartz.",
+    "reward": "Power Incense I ×5",
+    "deadline": "7/5"
+  },
+  {
+    "number": 30,
+    "title": "Retrieve the fourth old document.",
+    "available": "7/9",
+    "category": "tartarus",
+    "task": "Open the purple chest on Tartarus floor 92 for Old Document 04.",
+    "reward": "¥40,000",
+    "requires": [
+      21
+    ]
+  },
+  {
+    "number": 31,
+    "title": "Shadow hunting milestone #4.",
+    "available": "5/10",
+    "category": "milestone",
+    "task": "Defeat 450 Shadows in total.",
+    "reward": "Kamimusubi Water ×2",
+    "requires": [
+      22
+    ]
+  },
+  {
+    "number": 32,
+    "title": "Treasure hunting milestone #3.",
+    "available": "5/10",
+    "category": "milestone",
+    "task": "Open 150 treasure chests in total.",
+    "reward": "Snuff Soul ×6",
+    "requires": [
+      16
+    ]
+  },
+  {
+    "number": 33,
+    "title": "Persona fusion milestone #2.",
+    "available": "6/13",
+    "category": "milestone",
+    "task": "Fuse Personas 35 times in total.",
+    "reward": "Twilight Fragment ×5",
+    "requires": [
+      23
+    ]
+  },
+  {
+    "number": 34,
+    "title": "Create a Persona with Torrent Shot.",
+    "available": "7/9",
+    "category": "fusion",
+    "task": "Have a Persona that knows Torrent Shot.",
+    "reward": "Attack Mirror ×3",
+    "link": {
+      "skills": [
+        "Torrent Shot"
+      ]
+    }
+  },
+  {
+    "number": 35,
+    "title": "Fusion Series #3: Hermit, Mothman.",
+    "available": "7/9",
+    "category": "fusion",
+    "task": "Have a Mothman that knows Agilao.",
+    "reward": "Maid Outfit",
+    "link": {
+      "persona": "Mothman",
+      "skills": [
+        "Agilao"
+      ]
+    }
+  },
+  {
+    "number": 36,
+    "title": "Defeat a rare Shadow #1.",
+    "available": "7/9",
+    "category": "tartarus",
+    "task": "Defeat a rare Shadow in Yabbashah (block 3) and bring its Rustic Coin. A Rarity Fortune makes them appear more often.",
+    "reward": "Onyx ×7"
+  },
+  {
+    "number": 37,
+    "title": "Traverse the Monad Passage.",
+    "available": "7/9",
+    "category": "tartarus",
+    "task": "After clearing the Monad Door on floor 80, defeat every Shadow in the Monad Passage on floor 91.",
+    "reward": "Black Sword"
+  },
+  {
+    "number": 38,
+    "title": "I want to eat some chilled taiyaki.",
+    "available": "7/9",
+    "category": "item",
+    "task": "Buy a Lukewarm Taiyaki in the school cafeteria, leave it in the dorm fridge overnight, then bring it.",
+    "reward": "Nihil Cloth",
+    "requires": [
+      10
+    ]
+  },
+  {
+    "number": 39,
+    "title": "Let me hear music unique to Gekkoukan.",
+    "available": "7/9",
+    "category": "item",
+    "task": "Pick up the CD in the PA room at Gekkoukan High.",
+    "reward": "Female Uniform (S)"
+  },
+  {
+    "number": 40,
+    "title": "I'd like to see a pair of Max Safety Shoes.",
+    "available": "7/9",
+    "category": "item",
+    "task": "Order the Max Safety Shoes from the TV shopping channel when they're offered on 7/12.",
+    "reward": "Twilight Fragment ×3",
+    "note": "Missable: the shoes are only sold on 7/12."
+  },
+  {
+    "number": 41,
+    "title": "Bring me the mysterious person's autograph.",
+    "available": "7/9",
+    "category": "item",
+    "task": "Get President Tanaka's autograph through the Devil Social Link.",
+    "reward": "Nihil Blade",
+    "requires": [
+      40
+    ]
+  },
+  {
+    "number": 42,
+    "title": "Please feed the cat.",
+    "available": "7/9",
+    "category": "errand",
+    "task": "Feed the cat in the Port Island Station outskirts on four different days.",
+    "reward": "Male Summer Garb"
+  },
+  {
+    "number": 43,
+    "title": "Bring me a Christmas star.",
+    "available": "7/9",
+    "category": "item",
+    "task": "Ask Fuuka for the Christmas Star at the dorm at night.",
+    "reward": "Jack's Gloves",
+    "deadline": "8/4"
+  },
+  {
+    "number": 44,
+    "title": "I wish to feel the ocean.",
+    "available": "7/9",
+    "category": "item",
+    "task": "Pick up a seashell (or any beach item) during the 7/20 Yakushima trip.",
+    "reward": "Amethyst ×5",
+    "deadline": "8/4"
+  },
+  {
+    "number": 45,
+    "title": "Retrieve the fifth old document.",
+    "available": "8/8",
+    "category": "tartarus",
+    "task": "Open the purple chest on Tartarus floor 118 for Old Document 05.",
+    "reward": "¥50,000",
+    "requires": [
+      30
+    ]
+  },
+  {
+    "number": 46,
+    "title": "Shadow hunting milestone #5.",
+    "available": "5/10",
+    "category": "milestone",
+    "task": "Defeat 600 Shadows in total.",
+    "reward": "Bead Chain ×2",
+    "requires": [
+      31
+    ]
+  },
+  {
+    "number": 47,
+    "title": "Treasure hunting milestone #4.",
+    "available": "5/10",
+    "category": "milestone",
+    "task": "Open 200 treasure chests in total.",
+    "reward": "Precious Egg ×2",
+    "requires": [
+      32
+    ]
+  },
+  {
+    "number": 48,
+    "title": "Persona fusion milestone #3.",
+    "available": "6/13",
+    "category": "milestone",
+    "task": "Fuse Personas 50 times in total.",
+    "reward": "Twilight Fragment ×5",
+    "requires": [
+      33
+    ]
+  },
+  {
+    "number": 49,
+    "title": "Create a Persona that's level 38 or above.",
+    "available": "5/10",
+    "category": "fusion",
+    "task": "Have any Persona at level 38 or higher, then report.",
+    "reward": "Marionette",
+    "requires": [
+      31
+    ]
+  },
+  {
+    "number": 50,
+    "title": "Perform King and I.",
+    "available": "8/8",
+    "category": "fusion",
+    "task": "Use the King and I fusion spell. You need both Black Frost and King Frost.",
+    "reward": "Guard Incense II ×3",
+    "requires": [
+      31
+    ],
+    "link": {
+      "persona": "Black Frost"
+    }
+  },
+  {
+    "number": 51,
+    "title": "Bring me an Outenta Mitsuyo.",
+    "available": "8/8",
+    "category": "tartarus",
+    "task": "Find an Outenta Mitsuyo in a Tartarus chest, usually on a boss floor.",
+    "reward": "Multi-Target Boost Skill Card"
+  },
+  {
+    "number": 52,
+    "title": "I'd like to try a home-cooked meal.",
+    "available": "8/8",
+    "category": "item",
+    "task": "Cook with a teammate in the dorm kitchen at night and bring the dish.",
+    "reward": "Legendary Cleaver",
+    "requires": [
+      38
+    ]
+  },
+  {
+    "number": 53,
+    "title": "I'd like to see a mysterious potato.",
+    "available": "8/8",
+    "category": "item",
+    "task": "Grow a potato from a Buff Potato Sprout, sold by the flower shop at Port Island Station.",
+    "reward": "Ergotite Shard",
+    "requires": [
+      52
+    ]
+  },
+  {
+    "number": 54,
+    "title": "Attempt a hundred shrine visits.",
+    "available": "8/8",
+    "category": "errand",
+    "task": "Pray at Naganaki Shrine each day until you receive the item, then bring it. It takes far fewer than 100 visits.",
+    "reward": "Lime Swimwear"
+  },
+  {
+    "number": 55,
+    "title": "I'd like to see proof of a bond.",
+    "available": "8/8",
+    "category": "item",
+    "task": "Bring an item you only receive by maxing a Social Link.",
+    "reward": "Space Badge"
+  },
+  {
+    "number": 56,
+    "title": "Look for the drink with my name.",
+    "available": "8/8",
+    "category": "item",
+    "task": "Buy the drink that shares Elizabeth's name at Que Sera Sera in the Port Island Station outskirts.",
+    "reward": "AS Genetic Material"
+  },
+  {
+    "number": 57,
+    "title": "I'd like to try Aojiru.",
+    "available": "8/8",
+    "category": "item",
+    "task": "Talk to the Paulownia Mall pharmacist, craft a Vintage Yagen at the antique shop (Topaz ×2, Turquoise ×1), then trade it to him for True Aohige Aojiru.",
+    "reward": "Twilight Fragment ×8"
+  },
+  {
+    "number": 58,
+    "title": "I wish to become a straw millionaire.",
+    "available": "8/8",
+    "category": "errand",
+    "task": "Barter Elizabeth's bandages: the man in the Port Island Station alley, then the man outside the alley, then the kid at Iwatodai Strip Mall. Bring back the final item.",
+    "reward": "Turquoise ×20",
+    "deadline": "8/31"
+  },
+  {
+    "number": 59,
+    "title": "Retrieve the sixth old document.",
+    "available": "9/10",
+    "category": "tartarus",
+    "task": "Open the purple chest on Tartarus floor 144 for Old Document 06.",
+    "reward": "¥70,000",
+    "requires": [
+      45
+    ]
+  },
+  {
+    "number": 60,
+    "title": "Shadow hunting milestone #6.",
+    "available": "8/8",
+    "category": "milestone",
+    "task": "Defeat 800 Shadows in total.",
+    "reward": "Soma",
+    "requires": [
+      46
+    ]
+  },
+  {
+    "number": 61,
+    "title": "Create a Persona that's level 46 or above.",
+    "available": "9/10",
+    "category": "fusion",
+    "task": "Have any Persona at level 46 or higher, then report.",
+    "reward": "Atrophying Sutra ×2",
+    "requires": [
+      49
+    ]
+  },
+  {
+    "number": 62,
+    "title": "Fusion Series #4: Lovers, Titania.",
+    "available": "9/10",
+    "category": "fusion",
+    "task": "Have a Titania that knows Matarukaja.",
+    "reward": "Male Uniform (S)",
+    "requires": [
+      35
+    ],
+    "link": {
+      "persona": "Titania",
+      "skills": [
+        "Matarukaja"
+      ]
+    }
+  },
+  {
+    "number": 63,
+    "title": "Fusion Series #5: Magician, Rangda.",
+    "available": "9/10",
+    "category": "fusion",
+    "task": "Have a Rangda at level 54 or higher.",
+    "reward": "Female Summer Garb",
+    "requires": [
+      50
+    ],
+    "link": {
+      "persona": "Rangda",
+      "level": 54
+    }
+  },
+  {
+    "number": 64,
+    "title": "Defeat a rare Shadow #2.",
+    "available": "9/10",
+    "category": "tartarus",
+    "task": "Defeat a rare Shadow in Tziah (block 4) and bring its Sumptuous Coin.",
+    "reward": "Topaz ×7",
+    "requires": [
+      49
+    ]
+  },
+  {
+    "number": 65,
+    "title": "Bring me an Ote-gine.",
+    "available": "9/10",
+    "category": "tartarus",
+    "task": "Find an Ote-gine in a Tartarus chest, usually on a boss floor.",
+    "reward": "Quality Nihil Ore"
+  },
+  {
+    "number": 66,
+    "title": "Bring me a giant, creepy doll.",
+    "available": "9/10",
+    "category": "item",
+    "task": "Take the teaching doll from the science lab at school.",
+    "reward": "Quality Nihil Blade",
+    "requires": [
+      39
+    ]
+  },
+  {
+    "number": 67,
+    "title": "Find me a beautiful tile.",
+    "available": "9/10",
+    "category": "item",
+    "task": "Get the tile at the mahjong parlor in the Port Island Station outskirts.",
+    "reward": "Scrub Brush",
+    "requires": [
+      54
+    ]
+  },
+  {
+    "number": 68,
+    "title": "Bring me a fruit knife.",
+    "available": "9/10",
+    "category": "item",
+    "task": "Ask Shinjiro for a fruit knife at the dorm at night.",
+    "reward": "Bus Stop Sign",
+    "deadline": "10/2"
+  },
+  {
+    "number": 69,
+    "title": "Bring me oil.",
+    "available": "9/10",
+    "category": "item",
+    "task": "Ask Aigis for oil at the dorm at night.",
+    "reward": "Rocket Punch",
+    "deadline": "10/2",
+    "requires": [
+      68
+    ]
+  },
+  {
+    "number": 70,
+    "title": "Retrieve the seventh old document.",
+    "available": "10/6",
+    "category": "tartarus",
+    "task": "Open the purple chest on Tartarus floor 172 for Old Document 07.",
+    "reward": "¥90,000",
+    "requires": [
+      59
+    ]
+  },
+  {
+    "number": 71,
+    "title": "Fusion Series #6: Strength, Siegfried.",
+    "available": "10/6",
+    "category": "fusion",
+    "task": "Have a Siegfried that knows Endure.",
+    "reward": "Sky Sundress",
+    "requires": [
+      62
+    ],
+    "link": {
+      "persona": "Siegfried",
+      "skills": [
+        "Endure"
+      ]
+    }
+  },
+  {
+    "number": 72,
+    "title": "Fusion Series #7: Hierophant, Daisoujou.",
+    "available": "10/6",
+    "category": "fusion",
+    "task": "Have a Daisoujou that knows Regenerate 3.",
+    "reward": "Blue Shorts",
+    "requires": [
+      63,
+      71
+    ],
+    "link": {
+      "persona": "Daisoujou",
+      "skills": [
+        "Regenerate 3"
+      ]
+    }
+  },
+  {
+    "number": 73,
+    "title": "Bring me a Mikazuki Munechika.",
+    "available": "10/6",
+    "category": "item",
+    "task": "Craft a Mikazuki Munechika at Mayoido Antiques (Quality Nihil Blade, Emerald ×3, Silver Quartz ×2).",
+    "reward": "Endure Skill Card"
+  },
+  {
+    "number": 74,
+    "title": "I'd like to try sushi.",
+    "available": "10/6",
+    "category": "item",
+    "task": "Talk to the Inari statue at Naganaki Shrine, where skill cards are copied, to get sushi.",
+    "reward": "Ergotite Chunk",
+    "requires": [
+      53
+    ]
+  },
+  {
+    "number": 75,
+    "title": "Bring me a sengoku-era helm.",
+    "available": "10/6",
+    "category": "errand",
+    "task": "Visit the faculty office at school each day until a teacher gives you the helm.",
+    "reward": "Twilight Fragment ×7",
+    "requires": [
+      66
+    ]
+  },
+  {
+    "number": 76,
+    "title": "Bring me a glasses wipe.",
+    "available": "10/6",
+    "category": "item",
+    "task": "Ask Ikutsuki for a glasses wipe at the dorm at night.",
+    "reward": "Garnet ×5",
+    "deadline": "11/1"
+  },
+  {
+    "number": 77,
+    "title": "I'd like to walk around Paulownia Mall.",
+    "available": "5/10",
+    "category": "date",
+    "task": "Take Elizabeth to Paulownia Mall during the day. Appears after 15 completed requests.",
+    "reward": "Small Cheongsam"
+  },
+  {
+    "number": 78,
+    "title": "I'd like to visit Iwatodai Station.",
+    "available": "5/10",
+    "category": "date",
+    "task": "Take Elizabeth to Iwatodai Station during the day. Appears after 30 completed requests.",
+    "reward": "Book of the Ancients"
+  },
+  {
+    "number": 79,
+    "title": "I'd like to visit Naganaki Shrine.",
+    "available": "8/8",
+    "category": "date",
+    "task": "Take Elizabeth to Naganaki Shrine during the day. Appears after 45 completed requests.",
+    "reward": "Vitality Sash"
+  },
+  {
+    "number": 80,
+    "title": "I'd like to visit Gekkoukan High.",
+    "available": "10/6",
+    "category": "date",
+    "task": "Show Elizabeth around Gekkoukan High during the day. Appears after 70 completed requests.",
+    "reward": "Sorcerer's Mark"
+  },
+  {
+    "number": 81,
+    "title": "I'd like to visit your room.",
+    "available": "11/6",
+    "category": "date",
+    "task": "Invite Elizabeth to your room during the day. Appears after 80 completed requests.",
+    "reward": "Tyrant's Horn"
+  },
+  {
+    "number": 82,
+    "title": "Retrieve the last old document.",
+    "available": "11/6",
+    "category": "tartarus",
+    "task": "Open the purple chest on Tartarus floor 198 for Old Document 08.",
+    "reward": "¥120,000",
+    "requires": [
+      70
+    ]
+  },
+  {
+    "number": 83,
+    "title": "Bring the progress report.",
+    "available": "12/4",
+    "category": "tartarus",
+    "task": "Find the Progress Report on Tartarus floor 226.",
+    "reward": "¥150,000",
+    "requires": [
+      82
+    ]
+  },
+  {
+    "number": 84,
+    "title": "Create a Persona with Tempest Slash.",
+    "available": "11/6",
+    "category": "fusion",
+    "task": "Have a Persona that knows Tempest Slash.",
+    "reward": "Empowering Sutra ×3",
+    "link": {
+      "skills": [
+        "Tempest Slash"
+      ]
+    }
+  },
+  {
+    "number": 85,
+    "title": "Create a Persona with Auto-Maraku.",
+    "available": "12/4",
+    "category": "fusion",
+    "task": "Have a Persona that knows Auto Maraku.",
+    "reward": "Debilitator Sutra ×3",
+    "requires": [
+      84
+    ],
+    "link": {
+      "skills": [
+        "Auto Maraku"
+      ]
+    }
+  },
+  {
+    "number": 86,
+    "title": "Fusion Series #8: Death, Alice.",
+    "available": "11/6",
+    "category": "fusion",
+    "task": "Have an Alice: a special fusion of Pixie, Lilim, Narcissus and Titania.",
+    "reward": "Maid Outfit",
+    "link": {
+      "persona": "Alice"
+    }
+  },
+  {
+    "number": 87,
+    "title": "Fusion Series #9: Fool, Loki.",
+    "available": "12/7",
+    "category": "fusion",
+    "task": "Have a Loki at level 75 or higher.",
+    "reward": "Masakados",
+    "requires": [
+      72
+    ],
+    "link": {
+      "persona": "Loki",
+      "level": 75
+    }
+  },
+  {
+    "number": 88,
+    "title": "Defeat a Greedy Shadow.",
+    "available": "11/6",
+    "category": "tartarus",
+    "task": "Catch and defeat a Greedy Shadow in Harabah (block 5) and bring its Gold Medal.",
+    "reward": "Life Aid Skill Card"
+  },
+  {
+    "number": 89,
+    "title": "Bring me a Rai Kunimitsu.",
+    "available": "11/6",
+    "category": "tartarus",
+    "task": "Find a Rai Kunimitsu in a Tartarus chest, usually on a boss floor.",
+    "reward": "Prime Nihil Ore"
+  },
+  {
+    "number": 90,
+    "title": "Bring me a Dojigiri Yasutsuna.",
+    "available": "12/4",
+    "category": "tartarus",
+    "task": "Find a Dojigiri Yasutsuna in a Tartarus chest, usually on a boss floor.",
+    "reward": "AS Refined Material"
+  },
+  {
+    "number": 91,
+    "title": "Bring me a Tonbo-kiri.",
+    "available": "11/6",
+    "category": "tartarus",
+    "task": "Find a Tonbo-kiri in a Tartarus chest, usually on a boss floor.",
+    "reward": "Nihil Black Model ×2"
+  },
+  {
+    "number": 92,
+    "title": "Go clean a restroom.",
+    "available": "11/6",
+    "category": "errand",
+    "task": "Clean the restroom near Port Island Station with the supplies Elizabeth gives you.",
+    "reward": "Maid Outfit"
+  },
+  {
+    "number": 93,
+    "title": "Go water the flowers.",
+    "available": "11/6",
+    "category": "errand",
+    "task": "Water the flower bed on the school rooftop.",
+    "reward": "Maid Outfit"
+  },
+  {
+    "number": 94,
+    "title": "Bring me food for a furry friend.",
+    "available": "11/6",
+    "category": "item",
+    "task": "Ask Koromaru for dog food at the dorm at night.",
+    "reward": "Bone",
+    "deadline": "11/30"
+  },
+  {
+    "number": 95,
+    "title": "Bring me a Featherman R action figure.",
+    "available": "11/6",
+    "category": "item",
+    "task": "Ask Ken for the Featherman R figure at the dorm at night.",
+    "reward": "Sacrificial Idol",
+    "deadline": "11/30",
+    "requires": [
+      94
+    ]
+  },
+  {
+    "number": 96,
+    "title": "I'd like to try Oden Juice.",
+    "available": "11/6",
+    "category": "item",
+    "task": "Before the Kyoto trip, talk to the student by the persimmon tree at school. Buy every drink from the 2F vending machine in Kyoto, then buy the Oden Juice from her when you're back.",
+    "reward": "Winter Uniform"
+  },
+  {
+    "number": 97,
+    "title": "Bring me my Christmas present.",
+    "available": "12/4",
+    "category": "item",
+    "task": "If you rescued Ayako Yoshimoto in June, trade her Thank You Note to the man on the Strip Mall's 2nd floor at night for the present.",
+    "reward": "Ruby ×3",
+    "deadline": "12/25"
+  },
+  {
+    "number": 98,
+    "title": "Fusion Series #10: Tower, Masakado.",
+    "available": "1/6",
+    "category": "fusion",
+    "task": "Have a Masakado that knows Charge.",
+    "reward": "Nihil White Model ×2",
+    "requires": [
+      87
+    ],
+    "link": {
+      "persona": "Masakado",
+      "skills": [
+        "Charge"
+      ]
+    }
+  },
+  {
+    "number": 99,
+    "title": "Defeat the Shadow of the Void.",
+    "available": "1/6",
+    "category": "tartarus",
+    "task": "Defeat the Shadow of the Void in the Monad Passage on Tartarus floor 255 (Adamah).",
+    "reward": "Dead Moon's Husk"
+  },
+  {
+    "number": 100,
+    "title": "Bring me a Bloody Button.",
+    "available": "1/6",
+    "category": "tartarus",
+    "task": "Stay on one Tartarus floor until the Reaper appears, defeat it, and bring its Bloody Button.",
+    "reward": "Divine Pillar"
+  },
+  {
+    "number": 101,
+    "title": "Take out the ultimate adversary.",
+    "available": "1/6",
+    "category": "tartarus",
+    "task": "After clearing every Monad Door, go alone to the Monad Door on floor 255 on 1/31 and win the fight.",
+    "reward": "Omnipotent Orb",
+    "note": "Only one source lists this reward; others mark it unconfirmed."
+  }
+]
