@@ -34,6 +34,7 @@ export const personaSchema = z.object({
   heartItem: z.object({ name: z.string().min(1), level: z.number().int().min(1).max(99) }).optional(),
   unlock: z.string().min(1).optional(),
   dlc: z.enum(DLC_PACKS).optional(),
+  cannotInherit: z.array(z.enum(SKILL_TYPES)).min(1).optional(),
   specialRecipe: z.array(name).min(2).optional(),
 });
 
@@ -46,7 +47,7 @@ export const skillSchema = z.object({
   power: z.number().int().min(0),
   effect: z.string(),
   rank: z.number().int().min(0),
-  unique: z.boolean(),
+  inheritable: z.boolean(),
 });
 
 export const fusionChartSchema = z.record(arcanaSchema, z.record(arcanaSchema, arcanaSchema));
