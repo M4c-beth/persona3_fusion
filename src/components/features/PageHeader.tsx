@@ -7,6 +7,8 @@ interface Props {
   kicker?: string;
   /** Giant outlined word behind the title; defaults to the title. */
   backdrop?: string;
+  /** Extra px taken left of the header (e.g. an icon beside it). */
+  reserve?: number;
   children?: React.ReactNode;
   className?: string;
 }
@@ -24,26 +26,26 @@ const GAP = "120px";
  * Size the backdrop word to fit the space right of the title (and at most half the
  * page), so it never runs into the title however long either one is.
  */
-function backdropSize(word: string, title: string): string {
+function backdropSize(word: string, title: string, reserve = 0): string {
   const span = GLYPH_WIDTH * word.length;
   const longest = Math.max(...title.split(" ").map((w) => w.length));
   const titleWidth = `${TITLE_SIZE} * ${(TITLE_GLYPH_WIDTH * longest).toFixed(2)}`;
   return [
     "13rem",
     `calc(${CONTENT_WIDTH} * 0.5 / ${span.toFixed(2)})`,
-    `calc((${CONTENT_WIDTH} - ${titleWidth} - ${GAP}) / ${span.toFixed(2)})`,
+    `calc((${CONTENT_WIDTH} - ${titleWidth} - ${GAP} - ${reserve}px) / ${span.toFixed(2)})`,
   ].reduce((acc, v) => `min(${acc}, ${v})`);
 }
 
 /** Title card: royal-blue bar, heavy stacked words, faded giant word behind. */
-export function PageHeader({ title, kicker = "Persona 3 Reload", backdrop, children, className }: Props) {
+export function PageHeader({ title, kicker = "Persona 3 Reload", backdrop, reserve, children, className }: Props) {
   const word = backdrop ?? title;
   return (
     <header className={cn("relative isolate pb-2", className)}>
       <span
         aria-hidden
         className="backdrop-word absolute -top-4 right-0 -z-10 hidden whitespace-nowrap sm:block"
-        style={{ fontSize: backdropSize(word, title) }}
+        style={{ fontSize: backdropSize(word, title, reserve) }}
       >
         {word}
       </span>
