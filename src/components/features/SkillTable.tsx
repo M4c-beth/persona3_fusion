@@ -60,7 +60,7 @@ export function SkillTable() {
               title={SKILL_TYPE_LABEL[t]}
               className={cn(
                 "grid size-9 place-items-center rounded-md border transition-colors",
-                type === t ? "border-p3r-yellow bg-accent" : "border-transparent hover:bg-accent/50",
+                type === t ? "border-p3r-cyan bg-accent" : "border-transparent hover:bg-accent/50",
                 type && type !== t && "opacity-40",
               )}
             >
@@ -89,7 +89,7 @@ export function SkillTable() {
               {learners.slice(0, LEARNERS_SHOWN).map(({ persona }, i) => (
                 <span key={persona.name}>
                   {i > 0 ? ", " : ""}
-                  <Link href={`/persona/${persona.slug}/`} className="text-foreground/80 hover:text-p3r-yellow">
+                  <Link href={`/persona/${persona.slug}/`} className="text-foreground/80 hover:text-p3r-cyan">
                     {persona.name}
                   </Link>
                 </span>
