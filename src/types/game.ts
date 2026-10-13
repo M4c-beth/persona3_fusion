@@ -83,6 +83,8 @@ export interface Persona {
   /** How the persona becomes available for fusion (social link, request, ...). */
   unlock?: string;
   dlc?: DlcPack;
+  /** Skill types this persona can't inherit through fusion. */
+  cannotInherit?: SkillType[];
   /** Ingredients when the persona can only be made by special fusion. */
   specialRecipe?: string[];
 }
@@ -98,7 +100,8 @@ export interface Skill {
   effect: string;
   /** Sort rank within its type; higher is stronger. */
   rank: number;
-  unique: boolean;
+  /** False for persona-exclusive skills, which fusion can't pass on. */
+  inheritable: boolean;
 }
 
 /** Arcana fusion chart: chart[a][b] = result arcana, symmetric. */
