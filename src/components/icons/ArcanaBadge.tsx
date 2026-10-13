@@ -8,11 +8,11 @@ export function ArcanaBadge({ arcana, className }: { arcana: Arcana; className?:
   return (
     <span
       className={cn(
-        "clip-slant inline-flex items-center gap-1.5 bg-p3r-blue/70 px-2.5 py-0.5 font-heading text-sm font-semibold uppercase tracking-wide text-p3r-blue-light",
+        "clip-slant inline-flex items-center gap-1.5 bg-p3r-blue/45 px-2.5 py-0.5 font-heading text-sm font-semibold uppercase tracking-wide text-p3r-cyan",
         className,
       )}
     >
-      {numeral ? <span className="text-p3r-yellow/90">{numeral}</span> : null}
+      {numeral ? <span className="text-p3r-cyan/90">{numeral}</span> : null}
       <span className="text-foreground/90">{arcana}</span>
     </span>
   );
