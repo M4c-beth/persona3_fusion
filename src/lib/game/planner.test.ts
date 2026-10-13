@@ -69,13 +69,10 @@ describe("FusionPlanner", () => {
     expect(paths[0].ingredients?.map((i) => i.persona.name)).toEqual(["Pixie", "Lilim", "Narcissus", "Titania"]);
   });
 
-  it("carries skills into a six-persona special fusion through single carriers", () => {
+  it("carries skills into a six-persona special fusion", () => {
     const { paths } = findFusionPaths(base, p("Thanatos"), ["Agi", "Agilao", "Ali Dance"]);
+    expect(paths.length).toBeGreaterThan(0);
     paths.forEach((path) => expectValidPath(path));
-    for (const path of paths) {
-      const carriers = path.ingredients?.filter((i) => i.ingredients) ?? [];
-      expect(carriers.length).toBeLessThanOrEqual(1);
-    }
   });
 
   it("rejects a skill the target's element can't inherit", () => {
@@ -106,8 +103,22 @@ describe("FusionPlanner", () => {
     expect(findFusionPaths(base, needsDlc, []).failure).toEqual({ kind: "no-recipe" });
   });
 
-  it("reports when no path fits the search limits", () => {
-    expect(findFusionPaths(base, p("Narcissus"), ["Agi"], { budget: 0 }).failure).toEqual({ kind: "not-found" });
+  it("reports when no chain is short enough", () => {
+    expect(findFusionPaths(base, p("Black Frost"), ["Null Phys"], { maxChain: 0 }).failure).toEqual({ kind: "not-found" });
+  });
+
+  it("carries a high-level skill down a long chain into a special fusion", () => {
+    const { paths } = findFusionPaths(base, p("Black Frost"), ["Null Phys"]);
+    expect(paths.length).toBeGreaterThan(0);
+    expectValidPath(paths[0]);
+    const sources = flattenPath(paths[0]).obtain.filter((o) => o.skills.some((s) => s.name === "Null Phys"));
+    expect(sources.length).toBeGreaterThan(0);
+  });
+
+  it("lists fewest-fusion paths first", () => {
+    const { paths } = findFusionPaths(base, p("Yurlungur"), ["Apt Pupil", "Poison Arrow", "Mabaisudi"]);
+    const counts = paths.map((path) => flattenPath(path).fusions.length);
+    expect(counts).toEqual([...counts].sort((a, b) => a - b));
   });
 
   it("finds paths through DLC personas when their packs are on", () => {
