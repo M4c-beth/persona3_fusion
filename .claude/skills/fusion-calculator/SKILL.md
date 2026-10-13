@@ -22,15 +22,13 @@ compatibility, level ranges, and special fusion exceptions.
 (Result arcana is deterministic based on input pair. Verify every row against P3R
 canon before seeding; mark unconfirmed rows `unverified`.)
 
-### Level Rule
-Result persona level ≈ (level_A + level_B) / 2, rounded, within ±5 of target.
+### Level Rule (implemented in src/lib/game/fusion.ts)
+- Different arcana: lowest persona of the result arcana with level ≥ (A + B + 1) / 2; if none, the highest.
+- Same arcana: highest persona of that arcana with level ≤ (A + B) / 2 + 1, excluding both ingredients.
+- Personas with special recipes are never normal-fusion results; 2-persona specials override the chart.
 
 ### Special Fusion Exceptions
-These override arcana rules. Recipes below must be verified against P3R data before use:
-- **Messiah** (Judgement) = Orpheus + Thanatos
-- **Orpheus Telos** — multi-persona special fusion — `unverified`, confirm recipe
-- **Izanagi-no-Okami** — `unverified`, confirm availability and recipe in P3R
-- **Lucifer** — `unverified`, confirm arcana and recipe in P3R
+See `specialRecipe` in `src/data/personas.json` (e.g. Messiah = Orpheus + Thanatos, Shiva = Rangda + Barong).
 
 ## Capabilities
 1. Given a target persona, return all valid ingredient pairs.

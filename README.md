@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# P3R Fusion
 
-## Getting Started
+A Persona 3 Reload compendium and fusion calculator, with support for the DLC persona packs.
 
-First, run the development server:
+**Live site:** https://m4c-beth.github.io/persona3_fusion/
+
+## Features
+
+- **Compendium**: all 194 personas, with search, an arcana filter, sortable columns and affinities.
+- **Persona pages**: stats, affinities, skills, heart item and unlock condition. Also every recipe that makes the persona and everything it fuses into.
+- **Fusion calculator**: pick two personas to see the result. The URL can be shared, for example `/fusion/?a=orpheus&b=thanatos`.
+- **Skills**: every learnable skill, filterable by type, with the personas that learn it.
+- **DLC toggle**: turn the P5R Persona Set 1, P5R Persona Set 2 and P4G Persona Set on or off. Fusion results change to match. The choice is saved in the browser.
+
+## Development
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev          # http://localhost:3000
+npm test             # Vitest
+npm run lint
+npm run build        # static export to out/
+npm run import-data  # re-import game data from the pinned source commit
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The site is a static export deployed by `.github/workflows/deploy.yml` on every push to `main`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Data and credits
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Game data comes from [aqiu384/megaten-fusion-tool](https://github.com/aqiu384/megaten-fusion-tool), which is public domain (Unlicense). It is imported at a pinned commit by `scripts/import-data.ts` and validated with zod. The fusion rules are a port of that tool's P3R logic.
 
-## Learn More
+The icons are original SVGs drawn for this project. No game assets are used.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This is an unofficial fan project. Persona 3 Reload is © ATLUS / SEGA, and this project is not affiliated with or endorsed by either.

@@ -18,8 +18,7 @@ Every persona has:
 - `name` (e.g., "Orpheus", "Thanatos")
 - `arcana` (Fool, Magician, Priestess, Empress, Emperor, Hierophant, Lovers, Chariot,
   Justice, Hermit, Fortune, Strength, Hanged Man, Death, Temperance, Devil, Tower,
-  Star, Moon, Sun, Judgement, Aeon, World — verify each against P3R data; mark any
-  arcana not confirmed in P3R as `unverified`)
+  Star, Moon, Sun, Judgement, Aeon — the 22 arcana in P3R data)
 - `level` (1–99)
 - `stats` { str, mag, end, agi, luc }
 - `elements` — affinity map (P3R damage types, lowercase in code):
@@ -32,11 +31,12 @@ Every persona has:
 
 ### Fusion Mechanics (P3R)
 - **Normal Fusion**: 2 personas → 1 result. Result level ≈ avg of ingredients.
-- **Triangle Fusion**: 3 personas → 1 result.
 - **Special Fusions**: Fixed recipes that ignore arcana rules (e.g., Messiah =
   Orpheus + Thanatos).
-- Other mechanics (sacrifice-style fusion, evolution) — `unverified`; confirm they
-  exist in P3R before modeling them.
+- Personas with 3–6 ingredient special recipes (Thanatos, Orpheus Telos, ...) are never normal-fusion results.
+- **Fusion spells** (Cadenza, Jack Brothers, ...) are Theurgy skills that need the partner persona in stock.
+- **DLC**: P5R Persona Set 1, P5R Persona Set 2 and P4G Persona Set add 21 personas that join normal fusion when owned.
+- Source of truth: `src/data/*.json`, imported from aqiu384/megaten-fusion-tool. P3R has no triangle fusion.
 
 ### Skill Categories
 - Physical (`slash`, `strike`, `pierce`)
