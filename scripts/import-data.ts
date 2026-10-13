@@ -52,6 +52,11 @@ const RESIST_CODES: Record<string, Affinity> = {
   d: "absorb",
 };
 
+/** Order of the bits in comp-config inheritTypes (1 = can inherit). */
+const INHERIT_ELEMS: SkillType[] = [
+  "slash", "strike", "pierce", "fire", "ice", "elec", "wind", "light", "dark", "ailment", "recovery", "support",
+];
+
 const SKILL_TYPE_CODES: Record<string, SkillType> = {
   sla: "slash",
   str: "strike",
@@ -78,6 +83,7 @@ const sourcePersona = z.object({
   stats: z.array(z.number()).length(5),
   heart: z.string().optional(),
   heartlvl: z.number().optional(),
+  inherits: z.string(),
 });
 
 const sourceSkill = z.object({
@@ -137,7 +143,7 @@ function describeCost(cost: number): string {
 }
 
 async function main() {
-  const [demons, skillRows, chartJson, specials, unlocks, effects] = await Promise.all([
+  const [demons, skillRows, chartJson, specials, unlocks, effects, compConfig] = await Promise.all([
     fetchJson("p3r/data/demon-data.json", z.record(sourcePersona)),
     fetchJson("p3r/data/skill-data.json", z.record(sourceSkill)),
     fetchJson(
@@ -147,7 +153,14 @@ async function main() {
     fetchJson("p3r/data/special-recipes.json", z.record(z.array(z.string()))),
     fetchJson("p3r/data/demon-unlocks.json", sourceUnlocks),
     fetchJson("compendium/data/skill-effects.json", z.record(z.string())),
+    fetchJson("p3r/data/comp-config.json", z.object({ inheritTypes: z.record(z.string().length(12)) })),
   ]);
+
+  const blockedTypes = (inheritType: string): SkillType[] => {
+    const bits = compConfig.inheritTypes[inheritType];
+    if (!bits) throw new Error(`Unknown inherit type ${inheritType}`);
+    return INHERIT_ELEMS.filter((_, i) => bits[i] === "0");
+  };
 
   const unlockFor: Record<string, string> = {};
   const dlcFor: Record<string, DlcPack> = {};
@@ -188,6 +201,8 @@ async function main() {
           )
           .sort((a, b) => Number(!!a.fusionSpell) - Number(!!b.fusionSpell) || a.level - b.level),
       };
+      const blocked = blockedTypes(d.inherits);
+      if (blocked.length) persona.cannotInherit = blocked;
       if (d.heart && d.heartlvl) persona.heartItem = { name: d.heart, level: d.heartlvl };
       if (unlockFor[sourceName]) persona.unlock = unlockFor[sourceName];
       if (dlcFor[sourceName]) persona.dlc = dlcFor[sourceName];
@@ -211,7 +226,8 @@ async function main() {
         power: b[2],
         effect: describeSkillEffect(b, c, effects),
         rank: b[0],
-        unique: b[0] > 89,
+        // Rank 0 marks persona-exclusive skills (Die For Me!, Theurgy, ...), which can't be inherited.
+        inheritable: b[0] > 0 && b[0] <= 89,
       };
     })
     .sort((a, b) => a.name.localeCompare(b.name));
