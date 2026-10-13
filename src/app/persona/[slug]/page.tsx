@@ -7,6 +7,7 @@ import { PersonaFusions } from "@/components/features/PersonaFusions";
 import { SkillList } from "@/components/features/SkillList";
 import { StatBars } from "@/components/features/StatBars";
 import { ArcanaBadge } from "@/components/icons/ArcanaBadge";
+import { artworkUrl } from "@/lib/game/artwork";
 import { PERSONAS, getPersonaBySlug } from "@/lib/game/data";
 
 interface Props {
@@ -42,6 +43,14 @@ export default async function PersonaPage({ params }: Props) {
             {persona.dlc ? <span className="font-semibold text-p3r-red">{persona.dlc}</span> : null}
             {persona.unlock ? <span>{persona.unlock}</span> : null}
           </div>
+          <a
+            href={artworkUrl(persona)}
+            target="_blank"
+            rel="noreferrer"
+            className="clip-slant mt-4 inline-flex items-center gap-2 bg-p3r-white px-3.5 py-1.5 font-heading text-xs font-bold uppercase tracking-wider text-p3r-navy hover:bg-p3r-cyan"
+          >
+            View official artwork <span aria-hidden>↗</span>
+          </a>
         </PageHeader>
       </div>
 
