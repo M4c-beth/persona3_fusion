@@ -7,10 +7,12 @@ A Persona 3 Reload compendium and fusion calculator, with support for the DLC pe
 ## Features
 
 - **Compendium**: all 194 personas, with search, an arcana filter, sortable columns and affinities.
-- **Persona pages**: stats, affinities, skills, heart item and unlock condition. Also every recipe that makes the persona and everything it fuses into.
-- **Fusion calculator**: pick two personas to see the result. The URL can be shared, for example `/fusion/?a=orpheus&b=thanatos`.
+- **Persona pages**: stats, affinities, skills, heart item, unlock condition, every recipe that makes the persona, and everything it fuses into.
+- **Fusion planner**: choose a persona and the skills it should have, and get the shortest fusion path. Skills are carried along chains of fusions, following element inheritance limits.
 - **Skills**: every learnable skill, filterable by type, with the personas that learn it.
-- **DLC toggle**: turn the P5R Persona Set 1, P5R Persona Set 2 and P4G Persona Set on or off. Fusion results change to match. The choice is saved in the browser.
+- **Social Links**: all 22 arcana plus Reload's Linked Episodes. Shows how to start each one, the days and places to find the person, and the Persona that maxing it unlocks.
+- **Elizabeth's Requests**: all 101 requests with when they appear, deadlines, how to complete them and rewards. Fusion requests link straight into the planner.
+- **DLC toggle**: turn the P5R Persona Set 1, P5R Persona Set 2 and P4G Persona Set on or off. Fusion results change to match.
 
 ## Development
 
@@ -26,6 +28,8 @@ npm run import-data  # re-import game data from the pinned source commit
 The site is a static export deployed by `.github/workflows/deploy.yml` on every push to `main`.
 
 ## Data and credits
+
+Social Link and request details were checked against several guides (Game8, Game's Horizon, Inverse, PowerPyx, Exputer, Prima Games and RPG Site). They are written in our own words. Where the guides disagree, the page says so.
 
 Game data comes from [aqiu384/megaten-fusion-tool](https://github.com/aqiu384/megaten-fusion-tool), which is public domain (Unlicense). It is imported at a pinned commit by `scripts/import-data.ts` and validated with zod. The fusion rules are a port of that tool's P3R logic.
 
