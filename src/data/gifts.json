@@ -1,0 +1,17 @@
+[
+  { "name": "Book Cover", "where": "School vendor", "loves": ["Justice"], "likes": ["Priestess", "Empress"] },
+  { "name": "Brand Purse", "where": "Tanaka's Amazing Commodities (9/6)", "loves": ["Lovers", "Strength"], "likes": ["Justice", "Priestess", "Empress"] },
+  { "name": "Brand Watch", "where": "Tanaka's Amazing Commodities (6/14)", "loves": ["Justice", "Lovers", "Strength"], "likes": ["Priestess", "Empress"] },
+  { "name": "Ganesha Bank", "where": "Crane game", "loves": [], "likes": ["Justice", "Priestess"] },
+  { "name": "Glass Vase", "where": "Rafflesia, Port Island Station", "loves": ["Priestess"], "likes": ["Justice", "Lovers"] },
+  { "name": "Goggle-eyed Idol", "where": "Mayoido Antiques", "loves": ["Empress"], "likes": [] },
+  { "name": "Jack Frost Doll", "where": "Crane game", "loves": [], "likes": ["Justice", "Lovers"] },
+  { "name": "Japanese Doll", "where": "Mayoido Antiques", "loves": ["Empress"], "likes": ["Justice", "Priestess"] },
+  { "name": "Kaleidoscope", "where": "Mayoido Antiques", "loves": ["Justice", "Priestess", "Empress"], "likes": [] },
+  { "name": "Lucky Charm", "where": "Naganaki Shrine", "loves": [], "likes": ["Empress"] },
+  { "name": "Mini Cactus", "where": "Rafflesia, Port Island Station", "loves": [], "likes": ["Justice", "Priestess", "Strength"] },
+  { "name": "Perfume", "where": "Tanaka's Amazing Commodities (6/7, 7/26)", "loves": ["Lovers"], "likes": ["Justice", "Empress"] },
+  { "name": "Red Pine Bonsai", "where": "Rafflesia, Port Island Station", "loves": [], "likes": ["Priestess", "Empress"] },
+  { "name": "Rose Bouquet", "where": "Rafflesia, Port Island Station", "loves": [], "likes": ["Justice", "Lovers"] },
+  { "name": "Teddy Bear", "where": "Mayoido Antiques", "loves": [], "likes": ["Justice", "Priestess", "Empress", "Lovers", "Strength"] }
+]
