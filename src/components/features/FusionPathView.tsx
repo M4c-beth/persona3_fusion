@@ -44,9 +44,12 @@ export function FusionPathView({ path }: { path: PlanStep }) {
                   ))}
                 </div>
               ) : null}
-              {levelUps(step).length ? (
+              {step.levelTo ? (
                 <p className="pl-8 text-xs text-p3r-gold">
-                  Level to {Math.max(...levelUps(step).map((s) => s.level ?? 0))} before fusing
+                  Level to {step.levelTo} before fusing
+                  {step.skills.some((s) => s.level === step.levelTo) ? null : (
+                    <span className="text-muted-foreground"> · knows enough skills to pass them on</span>
+                  )}
                 </p>
               ) : null}
             </li>
