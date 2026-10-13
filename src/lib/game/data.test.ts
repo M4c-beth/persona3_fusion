@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { ARCANA } from "@/types/game";
-import { FUSION_CHART, PERSONAS, SKILLS, getPersona, getPersonaBySlug, getSkill, learnedBy } from "./data";
+import { FUSION_CHART, PERSONAS, SKILLS, getPersona, getPersonaBySlug, getSkill, getSkillBySlug, learnedBy } from "./data";
 import { fusionChartSchema, personasSchema, skillsSchema } from "./schema";
 
 describe("game data", () => {
@@ -52,6 +52,10 @@ describe("game data", () => {
 
   it("makes Messiah from Orpheus and Thanatos", () => {
     expect(getPersona("Messiah")?.specialRecipe).toEqual(["Orpheus", "Thanatos"]);
+  });
+
+  it("finds skills by slug", () => {
+    expect(getSkillBySlug("enduring-soul")?.name).toBe("Enduring Soul");
   });
 
   it("lists who learns a skill", () => {
