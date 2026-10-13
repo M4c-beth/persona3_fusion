@@ -1,0 +1,24 @@
+
+---
+
+### `skills/search-and-filter.md`
+
+```markdown
+# Skill: Search & Filter
+
+## Role
+Implement fast, fuzzy, faceted search over the persona database.
+
+## Capabilities
+1. Full-text search across persona names, skills, arcana.
+2. Faceted filtering (arcana, element, level range, ailment).
+3. Fuzzy matching for typos ("Orfeus" → "Orpheus").
+4. Sort by relevance, level, name, arcana.
+
+## Implementation Tips
+- Use Postgres `pg_trgm` for trigram similarity on names.
+- Use Meilisearch if scale > 10k records.
+- Debounce search input by 250ms on client.
+- Return highlighted matches in response.
+
+## Example Query

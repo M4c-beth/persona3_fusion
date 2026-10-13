@@ -1,0 +1,48 @@
+
+---
+
+### `skills/data-modeling.md`
+
+```markdown
+# Skill: Data Modeling
+
+## Role
+Design normalized, query-optimized schemas for the P3R persona database.
+
+## Core Entities
+- `Persona` — main entity
+- `Skill` — reusable skill definitions
+- `Arcana` — enum-like reference table
+- `Element` — enum of damage types
+- `PersonaSkill` — many-to-many (persona ↔ skill with slot index)
+- `FusionRecipe` — (result_persona_id, ingredient_a_id, ingredient_b_id)
+- `FusionSpecial` — special fusion overrides
+- `EvolutionChain` — persona → evolved persona
+
+## Recommended Stack
+- **ORM**: Prisma or Drizzle (type-safe, great DX)
+- **Database**: PostgreSQL (JSONB for flexible element affinities)
+- **Cache**: Redis for hot fusion queries
+- **Search**: Meilisearch or Postgres full-text
+
+## Schema Principles
+1. Normalize skills and arcana into separate tables.
+2. Store element affinities as a JSONB map for fast reads.
+3. Index fusion queries on `(result_arcana, result_level)`.
+4. Use enums for arcana and affinity levels.
+5. Soft-delete personas (don't hard-delete game data).
+
+## Example Prisma Snippet
+```prisma
+model Persona {
+  id        Int      @id @default(autoincrement())
+  name      String   @unique
+  arcana    Arcana
+  level     Int
+  stats     Json     // { str, mag, end, agi, luc }
+  elements  Json     // { fire: "resist", ice: "weak", ... }
+  skills    PersonaSkill[]
+  recipesA  FusionRecipe[] @relation("IngredientA")
+  recipesB  FusionRecipe[] @relation("IngredientB")
+  results   FusionRecipe[] @relation("Result")
+}
