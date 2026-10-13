@@ -109,6 +109,14 @@
   html {
     @apply font-sans;
   }
+  /* Thin, faint scrollbars (dropdowns, pickers, page) instead of the heavy OS default */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(143 220 255 / 22%) transparent;
+  }
+  *:hover {
+    scrollbar-color: rgb(143 220 255 / 38%) transparent;
+  }
   ::selection {
     background: var(--p3r-cyan);
     color: var(--p3r-ink);
