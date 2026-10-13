@@ -110,12 +110,12 @@ export function FusionPlanner() {
         <section className={cn("space-y-6 transition-opacity", pending && "opacity-50")} aria-live="polite" aria-busy={pending}>
           <header className="flex flex-wrap items-end justify-between gap-3 border-b pb-4">
             <div className="space-y-1.5">
-              <h2 className="font-heading text-3xl font-extrabold uppercase italic leading-none tracking-tight">
+              <h2 className="font-heading text-3xl font-extrabold uppercase leading-none tracking-tight">
                 {target.name}
               </h2>
               <div className="flex items-center gap-3">
                 <ArcanaBadge arcana={target.arcana} />
-                <span className="font-heading text-lg font-bold italic text-p3r-yellow">Lv {target.level}</span>
+                <span className="font-heading text-lg font-bold text-p3r-cyan">Lv {target.level}</span>
                 {target.unlock ? <span className="text-xs text-muted-foreground">{target.unlock}</span> : null}
               </div>
             </div>
@@ -131,7 +131,7 @@ export function FusionPlanner() {
                     onClick={() => setChoice(i)}
                     className={cn(
                       "clip-slant h-8 min-w-9 px-2.5 font-heading text-sm font-bold uppercase transition-colors",
-                      i === choice ? "bg-p3r-yellow text-p3r-black" : "bg-secondary text-muted-foreground hover:text-foreground",
+                      i === choice ? "bg-p3r-white text-p3r-navy" : "bg-secondary text-muted-foreground hover:text-foreground",
                     )}
                   >
                     {i + 1}
@@ -167,7 +167,7 @@ function Field({ label, hint, children }: { label: string; hint?: string; childr
   return (
     <div className="space-y-2">
       <div className="flex items-baseline justify-between gap-3">
-        <span className="font-heading text-sm font-bold uppercase tracking-wider text-p3r-blue-light">{label}</span>
+        <span className="font-heading text-sm font-bold uppercase tracking-wider text-p3r-cyan">{label}</span>
         {hint ? <span className="text-xs text-muted-foreground">{hint}</span> : null}
       </div>
       {children}
