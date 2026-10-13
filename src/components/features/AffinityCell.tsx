@@ -6,8 +6,8 @@ const TONE: Record<Affinity, string> = {
   weak: "text-[var(--elem-fire)] font-semibold",
   normal: "text-muted-foreground/40",
   resist: "text-foreground/80",
-  null: "text-p3r-blue-light font-semibold",
-  repel: "text-p3r-yellow font-semibold",
+  null: "text-p3r-cyan font-semibold",
+  repel: "text-p3r-white font-bold",
   absorb: "text-[var(--elem-recovery)] font-semibold",
 };
 
