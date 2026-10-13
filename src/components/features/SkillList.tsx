@@ -14,7 +14,7 @@ export function SkillList({ skills }: { skills: PersonaSkill[] }) {
             <ElementIcon type={skill.type} className="mt-0.5" />
             <div className="min-w-0 flex-1">
               <div className="flex items-baseline justify-between gap-3">
-                <Link href={`/skills/?q=${encodeURIComponent(skill.name)}`} className="font-medium hover:text-p3r-yellow">
+                <Link href={`/skills/?q=${encodeURIComponent(skill.name)}`} className="font-medium hover:text-p3r-cyan">
                   {skill.name}
                 </Link>
                 <span className="shrink-0 font-heading text-xs font-semibold uppercase tracking-wider text-muted-foreground">
