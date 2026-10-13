@@ -11,15 +11,26 @@ interface Props {
   className?: string;
 }
 
+/** Average glyph width of the heavy display face, as a fraction of its size. */
+const GLYPH_WIDTH = 0.65;
+
+/** Size the backdrop word so it fills at most the right half of the page, never the title. */
+function backdropSize(word: string): string {
+  const span = GLYPH_WIDTH * word.length;
+  return `min(13rem, ${(48 / span).toFixed(2)}vw, ${Math.round(600 / span)}px)`;
+}
+
 /** Title card: royal-blue bar, heavy stacked words, faded giant word behind. */
 export function PageHeader({ title, kicker = "Persona 3 Reload", backdrop, children, className }: Props) {
+  const word = backdrop ?? title;
   return (
     <header className={cn("relative isolate pb-2", className)}>
       <span
         aria-hidden
-        className="backdrop-word absolute -top-4 right-0 -z-10 hidden max-w-full overflow-hidden whitespace-nowrap text-[10rem] sm:block lg:text-[13rem]"
+        className="backdrop-word absolute -top-4 right-0 -z-10 hidden whitespace-nowrap sm:block"
+        style={{ fontSize: backdropSize(word) }}
       >
-        {backdrop ?? title}
+        {word}
       </span>
       <div className="flex gap-4 sm:gap-5">
         <span aria-hidden className="w-2 shrink-0 bg-p3r-blue sm:w-3" />
