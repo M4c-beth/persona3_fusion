@@ -5,7 +5,7 @@ import { GiftList } from "@/components/features/GiftList";
 import { PageHeader } from "@/components/features/PageHeader";
 import { RankAnswers } from "@/components/features/RankAnswers";
 import { WeekStrip } from "@/components/features/WeekStrip";
-import { CharacterIcon } from "@/components/icons/CharacterIcon";
+import { TarotCard } from "@/components/icons/TarotCard";
 import { DIALOGUE, SOCIAL_LINKS, getSocialLinkBySlug, giftsFor, maxRankPersona, socialLinkSlug } from "@/lib/game/companions";
 
 interface Props {
@@ -38,12 +38,12 @@ export default async function SocialLinkPage({ params }: Props) {
           ← Social Links
         </Link>
         <div className="flex items-start gap-5">
-          <CharacterIcon name={link.name} arcana={link.arcana} className="mt-8 hidden w-20 sm:grid" />
+          <TarotCard arcana={link.arcana} priority className="mt-2 hidden w-24 -rotate-3 sm:block" />
           <PageHeader
             title={link.name}
             kicker={`${link.arcana} Social Link`}
             backdrop={link.arcana}
-            reserve={140}
+            reserve={150}
             className="flex-1"
           />
         </div>
